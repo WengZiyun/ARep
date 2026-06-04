@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+.env
+.env.*
+
+.DS_Store
+Thumbs.db
+
+D_RQ1/agent_eliza/nft-risk-agent/.eliza/registry-cache.json
+
+data/A/**
+!data/A/
+!data/A/1_NFT_trending/
+!data/A/1_NFT_trending/Bored Ape Kennel Club.csv
+!data/A/1_NFT_trending/Doodles.csv
+!data/A/1_NFT_trending/Pudgy Penguins.csv
+!data/A/9_Counterfeit/
+!data/A/9_Counterfeit/Azuki.csv
+!data/A/9_Counterfeit/Bored Ape Yacht Club.csv
+!data/A/9_Counterfeit/Pudgy Penguins.csv
