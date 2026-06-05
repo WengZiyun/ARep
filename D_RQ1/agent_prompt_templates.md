@@ -2,16 +2,9 @@
 
 This note collects the prompt templates used by the NFT risk agent experiments.
 
-Source files:
-- `D_RQ1/10_call_llm_agent.py`
-- `D_RQ1/agent_eliza/nft-risk-agent/src/character.ts`
-- `D_RQ1/agent_eliza/nft-risk-agent/src/plugin.ts`
-
 ## 1. Direct LLM Agent
 
-Source: `D_RQ1/10_call_llm_agent.py`
-
-This version calls an OpenAI-compatible chat completion API directly. It sends one system message and one user message.
+This version sends one system message and one user message to the language model.
 
 ### System Prompt
 
@@ -89,8 +82,6 @@ Mode difference:
 
 ## 2. Eliza Character Prompt
 
-Source: `D_RQ1/agent_eliza/nft-risk-agent/src/character.ts`
-
 This is the ElizaOS character-level role prompt.
 
 ```text
@@ -127,8 +118,6 @@ Output:
 
 ## 3. Eliza Plugin LLM Prompt
 
-Source: `D_RQ1/agent_eliza/nft-risk-agent/src/plugin.ts`
-
 This later version first asks the model to classify risk evidence, then maps the risk label into a trading action.
 
 Mapping:
@@ -163,9 +152,9 @@ Rules:
 - do not invent missing values,
 - in this mode, reputation evidence is the primary signal,
 - do not require market evidence to output RISK in this mode,
-- low TRep credibility is itself meaningful risk evidence in this mode,
+- low ARep credibility is itself meaningful risk evidence in this mode,
 - persistent low credibility should strengthen a risk judgment in this mode,
-- entities ranked far behind in TRep should be treated as high-risk,
+- entities ranked far behind in ARep should be treated as high-risk,
 - output RISK when reputation evidence is clearly negative,
 - output NO_RISK only when reputation evidence is neutral or positive, or when the negative evidence is weak,
 - if the provided reputation evidence is meaningfully negative, do not default to NO_RISK merely because market-side evidence is unavailable in this mode,
@@ -214,7 +203,7 @@ Rules:
 - when both evidence groups are negative, output RISK,
 - when one evidence group is clearly negative and the other is at least neutral, output RISK,
 - when one evidence group is negative but the other is clearly positive, weigh which evidence is stronger and more reliable before deciding,
-- low TRep credibility should materially increase risk, but should not automatically dominate clearly positive market evidence,
+- low ARep credibility should materially increase risk, but should not automatically dominate clearly positive market evidence,
 - persistent low credibility should materially strengthen the reputation-side risk signal,
 - strong market deterioration should materially increase risk, but should not automatically dominate clearly positive reputation evidence,
 - output NO_RISK when both evidence groups are neutral or positive, or when one negative signal is clearly offset by a stronger positive signal from the other evidence group,
@@ -296,15 +285,16 @@ Market evidence:
 - price_change_vs_prev_window_pct: {price_change_vs_prev_window_pct}
 - trade_count_change_vs_prev_window_pct: {trade_count_change_vs_prev_window_pct}
 
-Reputation evidence:
-- TRep is a long-term trust ranking for NFT entities; lower rank implies higher long-term risk
-- current credibility percentile rank: {credibility_percentile}/100, where lower means worse credibility
-- low-reputation streak: {low_rep_streak} consecutive windows
-- a longer low-reputation streak means the low-credibility signal is more persistent and more reliable
+ARep algorithm-derived features:
+- ARep is computed by aggregating contract-window features: transaction activity, unique user participation, cost commitment, mint/supply behavior, and sustained engagement across recent windows
+- these aggregated features are normalized within the current evaluation window and converted into an ARep score and relative rank
+- current ARep percentile rank: {credibility_percentile}/100, computed from the normalized ARep score distribution for the current window
+- threshold-hit streak: {low_rep_streak} consecutive windows in which the ARep percentile rank met the configured low-score threshold
+- the streak value records temporal persistence of this threshold condition across consecutive windows
 
 Decision reminder:
 - First judge market evidence as positive, neutral, or negative.
-- First judge reputation evidence as positive, neutral, or negative when reputation evidence is provided.
+- First judge ARep-derived evidence as positive, neutral, or negative when ARep-derived evidence is provided.
 - Then output one final risk label: RISK or NO_RISK.
 - For flat positions, RISK will later be mapped to AVOID_BUY and NO_RISK will later be mapped to ALLOW_BUY.
 - For holding positions, RISK will later be mapped to SELL and NO_RISK will later be mapped to HOLD.
@@ -321,4 +311,3 @@ Mode differences in the user prompt:
 - `llm_base_rank_compact` / `llm_rank_compact`: includes compact market evidence and reputation evidence.
 - `llm_base_rank_mini` / `llm_rank_mini`: includes only a minimal market block and reputation evidence.
 - `llm_rank`, `llm_rank_only`, `llm_rank_pure`: reputation-primary or reputation-only modes; the reminder says low credibility can by itself justify `RISK`.
-

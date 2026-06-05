@@ -51,9 +51,9 @@ def _load_module(name: str, relative_path: str) -> Any:
     return module
 
 
-STAGE_AB = _load_module("trep_stage_ab", "4_TRep/2_3 copy.py")
-STAGE_PREP = _load_module("trep_stage_prep", "4_TRep/3_ copy.py")
-STAGE_C = _load_module("trep_stage_c", "4_TRep/4_copy.py")
+STAGE_AB = _load_module("arep_stage_ab", "4_ARep/2_3 copy.py")
+STAGE_PREP = _load_module("arep_stage_prep", "4_ARep/3_ copy.py")
+STAGE_C = _load_module("arep_stage_c", "4_ARep/4_copy.py")
 
 
 def _ensure_parent(path: Path) -> None:

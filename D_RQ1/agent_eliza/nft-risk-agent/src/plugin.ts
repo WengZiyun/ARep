@@ -140,12 +140,13 @@ function formatReputationSummary(input: DecisionInput): string[] {
     rankPct === null ? null : Math.max(0, Math.min(100, Math.round((1 - rankPct) * 100)));
 
   const lines = [];
-  lines.push('- TRep is a long-term trust ranking for NFT entities; lower rank implies higher long-term risk');
+  lines.push('- ARep is computed by aggregating contract-window features: transaction activity, unique user participation, cost commitment, mint/supply behavior, and sustained engagement across recent windows');
+  lines.push('- these aggregated features are normalized within the current evaluation window and converted into an ARep score and relative rank');
   if (credibilityPercentile !== null) {
-    lines.push(`- current credibility percentile rank: ${credibilityPercentile}/100, where lower means worse credibility`);
+    lines.push(`- current ARep percentile rank: ${credibilityPercentile}/100, computed from the normalized ARep score distribution for the current window`);
   }
-  lines.push(`- low-reputation streak: ${streak} consecutive windows`);
-  lines.push('- a longer low-reputation streak means the low-credibility signal is more persistent and more reliable');
+  lines.push(`- threshold-hit streak: ${streak} consecutive windows in which the ARep percentile rank met the configured low-score threshold`);
+  lines.push('- the streak value records temporal persistence of this threshold condition across consecutive windows');
   return lines;
 }
 
@@ -265,9 +266,9 @@ function buildSystemPrompt(mode: DecisionMode): string {
       '- do not invent missing values,',
       '- in this mode, reputation evidence is the primary signal,',
       '- do not require market evidence to output RISK in this mode,',
-      '- low TRep credibility is itself meaningful risk evidence in this mode,',
+      '- low ARep credibility is itself meaningful risk evidence in this mode,',
       '- persistent low credibility should strengthen a risk judgment in this mode,',
-      '- entities ranked far behind in TRep should be treated as high-risk,',
+      '- entities ranked far behind in ARep should be treated as high-risk,',
       '- output RISK when reputation evidence is clearly negative,',
       '- output NO_RISK only when reputation evidence is neutral or positive, or when the negative evidence is weak,',
       '- if the provided reputation evidence is meaningfully negative, do not default to NO_RISK merely because market-side evidence is unavailable in this mode,',
@@ -310,7 +311,7 @@ function buildSystemPrompt(mode: DecisionMode): string {
       '- when both evidence groups are negative, output RISK,',
       '- when one evidence group is clearly negative and the other is at least neutral, output RISK,',
       '- when one evidence group is negative but the other is clearly positive, weigh which evidence is stronger and more reliable before deciding,',
-      '- low TRep credibility should materially increase risk, but should not automatically dominate clearly positive market evidence,',
+      '- low ARep credibility should materially increase risk, but should not automatically dominate clearly positive market evidence,',
       '- persistent low credibility should materially strengthen the reputation-side risk signal,',
       '- strong market deterioration should materially increase risk, but should not automatically dominate clearly positive reputation evidence,',
       '- output NO_RISK when both evidence groups are neutral or positive, or when one negative signal is clearly offset by a stronger positive signal from the other evidence group,',
@@ -418,21 +419,21 @@ function buildUserPrompt(input: DecisionInput, mode: DecisionMode, _triggerK: nu
     isBaseRankMini ||
     isRankOnly
   ) {
-    lines.push('', 'Reputation evidence:', ...formatReputationSummary(input));
+    lines.push('', 'ARep algorithm-derived features:', ...formatReputationSummary(input));
   }
 
   lines.push(
     '',
     'Decision reminder:',
     '- First judge market evidence as positive, neutral, or negative.',
-    '- First judge reputation evidence as positive, neutral, or negative when reputation evidence is provided.',
+    '- First judge ARep-derived evidence as positive, neutral, or negative when ARep-derived evidence is provided.',
     '- Then output one final risk label: RISK or NO_RISK.',
     '- For flat positions, RISK will later be mapped to AVOID_BUY and NO_RISK will later be mapped to ALLOW_BUY.',
     '- For holding positions, RISK will later be mapped to SELL and NO_RISK will later be mapped to HOLD.',
     ...(isRankOnly
       ? [
-          '- In this mode, reputation evidence is the primary signal.',
-          '- Low credibility can by itself justify RISK in this mode.',
+          '- In this mode, ARep-derived evidence is the primary signal.',
+          '- A persistent low-score threshold condition can by itself justify RISK in this mode.',
           '- Do not require market evidence to output RISK in this mode.',
         ]
       : [

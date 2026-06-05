@@ -131,7 +131,7 @@ def main() -> None:
 
     md_text = "\n".join(
         [
-            "## Table X: TRep 识别性能随回溯窗口（Delta）的变化情况",
+            "## Table X: ARep 识别性能随回溯窗口（Delta）的变化情况",
             _to_markdown_table(rug, "Rugpull"),
             _to_markdown_table(cnt, "Counterfeit"),
             _to_markdown_table(wash, "Wash"),
