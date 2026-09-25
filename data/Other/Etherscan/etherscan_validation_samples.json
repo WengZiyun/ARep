@@ -1,0 +1,4600 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-09-25T07:11:13Z",
+  "purpose": "Deterministic transaction-level sample for independent Etherscan inspection of the three ARep RQ1 datasets.",
+  "sampling": {
+    "method": "Stable SHA-256 ordering with one transaction per contract selected first, followed by deterministic fill records.",
+    "seed": "arep-etherscan-validation-v1",
+    "requested_records_per_dataset": 50,
+    "duplicate_transaction_hashes_within_dataset": 0
+  },
+  "validation_method": {
+    "endpoint": "https://etherscan.io/tx/<transaction_hash>",
+    "verified_definition": "HTTP 200 and exact page matches for transaction hash, block number, Unix timestamp, contract address, buyer address, and seller address.",
+    "token_identifier": "Retained for manual inspection but excluded from automatic status because Etherscan may render token IDs asynchronously or in a different representation."
+  },
+  "summary": {
+    "total_records": 150,
+    "validation_status_counts": {
+      "verified": 150
+    },
+    "by_dataset": {
+      "rug_pull": {
+        "records": 50,
+        "unique_transactions": 50,
+        "unique_contracts": 28,
+        "validation_status_counts": {
+          "verified": 50
+        }
+      },
+      "counterfeit": {
+        "records": 50,
+        "unique_transactions": 50,
+        "unique_contracts": 23,
+        "validation_status_counts": {
+          "verified": 50
+        }
+      },
+      "wash_trading": {
+        "records": 50,
+        "unique_transactions": 50,
+        "unique_contracts": 50,
+        "validation_status_counts": {
+          "verified": 50
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "sample_id": "rug_pull-001",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xdf79ec1ec493d2f4629ddc20e1be896ccc72623e8fa8e229914b81f3a308697b",
+      "block_number": 13794359,
+      "timestamp_utc": "2021-12-13T03:13:14Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x97fe0e9f7e4bf770d57b41da3e77a8140205c970",
+      "token_identifier": "856",
+      "buyer": "0x71c2a7ec01253d3e9b717654b0375629925018d4",
+      "seller": "0xc89d096d9652899b3bb0151dcfc6aec14824fc76",
+      "source_file": "output/B/2_3rugpullTranding/8_3_0205c970_0205c970_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xdf79ec1ec493d2f4629ddc20e1be896ccc72623e8fa8e229914b81f3a308697b",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:12Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-002",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xb243da87c0cfdf0a0ae3eadae7be7a08dce357c046c32ba2486d4f17ee776fe9",
+      "block_number": 13342530,
+      "timestamp_utc": "2021-10-02T22:20:25Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x233a65b06ef83ccf2fd58832086dd782f9da1642",
+      "token_identifier": "4825",
+      "buyer": "0x94efa34695bf3bc2e0708676a9dd5c03966a3f82",
+      "seller": "0xeba8c66a090043edb92c8344f7ac9adc434054eb",
+      "source_file": "output/B/2_3rugpullTranding/8_3_f9da1642_f9da1642_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xb243da87c0cfdf0a0ae3eadae7be7a08dce357c046c32ba2486d4f17ee776fe9",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:12Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-003",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x9033ab7d3556eecc0eb2229f358fe37199eaafe1ebb071325ada58b683df3bf0",
+      "block_number": 13759168,
+      "timestamp_utc": "2021-12-07T14:54:34Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5f001a2a283d58192e9af7181ad10110fbbeee19",
+      "token_identifier": "1481",
+      "buyer": "0x22c869fe3fd08b245e0e3b527f6f5811a14cd1f2",
+      "seller": "0x71a4dc282e84b6aa02722085ddf495a2fd8a121b",
+      "source_file": "output/B/2_3rugpullTranding/8_3_fbbeee19_fbbeee19_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x9033ab7d3556eecc0eb2229f358fe37199eaafe1ebb071325ada58b683df3bf0",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:12Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-004",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xd45098e4bcea501b07e8b312a1403a22b8c5378dc4bfb7d0009726b508dd3169",
+      "block_number": 14945549,
+      "timestamp_utc": "2022-06-11T17:40:23Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x2dc25592459960ed894db6d6c83a3bdbc1e13c80",
+      "token_identifier": "3122",
+      "buyer": "0xca934ce76a55f5a79bb8283a4c5b5df58fcc235f",
+      "seller": "0xe0bcd9b107e182b64385fbf561c8f41987c9aa1e",
+      "source_file": "output/B/2_3rugpullTranding/8_3_c1e13c80_c1e13c80_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xd45098e4bcea501b07e8b312a1403a22b8c5378dc4bfb7d0009726b508dd3169",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:12Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-005",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x49cb27dbd4e812abd0687fb11996f3868dee451fc850558c52589535b4be4c94",
+      "block_number": 13976192,
+      "timestamp_utc": "2022-01-10T06:40:05Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5180db8f5c931aae63c74266b211f580155ecac8",
+      "token_identifier": "9406",
+      "buyer": "0x8c6fdb5926e31994c9372f5907508b36aca500b6",
+      "seller": "0xcbbea7ec33d60db283ab79bdac9ffbfa46a83134",
+      "source_file": "output/B/2_3rugpullTranding/8_3_155ecac8_155ecac8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x49cb27dbd4e812abd0687fb11996f3868dee451fc850558c52589535b4be4c94",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:19Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-006",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xb1fa088d9e17c975fc654e4f83c99e62777eebbf980432dac9d54ae77798d980",
+      "block_number": 14199602,
+      "timestamp_utc": "2022-02-13T19:13:03Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xa32210529c69cca8cfc58dbfdbf06654288462f5",
+      "token_identifier": "1033",
+      "buyer": "0x9a4a0e8ff729c83f618437d9cfcbfdb375f0897f",
+      "seller": "0xcf5f7e67b92ce18c75551b19383527b271470f30",
+      "source_file": "output/B/2_3rugpullTranding/8_3_288462f5_288462f5_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xb1fa088d9e17c975fc654e4f83c99e62777eebbf980432dac9d54ae77798d980",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:19Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-007",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x384fb452170225c69b81ecfdd612357fb819eeb7a1a2b11bbd85501658a76259",
+      "block_number": 14171127,
+      "timestamp_utc": "2022-02-09T09:36:53Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92",
+      "token_identifier": "801",
+      "buyer": "0x1fe7d113ba7f58ae832b3a03dc7fda6b726fd5d9",
+      "seller": "0x98e8ff349ba31576cc666494e2faa3acbd05567d",
+      "source_file": "output/B/2_3rugpullTranding/8_3_0d99cc92_0d99cc92_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x384fb452170225c69b81ecfdd612357fb819eeb7a1a2b11bbd85501658a76259",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:19Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-008",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xa65f8c83331cc7ac782327b47a6fa93ae6f7df7fdb4592a7946311e98e73750b",
+      "block_number": 13420775,
+      "timestamp_utc": "2021-10-15T05:33:01Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xff1be3171a16fe431e31d874e4de14814362e588",
+      "token_identifier": "1454",
+      "buyer": "0x91bd000c65bb801eaccde73602cbf65f137950af",
+      "seller": "0xdb27b0b5de1a7e84ce6c677d70d0be015431ff8a",
+      "source_file": "output/B/2_3rugpullTranding/8_3_4362e588_4362e588_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xa65f8c83331cc7ac782327b47a6fa93ae6f7df7fdb4592a7946311e98e73750b",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:19Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-009",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xf4b795723a1c2f16cb822f61baac1d5127b9cfd96ba9b0103308ddcf628d03c8",
+      "block_number": 14654385,
+      "timestamp_utc": "2022-04-25T14:42:44Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xc1830ab819941dd996567981d35f6e82162d44f0",
+      "token_identifier": "2481",
+      "buyer": "0x83c8f28c26bf6aaca652df1dbbe0e1b56f8baba2",
+      "seller": "0xec70f87d1f384ee284880acc89ed81f49301fc32",
+      "source_file": "output/B/2_3rugpullTranding/8_3_162d44f0_162d44f0_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xf4b795723a1c2f16cb822f61baac1d5127b9cfd96ba9b0103308ddcf628d03c8",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:24Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-010",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xfcab8e29d85c0aacb4c4d246e39dab63cedff922846bfc128223525edce61bf2",
+      "block_number": 13852454,
+      "timestamp_utc": "2021-12-22T03:05:40Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x8b27a351690e62b623a7630c5294e7dac5371723",
+      "token_identifier": "1496",
+      "buyer": "0x4d9d0c0a39d31ad40017982fa84a903857b09580",
+      "seller": "0x8136d36719597b1229012515e47ba60bac4e8010",
+      "source_file": "output/B/2_3rugpullTranding/8_3_c5371723_c5371723_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xfcab8e29d85c0aacb4c4d246e39dab63cedff922846bfc128223525edce61bf2",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:24Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-011",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x8c3d93123a5917971909bed58d0af7f8b38a152c67f0bbc08f613ce69c5db3fe",
+      "block_number": 14377173,
+      "timestamp_utc": "2022-03-13T08:11:33Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x4653e54ec7a07a7a2bcbc751aa420bcefc7440a4",
+      "token_identifier": "113",
+      "buyer": "0x90e1624498ed83e89273173c88765620aaeb5db9",
+      "seller": "0x528098459849f672ce87e983ab16e58c58f25c0c",
+      "source_file": "output/B/2_3rugpullTranding/8_3_fc7440a4_fc7440a4_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x8c3d93123a5917971909bed58d0af7f8b38a152c67f0bbc08f613ce69c5db3fe",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:24Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-012",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x235b02659203903f1a55f2ae36e8b98a91a3ea50519a443c7efbd30b1f5c0702",
+      "block_number": 13896362,
+      "timestamp_utc": "2021-12-28T22:14:30Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x4923017f3b7fac4e096b46e401c0662f0b7e393f",
+      "token_identifier": "1167",
+      "buyer": "0x0de8f332ba577f4a22abb0b73e57954f47f7fba4",
+      "seller": "0xfe8dcaf23028b9f2b98c8d249502f1f71bee6aad",
+      "source_file": "output/B/2_3rugpullTranding/8_3_0b7e393f_0b7e393f_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x235b02659203903f1a55f2ae36e8b98a91a3ea50519a443c7efbd30b1f5c0702",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:24Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-013",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x002db24cdbbb880bf3c2a25d5b63ec8a8c7c05ec8040c84d94a67ca43f1344dd",
+      "block_number": 13426036,
+      "timestamp_utc": "2021-10-16T01:17:54Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xcef4ccb03dbc7d87b388407e381a949be6d00e3b",
+      "token_identifier": "631",
+      "buyer": "0x5d8217f64fa8620f6ee4270de2e773c4795f4cea",
+      "seller": "0xd7c82352118a8b68a3043266aebc66e148ed3755",
+      "source_file": "output/B/2_3rugpullTranding/8_3_e6d00e3b_e6d00e3b_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x002db24cdbbb880bf3c2a25d5b63ec8a8c7c05ec8040c84d94a67ca43f1344dd",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:29Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-014",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xcd006b4afcb49781f31a3db00257ad43297859e6e0fef10db3ab804e14d64e4b",
+      "block_number": 13458550,
+      "timestamp_utc": "2021-10-21T03:11:07Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x0a5b9b930fc5be638232d8b9b69cb5b46249c06e",
+      "token_identifier": "318",
+      "buyer": "0x3d446c9528f5dec1848dbe4cc6d4fd2c432b336c",
+      "seller": "0x5c335c2de54c34cdd69be3f7f194c208d03d2927",
+      "source_file": "output/B/2_3rugpullTranding/8_3_6249c06e_6249c06e_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xcd006b4afcb49781f31a3db00257ad43297859e6e0fef10db3ab804e14d64e4b",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:29Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-015",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x742cd9af2a33479eb8a845ac103ff4d5f4252e6a2126170ed3dbbed6d3064296",
+      "block_number": 14518291,
+      "timestamp_utc": "2022-04-04T07:51:21Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x52cce45b02bbd0b6b0089a291f44c93848bcdb6f",
+      "token_identifier": "1763",
+      "buyer": "0xd6ad110ffd48c07c628ff40eb1d850f1d677eeed",
+      "seller": "0xaf769c8d1e4174a6fc15ac13871038a5ef28448a",
+      "source_file": "output/B/2_3rugpullTranding/8_3_48bcdb6f_48bcdb6f_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x742cd9af2a33479eb8a845ac103ff4d5f4252e6a2126170ed3dbbed6d3064296",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:29Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-016",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x94879241756eebd0f1d3b802c2c91df07c2bfb442f06f07019072b01c51f9abb",
+      "block_number": 13888213,
+      "timestamp_utc": "2021-12-27T15:51:35Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xb3743206c391d71d5234d349c456502d74547805",
+      "token_identifier": "1599",
+      "buyer": "0x570d67b5084089871b17925b76c4b686605bbf64",
+      "seller": "0x3450265c76c0fb04b4a6b5195aebe00314040c6f",
+      "source_file": "output/B/2_3rugpullTranding/8_3_74547805_74547805_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x94879241756eebd0f1d3b802c2c91df07c2bfb442f06f07019072b01c51f9abb",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:29Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-017",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x6320b3c95e14e4de8d614a38d5058954e5f8927382a3fd9e184b51a4bb39949b",
+      "block_number": 13819490,
+      "timestamp_utc": "2021-12-17T00:48:05Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5bd9a16d955f1dcd4a160bc49eac1f12bba73676",
+      "token_identifier": "858",
+      "buyer": "0xdcd5a68b0e9686bb1c80b4a5fcf02b3537360d8a",
+      "seller": "0x68a4def2fbefe7e874a58d1c5401fc1e304c9092",
+      "source_file": "output/B/2_3rugpullTranding/8_3_bba73676_bba73676_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x6320b3c95e14e4de8d614a38d5058954e5f8927382a3fd9e184b51a4bb39949b",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:36Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-018",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x19684d04b5e78770836729c4e3e88c1947c659033a80f0849a9b33412e644c1f",
+      "block_number": 14770094,
+      "timestamp_utc": "2022-05-13T22:36:10Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xdd16374e87698511c494604dc389edd088efddb0",
+      "token_identifier": "2232",
+      "buyer": "0x9a41707460d75ea865bb40fb034e9567282d9fb9",
+      "seller": "0xb7feb8cdf15262ae29f2978c478931b7bd1ffdea",
+      "source_file": "output/B/2_3rugpullTranding/8_3_88efddb0_88efddb0_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x19684d04b5e78770836729c4e3e88c1947c659033a80f0849a9b33412e644c1f",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:36Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-019",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x031a44778c8402acff81bd08c0316e64336b0d8aa919f2574547c7ed048499b6",
+      "block_number": 13527381,
+      "timestamp_utc": "2021-10-31T22:09:34Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x06c232ecdea625545e57c2f038b5426c85cfd3cf",
+      "token_identifier": "106",
+      "buyer": "0x078a325f792772d66092ecddeb0616b5f2547851",
+      "seller": "0xda8a5256ac0c2c595e6f2f53630cea193c64e144",
+      "source_file": "output/B/2_3rugpullTranding/8_3_85cfd3cf_85cfd3cf_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x031a44778c8402acff81bd08c0316e64336b0d8aa919f2574547c7ed048499b6",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:36Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-020",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x13454d9a32c1bd79e2a26ea419eef622081e8ba447ec404d1b31eba2bf7aabd8",
+      "block_number": 13657847,
+      "timestamp_utc": "2021-11-21T11:16:21Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x0874aee0ed733834d4666dbce60150a951c6f17b",
+      "token_identifier": "330",
+      "buyer": "0x33aa08d0286fa8c4b43970647c728208c480d2b4",
+      "seller": "0xd6fa29dc1a4db2ca919b2428fa39afec716c96d6",
+      "source_file": "output/B/2_3rugpullTranding/8_3_51c6f17b_51c6f17b_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x13454d9a32c1bd79e2a26ea419eef622081e8ba447ec404d1b31eba2bf7aabd8",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:36Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-021",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x884600c1f7dc523d593489e80c7ffeba9779be00bee4ac62cbc5e5a2951e66d3",
+      "block_number": 13787072,
+      "timestamp_utc": "2021-12-12T00:18:33Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x13237b31498001f61ff1d2239227caffcc2d4dae",
+      "token_identifier": "246",
+      "buyer": "0xec7ce4bff475ec49c47130c38ded191ed2229415",
+      "seller": "0x470a60aeaa45753910e4139076b3aff9d0ecd5bb",
+      "source_file": "output/B/2_3rugpullTranding/8_3_cc2d4dae_cc2d4dae_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x884600c1f7dc523d593489e80c7ffeba9779be00bee4ac62cbc5e5a2951e66d3",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:41Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-022",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x49813c072ddc2bdf7de8cacd541b14d36e54e1ab8328b5ee894492fddc4d4710",
+      "block_number": 13981800,
+      "timestamp_utc": "2022-01-11T03:32:19Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xec2ba16a04c19c6aa932f84f7c022325c8fd581c",
+      "token_identifier": "91",
+      "buyer": "0x0ab7999894f36ede923278d4e898e78085b289e6",
+      "seller": "0xe6934bd026fc88a190f6204b6ce04a8b84e564cb",
+      "source_file": "output/B/2_3rugpullTranding/8_3_c8fd581c_c8fd581c_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x49813c072ddc2bdf7de8cacd541b14d36e54e1ab8328b5ee894492fddc4d4710",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:41Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-023",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x4bf152dcf396dc4ece3a0953bb294e5b5e1fac4ba1449bd5c1382b189cad9fb7",
+      "block_number": 14767232,
+      "timestamp_utc": "2022-05-13T11:59:19Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xa46c8fc9fd197dd255bd958e4084603517e89a30",
+      "token_identifier": "822",
+      "buyer": "0x1c419d5fb361121bbb8a8d8988bc4693f3e13881",
+      "seller": "0xb2851739a6b1483670e604ed18a6151c996570da",
+      "source_file": "output/B/2_3rugpullTranding/8_3_17e89a30_17e89a30_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x4bf152dcf396dc4ece3a0953bb294e5b5e1fac4ba1449bd5c1382b189cad9fb7",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:41Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-024",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xa7a88232041ea2aaffa2148be7b2ea7506077c5d6cc3c541c8d62c65a2435848",
+      "block_number": 13864769,
+      "timestamp_utc": "2021-12-24T00:56:48Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5",
+      "token_identifier": "61",
+      "buyer": "0x6e5fd64025183dfdb1eaa8eb71915cd1d7f14db5",
+      "seller": "0x86dec10e7b464f13c2668ec1dc374cae94355bf8",
+      "source_file": "output/B/2_3rugpullTranding/8_3_0c5597e5_0c5597e5_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xa7a88232041ea2aaffa2148be7b2ea7506077c5d6cc3c541c8d62c65a2435848",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:41Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-025",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x4f343b6782d38b3b36f90cb2b19185615dc35de80b0fc896bb4e15aa32dac849",
+      "block_number": 14132744,
+      "timestamp_utc": "2022-02-03T11:29:27Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x7ec7ccf202c8ea5b6ca46bb75ad86314cff377d0",
+      "token_identifier": "0",
+      "buyer": "0xbc98513984b71d54b72b7504cb5c2e8acc8c6f50",
+      "seller": "0x0634101508f2bf058a2b480e89d9eb970ae07423",
+      "source_file": "output/B/2_3rugpullTranding/8_3_cff377d0_cff377d0_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x4f343b6782d38b3b36f90cb2b19185615dc35de80b0fc896bb4e15aa32dac849",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:47Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-026",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xcef7c4f2a72d3fbb16dc483f7dd88cf81b0abb9f070f75872154755217de6fc6",
+      "block_number": 14521465,
+      "timestamp_utc": "2022-04-04T19:45:09Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xf3ef168ebfd20b2b1249509a78568b918358d546",
+      "token_identifier": "1056",
+      "buyer": "0xd6ad110ffd48c07c628ff40eb1d850f1d677eeed",
+      "seller": "0xaf769c8d1e4174a6fc15ac13871038a5ef28448a",
+      "source_file": "output/B/2_3rugpullTranding/8_3_8358d546_8358d546_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xcef7c4f2a72d3fbb16dc483f7dd88cf81b0abb9f070f75872154755217de6fc6",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:47Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-027",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x75e89f7b39d34fd397cfdaef842dc1ccdf90d1f8fa68412679b2927d292d47ba",
+      "block_number": 13998336,
+      "timestamp_utc": "2022-01-13T16:43:59Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xe356a9dcba053e6940b4afd8ce3e319212239e85",
+      "token_identifier": "72",
+      "buyer": "0x0014f749eb6ac1f4dcd4f7bdd1e0b94e3b1a5bc0",
+      "seller": "0x6992b2a151b612cb5c4a85aeb87e29fcdec76e56",
+      "source_file": "output/B/2_3rugpullTranding/8_3_12239e85_12239e85_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x75e89f7b39d34fd397cfdaef842dc1ccdf90d1f8fa68412679b2927d292d47ba",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:47Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-028",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x3bcbdd4978e9ed16d15a7b171e6b11e7cbf9ef97e57f46bc7df203bc3cae1de0",
+      "block_number": 15086643,
+      "timestamp_utc": "2022-07-06T03:42:14Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x9fc5f2938ec015357e5e327cb77ebe62131e924a",
+      "token_identifier": "205",
+      "buyer": "0x7713123406a31f2334b03ad337c5205ac2cdba40",
+      "seller": "0x51baae59cc2795d18a0dae8419b8c3c90cb7022c",
+      "source_file": "output/B/2_3rugpullTranding/8_3_131e924a_131e924a_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x3bcbdd4978e9ed16d15a7b171e6b11e7cbf9ef97e57f46bc7df203bc3cae1de0",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:47Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-029",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xf84067c828cc0154d4a57a9cf52ca54d3f1468966aaa0be16935a260aeee4717",
+      "block_number": 13812122,
+      "timestamp_utc": "2021-12-15T21:21:51Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x97fe0e9f7e4bf770d57b41da3e77a8140205c970",
+      "token_identifier": "1964",
+      "buyer": "0x4fde0ea3a42a108fb61c2b5e2f708bb96f7ed258",
+      "seller": "0xc2e9b6cc2e9e47a72c1c4c78b0d6e9e73dbfc277",
+      "source_file": "output/B/2_3rugpullTranding/8_3_0205c970_0205c970_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xf84067c828cc0154d4a57a9cf52ca54d3f1468966aaa0be16935a260aeee4717",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:54Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-030",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xa3cb84684fbb218b2206304badfda87fb518b8d684f59f580a50d6e2df4c8cab",
+      "block_number": 18305987,
+      "timestamp_utc": "2023-10-08T13:13:35Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x233a65b06ef83ccf2fd58832086dd782f9da1642",
+      "token_identifier": "7573",
+      "buyer": "0xeb41e9908c4fc1d3cee0ecc6266f89e3e9e04b29",
+      "seller": "0xf5338d4993f8782ba2a802dc03dc72919bf629ba",
+      "source_file": "output/B/2_3rugpullTranding/8_3_f9da1642_f9da1642_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xa3cb84684fbb218b2206304badfda87fb518b8d684f59f580a50d6e2df4c8cab",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:54Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-031",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x8dc6a0238be7b0a0973954061a9465373ba7b262a20baaa2484bb50737c20614",
+      "block_number": 13795407,
+      "timestamp_utc": "2021-12-13T07:16:10Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x97fe0e9f7e4bf770d57b41da3e77a8140205c970",
+      "token_identifier": "1059",
+      "buyer": "0x7f3acf451e372f517b45f9d2ee0e42e31bc5e53e",
+      "seller": "0x7330dfaf3de7eeb9459f0570efa7fca810748a0a",
+      "source_file": "output/B/2_3rugpullTranding/8_3_0205c970_0205c970_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x8dc6a0238be7b0a0973954061a9465373ba7b262a20baaa2484bb50737c20614",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:54Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-032",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x33dab5f63d5d5678ec7d6d2413574ab192d40311974c20a54002230be6562ee0",
+      "block_number": 14169756,
+      "timestamp_utc": "2022-02-09T04:39:29Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xa32210529c69cca8cfc58dbfdbf06654288462f5",
+      "token_identifier": "2339",
+      "buyer": "0xbb5b1292bd9dd293a862ee94c1ad0a12e26f1269",
+      "seller": "0xd22b5fa852abea535468e9f851c0cf06aa82ec52",
+      "source_file": "output/B/2_3rugpullTranding/8_3_288462f5_288462f5_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x33dab5f63d5d5678ec7d6d2413574ab192d40311974c20a54002230be6562ee0",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:07:54Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-033",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x587ecf2c4f2755e3e6d5a110a043f88be27d558bbcae8d7466289872a7062cc0",
+      "block_number": 14164714,
+      "timestamp_utc": "2022-02-08T09:46:18Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x2dc25592459960ed894db6d6c83a3bdbc1e13c80",
+      "token_identifier": "5306",
+      "buyer": "0x87bb0ead9598eda50552bd044d908659527c7463",
+      "seller": "0x8ee355abdb31dc131b4c6b3001dd4762f613bcf8",
+      "source_file": "output/B/2_3rugpullTranding/8_3_c1e13c80_c1e13c80_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x587ecf2c4f2755e3e6d5a110a043f88be27d558bbcae8d7466289872a7062cc0",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:00Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-034",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x4e2ee19e04ca8a973144d58f2091f73c4ab3c4de688351bd2b6fa4d965bbd819",
+      "block_number": 16306904,
+      "timestamp_utc": "2022-12-31T19:42:23Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5180db8f5c931aae63c74266b211f580155ecac8",
+      "token_identifier": "1244",
+      "buyer": "0xd89b16331f39ab3878daf395052851d3ac8cf3cd",
+      "seller": "0x00003e81818a2f1e1ffc41dc47d4b1716110b90a",
+      "source_file": "output/B/2_3rugpullTranding/8_3_155ecac8_155ecac8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x4e2ee19e04ca8a973144d58f2091f73c4ab3c4de688351bd2b6fa4d965bbd819",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:00Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-035",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x43c09e3749f9481ad8c66c48d6635dcf15c8ef28d02d3b224b59f81170861d8f",
+      "block_number": 14419592,
+      "timestamp_utc": "2022-03-19T22:37:06Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92",
+      "token_identifier": "234",
+      "buyer": "0x7bc263ed90192e1ad9894315f3a97eafa00e321c",
+      "seller": "0x3abaea195a8d99ff6f834894db1970f49f0a8db3",
+      "source_file": "output/B/2_3rugpullTranding/8_3_0d99cc92_0d99cc92_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x43c09e3749f9481ad8c66c48d6635dcf15c8ef28d02d3b224b59f81170861d8f",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:00Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-036",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x25bb7d107bf6a9b6abe69a32390e393ede244e4257260eb58784899b6937a01a",
+      "block_number": 14495857,
+      "timestamp_utc": "2022-03-31T19:34:21Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5180db8f5c931aae63c74266b211f580155ecac8",
+      "token_identifier": "5375",
+      "buyer": "0x6fac2bcca1f5397bf2bc96aa4ae8f35728882761",
+      "seller": "0xc49d1e359e1b25423217f60e8e17d7d0d1eccbc1",
+      "source_file": "output/B/2_3rugpullTranding/8_3_155ecac8_155ecac8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x25bb7d107bf6a9b6abe69a32390e393ede244e4257260eb58784899b6937a01a",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:01Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-037",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x48207a934dbc9f4c6549813c4cc0c4196c080bc80a4023f842784af45bd797bc",
+      "block_number": 14642634,
+      "timestamp_utc": "2022-04-23T18:17:37Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5f001a2a283d58192e9af7181ad10110fbbeee19",
+      "token_identifier": "4268",
+      "buyer": "0x2d752ef75cd77504d71b3fe785ed7f585bb51edd",
+      "seller": "0xbcec5e9b5f430a5f7d2b5aff6bd4770645e67373",
+      "source_file": "output/B/2_3rugpullTranding/8_3_fbbeee19_fbbeee19_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x48207a934dbc9f4c6549813c4cc0c4196c080bc80a4023f842784af45bd797bc",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:10Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-038",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x73a775f632618e8578ea80af2cc65e965ad57014864a8780bd0d1a2bf86c346a",
+      "block_number": 13298429,
+      "timestamp_utc": "2021-09-26T01:10:31Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x233a65b06ef83ccf2fd58832086dd782f9da1642",
+      "token_identifier": "7334",
+      "buyer": "0x71c05909c0ee8b6dcc2a65c96334d1b6edd8b26f",
+      "seller": "0xd4339daf84408431f109244fd654923a8ab89506",
+      "source_file": "output/B/2_3rugpullTranding/8_3_f9da1642_f9da1642_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x73a775f632618e8578ea80af2cc65e965ad57014864a8780bd0d1a2bf86c346a",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:10Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-039",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xc58f7685783b200559e144398713d9f7c64ac082142d97cf9cb47d1f55380d9d",
+      "block_number": 13802738,
+      "timestamp_utc": "2021-12-14T10:24:26Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5180db8f5c931aae63c74266b211f580155ecac8",
+      "token_identifier": "6651",
+      "buyer": "0xa01cbb29590f755c7c30c8618b86ce8c78ce0197",
+      "seller": "0xc20d5ec5cc28c055eb72861c13a05c1ebe31cc97",
+      "source_file": "output/B/2_3rugpullTranding/8_3_155ecac8_155ecac8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xc58f7685783b200559e144398713d9f7c64ac082142d97cf9cb47d1f55380d9d",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:11Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-040",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x7f610f1c9d3a5b2dd9847c655339690f53656a9f0ec5180b98580f41d0b12b42",
+      "block_number": 14161046,
+      "timestamp_utc": "2022-02-07T20:13:57Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x2dc25592459960ed894db6d6c83a3bdbc1e13c80",
+      "token_identifier": "4705",
+      "buyer": "0x91977592fc11fc782dc25cf7e661575695d84956",
+      "seller": "0xb3b160e4adc77ae1fa92ecebe58f633500b1639a",
+      "source_file": "output/B/2_3rugpullTranding/8_3_c1e13c80_c1e13c80_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x7f610f1c9d3a5b2dd9847c655339690f53656a9f0ec5180b98580f41d0b12b42",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:11Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-041",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xe1a024db761266221af3711a2558116e5c326cd79fec44de92b93add38b44edb",
+      "block_number": 13806343,
+      "timestamp_utc": "2021-12-14T23:48:59Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5180db8f5c931aae63c74266b211f580155ecac8",
+      "token_identifier": "34",
+      "buyer": "0xa6a1ffa419a874faecb583699dd2e05a9539165f",
+      "seller": "0xc049085709fc6581152c1e1edeea53fae58fede1",
+      "source_file": "output/B/2_3rugpullTranding/8_3_155ecac8_155ecac8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xe1a024db761266221af3711a2558116e5c326cd79fec44de92b93add38b44edb",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:46Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-042",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xc67c09b1252a4e5a8876f5a79645f2fb1231c3ebdcf3d9db2d9e33f1999a5efd",
+      "block_number": 13414666,
+      "timestamp_utc": "2021-10-14T06:10:54Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x233a65b06ef83ccf2fd58832086dd782f9da1642",
+      "token_identifier": "364",
+      "buyer": "0x062701c249a30281b96f8b735c31ecb6765fbd60",
+      "seller": "0x20e17c5d83904d9efeb2cc41d62d91fcbeab55fb",
+      "source_file": "output/B/2_3rugpullTranding/8_3_f9da1642_f9da1642_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xc67c09b1252a4e5a8876f5a79645f2fb1231c3ebdcf3d9db2d9e33f1999a5efd",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:46Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-043",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x5b73f1b49a986a0f397f34ee6b9422adfcdf9997c177f17e1d0f35271fb853e7",
+      "block_number": 13290859,
+      "timestamp_utc": "2021-09-24T21:26:00Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x233a65b06ef83ccf2fd58832086dd782f9da1642",
+      "token_identifier": "4024",
+      "buyer": "0x45e3472884fea19a86be55111faaa293d6c56305",
+      "seller": "0x1da8d66599a2d01ae27a7ed1c3242aab58c348f4",
+      "source_file": "output/B/2_3rugpullTranding/8_3_f9da1642_f9da1642_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x5b73f1b49a986a0f397f34ee6b9422adfcdf9997c177f17e1d0f35271fb853e7",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:57Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-044",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x54ca3a9e039dc7738d24a6054abeec94c843219a427cca6334316eacda7a740f",
+      "block_number": 13852331,
+      "timestamp_utc": "2021-12-22T02:34:37Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x8b27a351690e62b623a7630c5294e7dac5371723",
+      "token_identifier": "922",
+      "buyer": "0x7bd33fa87c5431f00abd2fdd1ba9b54596bca2b5",
+      "seller": "0xbceb13cf118ecb0d0c80a378371bb08ea7a3e4a8",
+      "source_file": "output/B/2_3rugpullTranding/8_3_c5371723_c5371723_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x54ca3a9e039dc7738d24a6054abeec94c843219a427cca6334316eacda7a740f",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:57Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-045",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xf5f445e4c56cd37297e6e567bcc29a1e95bd92aef30d8b77d8e895b131754f02",
+      "block_number": 13930919,
+      "timestamp_utc": "2022-01-03T06:28:51Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5180db8f5c931aae63c74266b211f580155ecac8",
+      "token_identifier": "8767",
+      "buyer": "0x930af7923b8b5f8d3461ad1999ceeb8a62884b19",
+      "seller": "0xd7f4589a1cf4bc83f8ceeed68b61bf9de35cbcd8",
+      "source_file": "output/B/2_3rugpullTranding/8_3_155ecac8_155ecac8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xf5f445e4c56cd37297e6e567bcc29a1e95bd92aef30d8b77d8e895b131754f02",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:08:58Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-046",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x7d3a817ec37094709b2857cc8ec7f9814619182429c8362bf08b638f5678d644",
+      "block_number": 13801186,
+      "timestamp_utc": "2021-12-14T04:30:57Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5180db8f5c931aae63c74266b211f580155ecac8",
+      "token_identifier": "6511",
+      "buyer": "0x22aa1f4173b826451763ebfce22cf54a0603163c",
+      "seller": "0xdc702604a1bd2372333a445bd4cf571e2d050231",
+      "source_file": "output/B/2_3rugpullTranding/8_3_155ecac8_155ecac8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x7d3a817ec37094709b2857cc8ec7f9814619182429c8362bf08b638f5678d644",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:00Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-047",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x99ca51e25c4080f793206d5fb82ee2edc025ad2d96384dd13522163f1f8a68f3",
+      "block_number": 13419600,
+      "timestamp_utc": "2021-10-15T00:54:48Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xff1be3171a16fe431e31d874e4de14814362e588",
+      "token_identifier": "4111",
+      "buyer": "0x91bd000c65bb801eaccde73602cbf65f137950af",
+      "seller": "0xe3e0fbbe452644334f94aee91adf1f0c39bf117b",
+      "source_file": "output/B/2_3rugpullTranding/8_3_4362e588_4362e588_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x99ca51e25c4080f793206d5fb82ee2edc025ad2d96384dd13522163f1f8a68f3",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-048",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0x43c59a4d51f90822862effd8babe022c5e42cf610aba3013fca952c000f03285",
+      "block_number": 13049622,
+      "timestamp_utc": "2021-08-18T13:58:35Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x4923017f3b7fac4e096b46e401c0662f0b7e393f",
+      "token_identifier": "8393",
+      "buyer": "0x2e0d63ffcb08ea20ff3acdbb72dfec97343885d2",
+      "seller": "0xd8dcc4d5068b66e32d6e6d947d90d0a4239c0ebe",
+      "source_file": "output/B/2_3rugpullTranding/8_3_0b7e393f_0b7e393f_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x43c59a4d51f90822862effd8babe022c5e42cf610aba3013fca952c000f03285",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-049",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xb40a664e33acf9933f67af394819b29f57b75f0a454b3499610808410b594f67",
+      "block_number": 14188210,
+      "timestamp_utc": "2022-02-12T01:01:24Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xa32210529c69cca8cfc58dbfdbf06654288462f5",
+      "token_identifier": "2427",
+      "buyer": "0x3146d86a4378171d44b522a168718680858928b9",
+      "seller": "0xb6b7e606916038e28b3668919c014e838fe5eba5",
+      "source_file": "output/B/2_3rugpullTranding/8_3_288462f5_288462f5_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xb40a664e33acf9933f67af394819b29f57b75f0a454b3499610808410b594f67",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "rug_pull-050",
+      "dataset": "rug_pull",
+      "target_label": "rugpull",
+      "transaction_hash": "0xe44b74e0898d7bd3abde7e4cbc65011618df8434efa58fd3f117b9ee53740b9b",
+      "block_number": 14403180,
+      "timestamp_utc": "2022-03-17T09:21:26Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x2dc25592459960ed894db6d6c83a3bdbc1e13c80",
+      "token_identifier": "1494",
+      "buyer": "0xf0e05cdb482dceaf3b93de1de78e34b94cc3944b",
+      "seller": "0x00f274bf964a211219e8f07dcbd577220e2ac80a",
+      "source_file": "output/B/2_3rugpullTranding/8_3_c1e13c80_c1e13c80_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xe44b74e0898d7bd3abde7e4cbc65011618df8434efa58fd3f117b9ee53740b9b",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-001",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xc2cf1dc66b357ef5801b514133e16367a8c48cc484da8d52fda68757a188cf76",
+      "block_number": 14597853,
+      "timestamp_utc": "2022-04-16T17:57:59Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x1082cb089de2ed91cbab338850da50d56496837d",
+      "token_identifier": "888",
+      "buyer": "0x8c1be7e723ec34600cd97a4ae2b71853aea64dba",
+      "seller": "0xb202248018062d961fc514c5192f504412a764e8",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_6496837d_6496837d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xc2cf1dc66b357ef5801b514133e16367a8c48cc484da8d52fda68757a188cf76",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-002",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x55751eb39532fb3720dbf481017402853e6e6d1482bf1af59fc885f7545c0367",
+      "block_number": 15433368,
+      "timestamp_utc": "2022-08-29T09:35:57Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x3955e46a7bd7a5cf1ba8d1826197c65a06792d08",
+      "token_identifier": "308",
+      "buyer": "0xf3d7076f487754e11ba16270644dc1e8a1c09227",
+      "seller": "0x67aa860bb6c444851d8870994ab873354b1cfa68",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_06792d08_06792d08_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x55751eb39532fb3720dbf481017402853e6e6d1482bf1af59fc885f7545c0367",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-003",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x702924b4977b79b7c43de9ad88a328839b1354b65c97449a2887a63fe4481054",
+      "block_number": 13968779,
+      "timestamp_utc": "2022-01-09T03:01:28Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "926",
+      "buyer": "0xb342efb33f6aea4184bf0917b3883d4333fb3950",
+      "seller": "0x06744ce96771dcaaddd271748fa0973f5aae5a2d",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x702924b4977b79b7c43de9ad88a328839b1354b65c97449a2887a63fe4481054",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-004",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x33b248d3e8e3e251f630663fce864d1c13d2c51e72c12b077b3bc481da527731",
+      "block_number": 16660270,
+      "timestamp_utc": "2023-02-19T04:29:11Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x276b60d3f7810316505e16d764d60d5214261cc1",
+      "token_identifier": "113",
+      "buyer": "0x9109a099b32b8769bf2d6bcae72a15d8003f6b66",
+      "seller": "0xe341fbcc51fafa0769cea020f5ad9af614d7a641",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_14261cc1_14261cc1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x33b248d3e8e3e251f630663fce864d1c13d2c51e72c12b077b3bc481da527731",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-005",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x7a11b93bedf8ba6d2d766979677167330b03fd042d9edf2209797691440b6f78",
+      "block_number": 15814107,
+      "timestamp_utc": "2022-10-23T23:31:35Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xbed35393e1289ae48b1b4f39c1835fcf239391b8",
+      "token_identifier": "53",
+      "buyer": "0xb29076aa21cfc6069d145d7d2bdbf56aed42c75c",
+      "seller": "0x80bff7464a3f5c5c4cfe95092c85da64b700ca36",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_239391b8_239391b8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x7a11b93bedf8ba6d2d766979677167330b03fd042d9edf2209797691440b6f78",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:13Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-006",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x8c20e36e6131da70f453b07daaf73b789e237daafd1fdf5ce2278db4f3e31652",
+      "block_number": 15813327,
+      "timestamp_utc": "2022-10-23T20:54:11Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x6753e1ac153a6b02ed410dc8ae4265cc726bb522",
+      "token_identifier": "1866",
+      "buyer": "0x6d1c18bccde60142af23a3f8aa6f5f59c532a675",
+      "seller": "0xae7fc2255f74465096aa55b1c608bf07f867cf79",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_726bb522_726bb522_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x8c20e36e6131da70f453b07daaf73b789e237daafd1fdf5ce2278db4f3e31652",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:13Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-007",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x2791b3b83aafc0fdd4d2f69f15f6a8a28f373c63048da30f93a8cfc10c803283",
+      "block_number": 14997913,
+      "timestamp_utc": "2022-06-20T18:04:39Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x7756f945a7c80ec83eb34e93a6384898fd65f18d",
+      "token_identifier": "135",
+      "buyer": "0x3db419fba73a03ce5e3b7761086b25a9727e3104",
+      "seller": "0x0c9bb825555ff7df0c01345e9c43940d9a1023bd",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_fd65f18d_fd65f18d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x2791b3b83aafc0fdd4d2f69f15f6a8a28f373c63048da30f93a8cfc10c803283",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:13Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-008",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xcfe2213991fe33c08a0159c6f43c3c0db5500cc2ff0b867af56f4265ea46fa6b",
+      "block_number": 14697269,
+      "timestamp_utc": "2022-05-02T08:29:11Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xf1f3ee49470606ab2c209ccc0daccc47ee9b6355",
+      "token_identifier": "2189",
+      "buyer": "0xf763427bd60c58d9886796de88ccbd50ea64c9da",
+      "seller": "0x3be6e1d171e36c0fa42b4954dfa86248555e7d3e",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_ee9b6355_ee9b6355_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xcfe2213991fe33c08a0159c6f43c3c0db5500cc2ff0b867af56f4265ea46fa6b",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:13Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-009",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x028009e8d4b14ae739f056f051b54fdc1aceb47044feef8f04be45517d54036a",
+      "block_number": 15555068,
+      "timestamp_utc": "2022-09-17T18:24:11Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x07129939610cc8246463efe2f02b7b6e3ef26f2a",
+      "token_identifier": "486",
+      "buyer": "0x8856035899538defed4bdba75a9fb077ac33b548",
+      "seller": "0x6e01346be21254a576d72ace36c69c756b011ee5",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_3ef26f2a_3ef26f2a_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x028009e8d4b14ae739f056f051b54fdc1aceb47044feef8f04be45517d54036a",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:18Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-010",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x609753a8060a45989f22d8bd1948a5b726190999498c420064778df9b73ee227",
+      "block_number": 15193512,
+      "timestamp_utc": "2022-07-22T16:35:09Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x3eaad72cd8f50f858f165472c7944c8384f5c63e",
+      "token_identifier": "1",
+      "buyer": "0xd1b0b2672423ce96c599aea1194a72e59bc67e01",
+      "seller": "0x00000005aefdd0dd66024299036e4acde5a113f9",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_84f5c63e_84f5c63e_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x609753a8060a45989f22d8bd1948a5b726190999498c420064778df9b73ee227",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:18Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-011",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xdeca11b0143fb9ba34c67a87a93ee261b96a8fb6718cdd386daedc9f46247e23",
+      "block_number": 14377066,
+      "timestamp_utc": "2022-03-13T07:44:46Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x03b47d1a471ec3872adf315a588badab0bf9865b",
+      "token_identifier": "10",
+      "buyer": "0xf7843c00ba70537019dee75741f05ab130716c28",
+      "seller": "0x8144868d16512c0026879b26b9a25f1e173b48cb",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_0bf9865b_0bf9865b_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xdeca11b0143fb9ba34c67a87a93ee261b96a8fb6718cdd386daedc9f46247e23",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:18Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-012",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x15a33997fbe3b302b7089fac849261e135ac53053c0ebc0f5fef49e08a1077a9",
+      "block_number": 16699682,
+      "timestamp_utc": "2023-02-24T17:30:11Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x32565812882fe548ec06d5676a67cd40fbf77cdc",
+      "token_identifier": "38",
+      "buyer": "0xe0dee3dfc332031192a43588ea5d31b3636aefbc",
+      "seller": "0x091eb0eb1c9d18e4ed6d5ea6bdac70596e34b90f",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_fbf77cdc_fbf77cdc_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x15a33997fbe3b302b7089fac849261e135ac53053c0ebc0f5fef49e08a1077a9",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:18Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-013",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x286187d45588122397c7b627ab4f52448fa0bc68b85c0d5675f2ac918f6d6003",
+      "block_number": 15472789,
+      "timestamp_utc": "2022-09-04T16:59:21Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x66ab364fb810d8ae7971619f1f93a6bdd2fc8372",
+      "token_identifier": "839",
+      "buyer": "0x4fb53be1e55696d831935a650cd0cd6531a43019",
+      "seller": "0xe07770dcf6f2d2e8ef279e9698bfea4392d57f46",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_d2fc8372_d2fc8372_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x286187d45588122397c7b627ab4f52448fa0bc68b85c0d5675f2ac918f6d6003",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:23Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-014",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xc98ee10fd39e98ac9ac0f0e48c696180c78390cc206aef052fca4e31af6c674f",
+      "block_number": 16942181,
+      "timestamp_utc": "2023-03-30T19:37:35Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x2dc050ba75533514ccf928a373aa2b3348b2bd9b",
+      "token_identifier": "63",
+      "buyer": "0x59ea3751581a03e9f4dce7f10e3e645dd543317e",
+      "seller": "0xe409a1fd08c3255ab4a5de54e81448ecbe50fac0",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_48b2bd9b_48b2bd9b_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xc98ee10fd39e98ac9ac0f0e48c696180c78390cc206aef052fca4e31af6c674f",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:23Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-015",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xae3ea705eecae51c0a5a83d95f6f8657fd559e6b25abbbe2482b9b9088283d3f",
+      "block_number": 15775694,
+      "timestamp_utc": "2022-10-18T14:49:47Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xeefadeaf434245ba32335f7e785cdc076a0ffc34",
+      "token_identifier": "56",
+      "buyer": "0xcc1f801e1fe1efc3a6f359ce652f4c1b0de52997",
+      "seller": "0xfcbed20837bb250a27342a125ac78b4747d50082",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_6a0ffc34_6a0ffc34_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xae3ea705eecae51c0a5a83d95f6f8657fd559e6b25abbbe2482b9b9088283d3f",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:23Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-016",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x44f861e9e82fe0729d0664d6e7a5ed2090cda151b9d9a368cd9c6900b2ee5696",
+      "block_number": 14389821,
+      "timestamp_utc": "2022-03-15T07:32:06Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x46f8654dcdacac2f85c540d95a552721291899f8",
+      "token_identifier": "32",
+      "buyer": "0xd93a20524af96ca6d3c362f549b8e93448f7e93f",
+      "seller": "0xd433f6a148b5aed8b439649971047b6be68efbf3",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_291899f8_291899f8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x44f861e9e82fe0729d0664d6e7a5ed2090cda151b9d9a368cd9c6900b2ee5696",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:23Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-017",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x45e6b912327a3d4afa25fab1e216788f415dc59eca1886d6287af6c5e3c48cf9",
+      "block_number": 13807332,
+      "timestamp_utc": "2021-12-15T03:33:56Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x42b448d40478a93d70739ac1aa82a4562f571a1d",
+      "token_identifier": "1710",
+      "buyer": "0x73f8a1ca14992ea24ea6d643ab7b7445aa2a120e",
+      "seller": "0xe9e64b2823d07c80cb46eb5d23805aff2f9eab72",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_2f571a1d_2f571a1d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x45e6b912327a3d4afa25fab1e216788f415dc59eca1886d6287af6c5e3c48cf9",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:28Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-018",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xc423f709ed4c0495d276d1b5c6e8cee30459d87dd9230e5789fcba1ee0f7d20a",
+      "block_number": 15990350,
+      "timestamp_utc": "2022-11-17T14:31:11Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xe3b961e5481bed62668570642b9da574a9e38d14",
+      "token_identifier": "0",
+      "buyer": "0x737edb4365e7ddbe35bddc64b9628d62b312a7b9",
+      "seller": "0x40cde83c36ebcaa1ba91d178df28d83572507b65",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_a9e38d14_a9e38d14_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xc423f709ed4c0495d276d1b5c6e8cee30459d87dd9230e5789fcba1ee0f7d20a",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:28Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-019",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x679d7da80bee322b5fd44f5831a1088e0eb755f2b00681dda3800cf83b67efc5",
+      "block_number": 18264389,
+      "timestamp_utc": "2023-10-02T17:38:11Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x0000995e7ab2aa13c5c735484f3b816de7c353f4",
+      "token_identifier": "7431",
+      "buyer": "0x7ef4e6597f7978e7d37c7203590287069b840bd4",
+      "seller": "0x5b4475af23d788e12db1d000bbbd64374424e0e9",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_e7c353f4_e7c353f4_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x679d7da80bee322b5fd44f5831a1088e0eb755f2b00681dda3800cf83b67efc5",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:28Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-020",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xfc65aed94e187e76144c5a5e22dd630ae1d1fdedda262399dc1f776cf85991fd",
+      "block_number": 14463358,
+      "timestamp_utc": "2022-03-26T18:06:23Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x4b8ec08253e40ed6b1cd58e9f0b546b24fd2026e",
+      "token_identifier": "6",
+      "buyer": "0xefcc050571399dc9b381111b3ebcb93a412a20fa",
+      "seller": "0x3f7265ea56f795dab4da2a6bc410f33854151dcc",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_4fd2026e_4fd2026e_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xfc65aed94e187e76144c5a5e22dd630ae1d1fdedda262399dc1f776cf85991fd",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:28Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-021",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xb234c476fdf93298db066325d7a2cdbb65827212b6bd6a6733d2bc579a99973a",
+      "block_number": 16109642,
+      "timestamp_utc": "2022-12-04T06:25:23Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xb936f916a085f38eb248216b6e5e4db9aae2f0b5",
+      "token_identifier": "1",
+      "buyer": "0x000000000000000000000000000000000000dead",
+      "seller": "0x3c6d7ce577e3703b8a93d2b77c20b23bfe23ed98",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_aae2f0b5_aae2f0b5_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xb234c476fdf93298db066325d7a2cdbb65827212b6bd6a6733d2bc579a99973a",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:33Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-022",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x7da5365bc7cd819b845fb59379b9dc7ec6216a322727841a806525f9b6ba0142",
+      "block_number": 19531511,
+      "timestamp_utc": "2024-03-28T08:46:35Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xf233367bd0a27bb609691ad126f49f9d9403fae8",
+      "token_identifier": "1",
+      "buyer": "0xcda72070e455bb31c7690a170224ce43623d0b6f",
+      "seller": "0x0f3aca0f2ea7323f3db134267cf8a043602557ac",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_9403fae8_9403fae8_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x7da5365bc7cd819b845fb59379b9dc7ec6216a322727841a806525f9b6ba0142",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:33Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-023",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xfea2227d2be2f58e6f9ff6de66698ee4fe9a91e994cf7f8b360df3953b235073",
+      "block_number": 15627623,
+      "timestamp_utc": "2022-09-27T22:20:59Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xbc4d68e5acd9ce56fdfd3d9a8786aeabcef98566",
+      "token_identifier": "109",
+      "buyer": "0x976df64fd249869e1c2284a3520dbdbe19cb3a74",
+      "seller": "0x8b213e34eb9529fe8f23646aaf81aebf6dc68ae6",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_cef98566_cef98566_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xfea2227d2be2f58e6f9ff6de66698ee4fe9a91e994cf7f8b360df3953b235073",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:33Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-024",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xe30bef00957cb97025124cd91883ea6625a28d623c8743b4281a39472b7b2683",
+      "block_number": 13934329,
+      "timestamp_utc": "2022-01-03T19:13:40Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "386",
+      "buyer": "0x2687b8f2762d557fbc8cfbb5a73aee71fdd5c604",
+      "seller": "0x3ad4cf8c7a404698b907e4ef7e8be747197f280e",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xe30bef00957cb97025124cd91883ea6625a28d623c8743b4281a39472b7b2683",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:33Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-025",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xd47c6083c1940094b0235907c3e2a379c6e573dcad06eb8e6bf13019ed213ce7",
+      "block_number": 14597300,
+      "timestamp_utc": "2022-04-16T16:04:32Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x1082cb089de2ed91cbab338850da50d56496837d",
+      "token_identifier": "61",
+      "buyer": "0xc97e57b6216f20d45fa6e06d72168da379628db2",
+      "seller": "0xf686393679bc347d9d5ac42883056fe4be35f09e",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_6496837d_6496837d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xd47c6083c1940094b0235907c3e2a379c6e573dcad06eb8e6bf13019ed213ce7",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:38Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-026",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x526ce13abcb6f60b3dd55ef86a4e49e81082ab2994a094c199d27618aa870ee4",
+      "block_number": 13927579,
+      "timestamp_utc": "2022-01-02T18:07:18Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "359",
+      "buyer": "0x8b658574dbc6b27195ae2212f498fad2976eb080",
+      "seller": "0x8a043dd778ca75c7cbd7ad3a3437ae5795cfd578",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x526ce13abcb6f60b3dd55ef86a4e49e81082ab2994a094c199d27618aa870ee4",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:38Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-027",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x8f2918b997d2c0a4cc20dce8f0818d21bae964335b1e42a83864297ac85d761f",
+      "block_number": 13962609,
+      "timestamp_utc": "2022-01-08T04:29:54Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "360",
+      "buyer": "0xeee2e27d74059afac28826249e9c0dafe101c6e2",
+      "seller": "0x8a043dd778ca75c7cbd7ad3a3437ae5795cfd578",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x8f2918b997d2c0a4cc20dce8f0818d21bae964335b1e42a83864297ac85d761f",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:38Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-028",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x3a3085dc55af8871207cfebc207e1684473b8218e90fa570b55c2f90c777375e",
+      "block_number": 15433154,
+      "timestamp_utc": "2022-08-29T08:47:52Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x3955e46a7bd7a5cf1ba8d1826197c65a06792d08",
+      "token_identifier": "213",
+      "buyer": "0xd427d144498f26125e6d12ab173779ae9f00c1ea",
+      "seller": "0x6af2b69925d5157fc7d43e6c3562d722a64a9694",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_06792d08_06792d08_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x3a3085dc55af8871207cfebc207e1684473b8218e90fa570b55c2f90c777375e",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:38Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-029",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x0747bbc061cfc69e7d64c780f7ab62ebf39cc070cab70c6f9d9f24427adc0c4c",
+      "block_number": 13935685,
+      "timestamp_utc": "2022-01-04T00:10:42Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "714",
+      "buyer": "0xc0250852d291dd510c812b6224a41cce0213d202",
+      "seller": "0x6ed7809e911562c3af979d9b4cbc1870646d04f8",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x0747bbc061cfc69e7d64c780f7ab62ebf39cc070cab70c6f9d9f24427adc0c4c",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:43Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-030",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x7a4419ff7be975a9d9bb5708bdf027727e8dc782a46d96916ca42ccbd6a1f7bb",
+      "block_number": 14074568,
+      "timestamp_utc": "2022-01-25T11:44:39Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "815",
+      "buyer": "0x01389d3e091189c95cac118ce9cecdf775725d14",
+      "seller": "0xedf3970d21b675275d279e3d5a51f6f387d0b157",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x7a4419ff7be975a9d9bb5708bdf027727e8dc782a46d96916ca42ccbd6a1f7bb",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:43Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-031",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x752e291e989ef0ae3e2e764f68ff89cd06f4c53d278b6d65599c1ccc46e89a47",
+      "block_number": 14167564,
+      "timestamp_utc": "2022-02-08T20:32:06Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "807",
+      "buyer": "0x19c154e90dffb8b3360f1b664944c4bc267d591d",
+      "seller": "0x2f5753ca797b7d8771aedb7e9e33e10c6d4b009a",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x752e291e989ef0ae3e2e764f68ff89cd06f4c53d278b6d65599c1ccc46e89a47",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:43Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-032",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x2a8488daf9aaecd7cf416d01ceccb4d6979272876853469569825bf4691b599e",
+      "block_number": 14598009,
+      "timestamp_utc": "2022-04-16T18:30:34Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x1082cb089de2ed91cbab338850da50d56496837d",
+      "token_identifier": "1464",
+      "buyer": "0xd74239356ace46f4c930ebde89594630eced6e23",
+      "seller": "0x3556520cc239236078e1d65864f4eae070a48f15",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_6496837d_6496837d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x2a8488daf9aaecd7cf416d01ceccb4d6979272876853469569825bf4691b599e",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:43Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-033",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x182d0a3113fbbdd9efc43d3ad15f94502e6a84545321ec269bbde02d08b6241b",
+      "block_number": 14597859,
+      "timestamp_utc": "2022-04-16T17:58:52Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x1082cb089de2ed91cbab338850da50d56496837d",
+      "token_identifier": "907",
+      "buyer": "0x6cfea567aaf8768d1765a8f39b79daf2108c6db2",
+      "seller": "0x7badca6174f21597d59c649b16a350de24a69a59",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_6496837d_6496837d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x182d0a3113fbbdd9efc43d3ad15f94502e6a84545321ec269bbde02d08b6241b",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:48Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-034",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xb9128343235803dc902204b7a41e907d0dee82247327c00f9b41b2727c411727",
+      "block_number": 15433332,
+      "timestamp_utc": "2022-08-29T09:26:16Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x3955e46a7bd7a5cf1ba8d1826197c65a06792d08",
+      "token_identifier": "55",
+      "buyer": "0xd2386300f1fa09b6d656a53b6bc4ebbbfb824467",
+      "seller": "0x93d2678ac58caa043f25816c5435e14f64680f69",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_06792d08_06792d08_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xb9128343235803dc902204b7a41e907d0dee82247327c00f9b41b2727c411727",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:48Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-035",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x52b8d3b56967971f98b0dd9e20e847f5a8fe734d287a3b53a903e89262568c17",
+      "block_number": 14175203,
+      "timestamp_utc": "2022-02-10T00:45:36Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "62",
+      "buyer": "0xace8a54889a9870ab6bc18bcf7ce65e357d63cd9",
+      "seller": "0xedb00c3c46138a50adb2aabb4596707f6deaabec",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x52b8d3b56967971f98b0dd9e20e847f5a8fe734d287a3b53a903e89262568c17",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:48Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-036",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x49b2720537540fa7a0dd831c369eb9a37cf617c34a09c96759800a4833ee5054",
+      "block_number": 14092194,
+      "timestamp_utc": "2022-01-28T05:05:41Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "634",
+      "buyer": "0xd48cecbbe3e9bdde28abe13bf064328804d49b38",
+      "seller": "0xff1d983222a6f94548a2bdf0e7d2b03b976656fa",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x49b2720537540fa7a0dd831c369eb9a37cf617c34a09c96759800a4833ee5054",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:48Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-037",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x489714684f40cd920efd6dcfbc86009658e62f312922a97ec810723d7ec131dd",
+      "block_number": 13984006,
+      "timestamp_utc": "2022-01-11T11:43:44Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "427",
+      "buyer": "0x1cb56e237986be8b2247968fc70229d1c4e7de05",
+      "seller": "0xc3a2a139af618b9f355aa35b864e545f79ce67b0",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x489714684f40cd920efd6dcfbc86009658e62f312922a97ec810723d7ec131dd",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:53Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-038",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xbcb3da1ec8d90960075a2e77960f790d359128ffaff0956d166ce7cff7aa1d44",
+      "block_number": 13923661,
+      "timestamp_utc": "2022-01-02T03:42:02Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "51",
+      "buyer": "0xd6ffc3013b0a1434588f6f378929005fed1c2bce",
+      "seller": "0x6c548f116bf6a0d7975143a402a180c1d4aa6322",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xbcb3da1ec8d90960075a2e77960f790d359128ffaff0956d166ce7cff7aa1d44",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:53Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-039",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x546aa9df4615abc82df9d6de92de28811dfd8b9ecb7ad5bbb3651a797df2d9df",
+      "block_number": 15433159,
+      "timestamp_utc": "2022-08-29T08:49:57Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x3955e46a7bd7a5cf1ba8d1826197c65a06792d08",
+      "token_identifier": "173",
+      "buyer": "0xa13e80b8af69be03877c63a188eaf2672b1f5401",
+      "seller": "0x11b45dd6cbdff2fea578e98f7331cf7a97b0f65d",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_06792d08_06792d08_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x546aa9df4615abc82df9d6de92de28811dfd8b9ecb7ad5bbb3651a797df2d9df",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:53Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-040",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xba50ee196598726a14d6f5eb96b399f1919b5137f4ce7c9bbf948445890c544c",
+      "block_number": 15433382,
+      "timestamp_utc": "2022-08-29T09:38:46Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x3955e46a7bd7a5cf1ba8d1826197c65a06792d08",
+      "token_identifier": "97",
+      "buyer": "0x9360172c4c4733990e947b172730e9ce875b9946",
+      "seller": "0xe6b82005a51883195454457d9e4c351a6797c245",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_06792d08_06792d08_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xba50ee196598726a14d6f5eb96b399f1919b5137f4ce7c9bbf948445890c544c",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:53Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-041",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x258331ba947b8d76b1c9591a7d113882ee47f032f38366eaa7cad4f58c159352",
+      "block_number": 14486775,
+      "timestamp_utc": "2022-03-30T09:21:40Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x276b60d3f7810316505e16d764d60d5214261cc1",
+      "token_identifier": "1",
+      "buyer": "0xf7a0383750fef5abace57cc4c9ff98e3790202b3",
+      "seller": "0xc74c6a964dc87eff0c8aedf890ab6fbf22db5141",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_14261cc1_14261cc1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x258331ba947b8d76b1c9591a7d113882ee47f032f38366eaa7cad4f58c159352",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:58Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-042",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x196e78db8e0d5bc656bae09cac23a47722b7e7be14d97109df8d92e4475e43f4",
+      "block_number": 15813405,
+      "timestamp_utc": "2022-10-23T21:09:59Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x6753e1ac153a6b02ed410dc8ae4265cc726bb522",
+      "token_identifier": "2973",
+      "buyer": "0xcdc7f5c1c3af57544b9b2d580ebe43427878a76f",
+      "seller": "0x04a764cf89ed0c4cf64d2190e2e7bef04462de9b",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_726bb522_726bb522_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x196e78db8e0d5bc656bae09cac23a47722b7e7be14d97109df8d92e4475e43f4",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:58Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-043",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x27799df33be942d9dccb7562bfbf26737a5f1f7055b648c13960adcaa8675725",
+      "block_number": 15921276,
+      "timestamp_utc": "2022-11-07T22:57:23Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "707",
+      "buyer": "0x9b4ffced6b072b690913054ca799067b270ec5c5",
+      "seller": "0x7372692019f0aa8edfb2122cf96aed56f037db52",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x27799df33be942d9dccb7562bfbf26737a5f1f7055b648c13960adcaa8675725",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:58Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-044",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xa00ad4364e7c8c2898fc3e50cc49fce9ef3f0f5cc06293ace111ab8df577f914",
+      "block_number": 14597458,
+      "timestamp_utc": "2022-04-16T16:33:58Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x1082cb089de2ed91cbab338850da50d56496837d",
+      "token_identifier": "581",
+      "buyer": "0x958410a5a84881163499c6eec6964a5bd3198353",
+      "seller": "0xb0abf7b22cf94fdab991b8f17398a405a94701b8",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_6496837d_6496837d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xa00ad4364e7c8c2898fc3e50cc49fce9ef3f0f5cc06293ace111ab8df577f914",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:09:58Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-045",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x6775aaa8001165d97491fc40e815fe9bab017811376abee0c4be2c057649d432",
+      "block_number": 14599115,
+      "timestamp_utc": "2022-04-16T22:49:26Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x1082cb089de2ed91cbab338850da50d56496837d",
+      "token_identifier": "1390",
+      "buyer": "0xea53023e6237ee694ae9a2561c6d5d857c490041",
+      "seller": "0x88ea3a8ed7181b7d9c103f7b6040efacbf725a6c",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_6496837d_6496837d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x6775aaa8001165d97491fc40e815fe9bab017811376abee0c4be2c057649d432",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-046",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x99fcb27783e642fd4c7a9ca3c2a6f1a766b6d8ea760a8e821f2f875222036fd4",
+      "block_number": 13935914,
+      "timestamp_utc": "2022-01-04T00:59:38Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "86",
+      "buyer": "0x8ee9e14a518451a7a16694a12853d21212a010f5",
+      "seller": "0x16bf9653fbde01b0f157345373820891dcb9636b",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x99fcb27783e642fd4c7a9ca3c2a6f1a766b6d8ea760a8e821f2f875222036fd4",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-047",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x45672374c8b9cefaae373e250ddf580ba8e0ba0795dc5d0eeb6222a9dbac9cd1",
+      "block_number": 15008354,
+      "timestamp_utc": "2022-06-22T15:46:14Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x7756f945a7c80ec83eb34e93a6384898fd65f18d",
+      "token_identifier": "1136",
+      "buyer": "0x46a44d370043ba3c4fc7e0432a734f5ec90986d8",
+      "seller": "0xd1772bdff0ccfbb9da26d5f647ae371404342d99",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_fd65f18d_fd65f18d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x45672374c8b9cefaae373e250ddf580ba8e0ba0795dc5d0eeb6222a9dbac9cd1",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-048",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0x230e5cd140f9581d97344477fba809f8a00f683ba7ea6ab772757e918957d6e8",
+      "block_number": 13938382,
+      "timestamp_utc": "2022-01-04T10:06:57Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "559",
+      "buyer": "0x75d74b15dba7f7076c10b03bc1eb505f58149162",
+      "seller": "0x03093ac9b19f5cd1c0177adbf7d3765e710c70cf",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x230e5cd140f9581d97344477fba809f8a00f683ba7ea6ab772757e918957d6e8",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-049",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xc97da88f47bf1ab24634d3e02456f7eeae4cac6b215b14889e99f14389ebd528",
+      "block_number": 14009630,
+      "timestamp_utc": "2022-01-15T11:01:02Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xef91efbe8725eca1bfd23c4b3876dbadb300edb1",
+      "token_identifier": "919",
+      "buyer": "0xf0c4685bfe1ba6fc0f861c11a2d003208c334b9c",
+      "seller": "0xc293a4a958238704436999463305950b65ab946d",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_b300edb1_b300edb1_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xc97da88f47bf1ab24634d3e02456f7eeae4cac6b215b14889e99f14389ebd528",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "counterfeit-050",
+      "dataset": "counterfeit",
+      "target_label": "counterfeit",
+      "transaction_hash": "0xd33aff5c0e5fbad9cd7d1c0e9d15aeb7c1f5077b6231861033f116676ceb4945",
+      "block_number": 14598528,
+      "timestamp_utc": "2022-04-16T20:24:49Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x1082cb089de2ed91cbab338850da50d56496837d",
+      "token_identifier": "1270",
+      "buyer": "0x00e0a89492791a4d880118c293bdcf24067369ef",
+      "seller": "0x896ebb04aea7ec3ee66c46fcd1c8712f50590878",
+      "source_file": "output/B/2_2counterfeitTranding/9_2_6496837d_6496837d_transactions_all.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xd33aff5c0e5fbad9cd7d1c0e9d15aeb7c1f5077b6231861033f116676ceb4945",
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-001",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x7c104a9970b3b9c545834e87f76968c271bd17287384f50f620bc25f51ed3085",
+      "block_number": 13461503,
+      "timestamp_utc": "2021-10-21T14:16:52Z",
+      "transaction_type": "trade",
+      "contract_address": "0x8a90cab2b38dba80c64b7734e58ee1db38b8992e",
+      "token_identifier": "9778",
+      "buyer": "0x1e32e83fba57e53bf00e2d88c044a744e0601540",
+      "seller": "0x4af56748f594ed555e49b6cad23e8857d0f91b1b",
+      "source_file": "output/B/2_tranding/Doodles.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x7c104a9970b3b9c545834e87f76968c271bd17287384f50f620bc25f51ed3085",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 30,
+      "first_confirmed_end_block": 13472361,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-002",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x88d264289e6ee9f03446fb0f7c8a18950723409e95d78fb1a6137f9f579e3c31",
+      "block_number": 12350846,
+      "timestamp_utc": "2021-05-01T21:44:57Z",
+      "transaction_type": "trade",
+      "contract_address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+      "token_identifier": "9151",
+      "buyer": "0x41f33855fe7bff95a6d8204cf93e8905cefa0485",
+      "seller": "0xb30452beca9c462bc6773582c9e0d70cc60e7321",
+      "source_file": "output/B/2_tranding/BoredApeYachtClub.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x88d264289e6ee9f03446fb0f7c8a18950723409e95d78fb1a6137f9f579e3c31",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 8,
+      "first_confirmed_end_block": 12386199,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-003",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x22c08a139571c9d0fa9a94df3ac1c16a7013c23e658f6da995be43e1b05d5332",
+      "block_number": 14103450,
+      "timestamp_utc": "2022-01-29T22:45:35Z",
+      "transaction_type": "trade",
+      "contract_address": "0xccc441ac31f02cd96c153db6fd5fe0a2f4e6a68d",
+      "token_identifier": "522",
+      "buyer": "0x72477f9dee979c12c2a014287ec1320ff1200dac",
+      "seller": "0x9934c1269a94a09cfacb1f123fe8660cffd0d55b",
+      "source_file": "output/B/2_tranding/FLUF.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x22c08a139571c9d0fa9a94df3ac1c16a7013c23e658f6da995be43e1b05d5332",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 44,
+      "first_confirmed_end_block": 14163555,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:13Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-004",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xd20418652a9464ae0520fd21699dd792ebbf4746317351eb47cb6fb51772c40d",
+      "block_number": 13990626,
+      "timestamp_utc": "2022-01-12T12:10:48Z",
+      "transaction_type": "trade",
+      "contract_address": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+      "token_identifier": "97",
+      "buyer": "0xa7033cffe467b1549043633aed14bb68af5373e7",
+      "seller": "0x01700040e4c0b7ebb14ea91632ede071625059ae",
+      "source_file": "output/B/2_tranding/Meebits.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xd20418652a9464ae0520fd21699dd792ebbf4746317351eb47cb6fb51772c40d",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 41,
+      "first_confirmed_end_block": 14015442,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:13Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-005",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xe349318f2cc934eaa9fd454a1fdbe361f06e34745ac4051f9cef46df3aa2c0b4",
+      "block_number": 14516959,
+      "timestamp_utc": "2022-04-04T02:53:55Z",
+      "transaction_type": "trade",
+      "contract_address": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
+      "token_identifier": "8428",
+      "buyer": "0x7fe81534050fa6d648a6f5a33fed3136cbde3424",
+      "seller": "0xfdaed79ab8411f6317f678783a473cbc6972821a",
+      "source_file": "output/B/2_tranding/PudgyPenguins.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xe349318f2cc934eaa9fd454a1fdbe361f06e34745ac4051f9cef46df3aa2c0b4",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 52,
+      "first_confirmed_end_block": 14558523,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:13Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-006",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x712431de288cb1568f02657baa26ba337f62469bab2064f72cd5c7a8838cf115",
+      "block_number": 13988104,
+      "timestamp_utc": "2022-01-12T02:37:54Z",
+      "transaction_type": "trade",
+      "contract_address": "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42",
+      "token_identifier": "8050",
+      "buyer": "0x46e449a3f88d0e35b4520bc36e8dfda195c896b0",
+      "seller": "0x5c46deea1783f1d7e9579b963f2021ac1b5bfe7b",
+      "source_file": "output/B/2_tranding/ForgottenRunesWizardsCult.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x712431de288cb1568f02657baa26ba337f62469bab2064f72cd5c7a8838cf115",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 41,
+      "first_confirmed_end_block": 14015442,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:13Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-007",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x0481f0a8613a60ab9f428adfe669c7fb0a0f975a77af1968f98a6a62dc02ec32",
+      "block_number": 14021852,
+      "timestamp_utc": "2022-01-17T08:09:22Z",
+      "transaction_type": "trade",
+      "contract_address": "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
+      "token_identifier": "744",
+      "buyer": "0x65e78d3587edecb999a15fbbf04f3e5b0fbdc9f2",
+      "seller": "0x84cdda3986d8584a88ac1af647b10c63097952c4",
+      "source_file": "output/B/2_tranding/Loot.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x0481f0a8613a60ab9f428adfe669c7fb0a0f975a77af1968f98a6a62dc02ec32",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 42,
+      "first_confirmed_end_block": 14064813,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:18Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-008",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x2f66d47e1695be3109cf1cadfa20f46cf1754547c729327e4e2c44a9d2047081",
+      "block_number": 13020116,
+      "timestamp_utc": "2021-08-14T00:35:28Z",
+      "transaction_type": "trade",
+      "contract_address": "0x763864f1a74d748015f45f7c1181b60e62e40804",
+      "token_identifier": "6331",
+      "buyer": "0x98aec1e4e88564a48331e55b4366f6f4b2e48f24",
+      "seller": "0x2f1e4b9644a9ee9ec5a786d8aa8e900ad2085058",
+      "source_file": "output/B/2_tranding/Dope_Shibas.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x2f66d47e1695be3109cf1cadfa20f46cf1754547c729327e4e2c44a9d2047081",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 21,
+      "first_confirmed_end_block": 13028022,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:18Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-009",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x389ed330001023d11cf81acb79769c0e8e51a2ce9c37ab06ef632a6e5beb7b73",
+      "block_number": 14655523,
+      "timestamp_utc": "2022-04-25T18:59:56Z",
+      "transaction_type": "trade",
+      "contract_address": "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623",
+      "token_identifier": "8301",
+      "buyer": "0xec47741b1102b74c51cd673fe5572719add8a838",
+      "seller": "0x9115b05c877ac8f2f8c02aeaea35f58427790e66",
+      "source_file": "output/B/2_tranding/BoredApeKennelClub.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x389ed330001023d11cf81acb79769c0e8e51a2ce9c37ab06ef632a6e5beb7b73",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 54,
+      "first_confirmed_end_block": 14657265,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:18Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-010",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x0faba02557277c7537e1eb704bfcd5d9739166ff98a43567a17c986881b330ed",
+      "block_number": 12782859,
+      "timestamp_utc": "2021-07-07T22:00:22Z",
+      "transaction_type": "trade",
+      "contract_address": "0x1a92f7381b9f03921564a437210bb9396471050c",
+      "token_identifier": "6470",
+      "buyer": "0x8818d0c53d6f27ccfbed2690c7a65fdb1d94f351",
+      "seller": "0x7f04eb7ba1a3a05f6cb1100dd0173d68af94a728",
+      "source_file": "output/B/2_tranding/Cool_Cats.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x0faba02557277c7537e1eb704bfcd5d9739166ff98a43567a17c986881b330ed",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 17,
+      "first_confirmed_end_block": 12830538,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:19Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-011",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x19c94eafb8af2bf067d4c051aa90555913bf30a9d656e5f4c4d486d4e0aa2367",
+      "block_number": 14164827,
+      "timestamp_utc": "2022-02-08T10:11:15Z",
+      "transaction_type": "trade",
+      "contract_address": "0x32973908faee0bf825a343000fe412ebe56f802a",
+      "token_identifier": "6630",
+      "buyer": "0x70dec3b3ce31c3fac2c4c64885231870d29c4a55",
+      "seller": "0xc3f8e3b3808d2e33b06abfb8731b88948e1f2b8b",
+      "source_file": "output/B/2_tranding/Pixelmon.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x19c94eafb8af2bf067d4c051aa90555913bf30a9d656e5f4c4d486d4e0aa2367",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 45,
+      "first_confirmed_end_block": 14212926,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:23Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-012",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xdd5e5f9702902f0ec35fed4bfb8b74430abc479409bd009725ec7877aac7ac7c",
+      "block_number": 14591139,
+      "timestamp_utc": "2022-04-15T16:57:44Z",
+      "transaction_type": "trade",
+      "contract_address": "0x9378368ba6b85c1fba5b131b530f5f5bedf21a18",
+      "token_identifier": "34554",
+      "buyer": "0xd3d679f0ff9faaeb72efff75d10f12f2f39f18e5",
+      "seller": "0xded582ef2c05f3f7b07cef24104f83edf237611d",
+      "source_file": "output/B/2_tranding/VeeFriends_Series_2.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xdd5e5f9702902f0ec35fed4bfb8b74430abc479409bd009725ec7877aac7ac7c",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 53,
+      "first_confirmed_end_block": 14607894,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:23Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-013",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x27557d69ef1749d51555eec7cc55a649b66154a124d3a06b2643a43278122bd4",
+      "block_number": 13026981,
+      "timestamp_utc": "2021-08-15T02:03:13Z",
+      "transaction_type": "trade",
+      "contract_address": "0xef0182dc0574cd5874494a120750fd222fdb909a",
+      "token_identifier": "2729",
+      "buyer": "0x6102fb7b72936d10d1029573461cc2409979f49d",
+      "seller": "0xcefa6deaa12f9707a45c52ef79bb1fcf06aac87c",
+      "source_file": "output/B/2_tranding/RumbleKongLeague.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x27557d69ef1749d51555eec7cc55a649b66154a124d3a06b2643a43278122bd4",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 21,
+      "first_confirmed_end_block": 13028022,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:23Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-014",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xf26905e0f3ec87161201ec87c3bd2423e457e9dff49ebef5a5dd577e32800305",
+      "block_number": 14599433,
+      "timestamp_utc": "2022-04-16T23:55:48Z",
+      "transaction_type": "trade",
+      "contract_address": "0xc99c679c50033bbc5321eb88752e89a93e9e83c5",
+      "token_identifier": "1862",
+      "buyer": "0xcb37f89893d88c786cacce945d17f95a5a50a878",
+      "seller": "0x50bd6db0c478a96811fa4cc5d01bbed29ed4968e",
+      "source_file": "output/B/2_tranding/KILLABEARS.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xf26905e0f3ec87161201ec87c3bd2423e457e9dff49ebef5a5dd577e32800305",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 53,
+      "first_confirmed_end_block": 14607894,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:23Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-015",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xaf66ce3d6d0330e1dd53183d220a1f75979b21f0f421e9af83d6a064a67e9660",
+      "block_number": 14289194,
+      "timestamp_utc": "2022-02-27T16:01:06Z",
+      "transaction_type": "trade",
+      "contract_address": "0x59468516a8259058bad1ca5f8f4bff190d30e066",
+      "token_identifier": "4965",
+      "buyer": "0xf9d9697998dbc9abc1f9befdbb667042592dd829",
+      "seller": "0x18f6487519ccb9d7b6d024d5741057c3ecfa4532",
+      "source_file": "output/B/2_tranding/Invisible_Friends.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xaf66ce3d6d0330e1dd53183d220a1f75979b21f0f421e9af83d6a064a67e9660",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 47,
+      "first_confirmed_end_block": 14311668,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:28Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-016",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xa6530f0f7a5dd691f2be657e0e4daa8fb0a7d9a46afbaf0197a25964bafb6303",
+      "block_number": 14597286,
+      "timestamp_utc": "2022-04-16T16:00:06Z",
+      "transaction_type": "trade",
+      "contract_address": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+      "token_identifier": "1548",
+      "buyer": "0x237dd5e3a76ba4ee8acc007cd35033c49ef966c5",
+      "seller": "0xf9c11707d1f5fe2b7f4c82b2772543f2c4ef165a",
+      "source_file": "output/B/2_tranding/Moonbirds.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xa6530f0f7a5dd691f2be657e0e4daa8fb0a7d9a46afbaf0197a25964bafb6303",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 53,
+      "first_confirmed_end_block": 14607894,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:28Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-017",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x87eec039d21361a1879c2c6af1c6d1ba49c212c9c4751ab0b243ab5f2768c28b",
+      "block_number": 13909190,
+      "timestamp_utc": "2021-12-30T21:42:50Z",
+      "transaction_type": "trade",
+      "contract_address": "0x75e95ba5997eb235f40ecf8347cdb11f18ff640b",
+      "token_identifier": "1188",
+      "buyer": "0xf1ec35fd93753a9e56df611234933b0a5b3c6ab0",
+      "seller": "0xcb9805ac5ea5144915a6ab8929095d2b8f9fd1e7",
+      "source_file": "output/B/2_tranding/Psychedelics_Anonymous_Genesis.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x87eec039d21361a1879c2c6af1c6d1ba49c212c9c4751ab0b243ab5f2768c28b",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 39,
+      "first_confirmed_end_block": 13916700,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:28Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-018",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xc325ae0d8738643792e68dca78c29b3b3bebfa94c2d1c2417ec29e10b140b5a6",
+      "block_number": 14109355,
+      "timestamp_utc": "2022-01-30T20:30:45Z",
+      "transaction_type": "trade",
+      "contract_address": "0x704bf12276f5c4bc9349d0e119027ead839b081b",
+      "token_identifier": "8460",
+      "buyer": "0x7dab174d81d969071ab417a7505a7c2368a28783",
+      "seller": "0xade87d53bb1f54ce25e2c12c37ca811c7408a555",
+      "source_file": "output/B/2_tranding/Timeless.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xc325ae0d8738643792e68dca78c29b3b3bebfa94c2d1c2417ec29e10b140b5a6",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 43,
+      "first_confirmed_end_block": 14114184,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:28Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-019",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xe0529af06beb098298b510e253aee1c4d42f259f8bd37ff7f5cd2832cce45385",
+      "block_number": 14317420,
+      "timestamp_utc": "2022-03-04T01:08:59Z",
+      "transaction_type": "transfer",
+      "contract_address": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+      "token_identifier": "9681",
+      "buyer": "0x47c384027c2787a22bb486447f17b53c510b8bd1",
+      "seller": "0x7ea9ebc01310f82f98616efa945e2c7e5b98c862",
+      "source_file": "output/B/2_tranding/Azuki.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xe0529af06beb098298b510e253aee1c4d42f259f8bd37ff7f5cd2832cce45385",
+      "detector_event_type": "transfer",
+      "first_confirmed_snapshot": 48,
+      "first_confirmed_end_block": 14361039,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:33Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-020",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x153d41bfcd3341aeefafdeeef6cbc48f24b5467be0649a4709eccf9bb8f530f6",
+      "block_number": 13421707,
+      "timestamp_utc": "2021-10-15T08:57:44Z",
+      "transaction_type": "trade",
+      "contract_address": "0x0c2e57efddba8c768147d1fdf9176a0a6ebd5d83",
+      "token_identifier": "906",
+      "buyer": "0xdba2c41458d88e0523faddf80837f0084d263603",
+      "seller": "0xfa4b8314a33afe371ffaf23d02af3e958402e043",
+      "source_file": "output/B/2_tranding/KaijuKingz.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x153d41bfcd3341aeefafdeeef6cbc48f24b5467be0649a4709eccf9bb8f530f6",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 29,
+      "first_confirmed_end_block": 13422990,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:33Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-021",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x999ad56a04d60d88743890e803a760bdc6d80d58cc80cd53c25ca55204918e0a",
+      "block_number": 14477437,
+      "timestamp_utc": "2022-03-28T22:43:02Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x5af0d9827e0c53e4799bb226655a1de152a425a5",
+      "token_identifier": "1000",
+      "buyer": "0xa0acda097a94bbcec2d055da04eedca711f7a60c",
+      "seller": "0x227c7df69d3ed1ae7574a1a7685fded90292eb48",
+      "source_file": "output/B/2_tranding/Milady.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x999ad56a04d60d88743890e803a760bdc6d80d58cc80cd53c25ca55204918e0a",
+      "detector_event_type": "transfer",
+      "first_confirmed_snapshot": 53,
+      "first_confirmed_end_block": 14607894,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:33Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-022",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x7eded5e197230083637e46c32114c373f4a909d0f4e34375a095e389b4c3ba1d",
+      "block_number": 14405241,
+      "timestamp_utc": "2022-03-17T17:00:52Z",
+      "transaction_type": "trade",
+      "contract_address": "0xd9c036e9eef725e5aca4a22239a23feb47c3f05d",
+      "token_identifier": "4151",
+      "buyer": "0xf2ee19a1758f287cc58d6460e95783160255bb6d",
+      "seller": "0x970938794e533571b6af8da60ea6b2f5f7777ba9",
+      "source_file": "output/B/2_tranding/MidnightBreeze.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x7eded5e197230083637e46c32114c373f4a909d0f4e34375a095e389b4c3ba1d",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 49,
+      "first_confirmed_end_block": 14410410,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:33Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-023",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x538374eddcdf010779358c32f9f5c11e207dfbf9c5faca4da2854c67f347917d",
+      "block_number": 13166793,
+      "timestamp_utc": "2021-09-05T16:27:03Z",
+      "transaction_type": "trade",
+      "contract_address": "0x1b829b926a14634d36625e60165c0770c09d02b2",
+      "token_identifier": "1004421",
+      "buyer": "0xdd0e8af6275b34289550e8a659356488d216aa1b",
+      "seller": "0x6ce55caca95a00e938ea07a3ca38f2c941fe917e",
+      "source_file": "output/B/2_tranding/Treeverse.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x538374eddcdf010779358c32f9f5c11e207dfbf9c5faca4da2854c67f347917d",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 24,
+      "first_confirmed_end_block": 13176135,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:38Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-024",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x68761eb72f9d714e8fe6b97803e108a9ebaed25c74ed37d1f63df05e193ebe1f",
+      "block_number": 14612618,
+      "timestamp_utc": "2022-04-19T01:23:27Z",
+      "transaction_type": "trade",
+      "contract_address": "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
+      "token_identifier": "11418",
+      "buyer": "0x6216a53dfb956e3f86056fc515f70e6c0c21217a",
+      "seller": "0x03accaea1305844d34a9df17b74ef8006a157867",
+      "source_file": "output/B/2_tranding/Beanz.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x68761eb72f9d714e8fe6b97803e108a9ebaed25c74ed37d1f63df05e193ebe1f",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 54,
+      "first_confirmed_end_block": 14657265,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:38Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-025",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x2f743f59d71ee53a4b0b57bf9fcdefc65f35c7de9567ddc452fd21a8435f8cac",
+      "block_number": 14680629,
+      "timestamp_utc": "2022-04-29T17:45:26Z",
+      "transaction_type": "trade",
+      "contract_address": "0x716f29b8972d551294d9e02b3eb0fc1107fbf4aa",
+      "token_identifier": "4975",
+      "buyer": "0x3528d3859e1db71434966c24f24a9f34cb4ed2d1",
+      "seller": "0x2685a3626fd0b257a4b0f4dbcc4f1ead11803cd2",
+      "source_file": "output/B/2_tranding/Imaginary_Ones.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x2f743f59d71ee53a4b0b57bf9fcdefc65f35c7de9567ddc452fd21a8435f8cac",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 55,
+      "first_confirmed_end_block": 14688128,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:38Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-026",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x16674a188a85d5b1af532ac89dc8e0e846069e68db65699bb1ef3b69d0b55ab0",
+      "block_number": 14423395,
+      "timestamp_utc": "2022-03-20T12:58:49Z",
+      "transaction_type": "trade",
+      "contract_address": "0x762bc5880f128dcac29cffdde1cf7ddf4cfc39ee",
+      "token_identifier": "3098",
+      "buyer": "0x435c78f02903d1bff9b557aa0346ac7a64926308",
+      "seller": "0xb0799d85fafc89c81c6c84f1c049769166d60627",
+      "source_file": "output/B/2_tranding/Troverse_Planets.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x16674a188a85d5b1af532ac89dc8e0e846069e68db65699bb1ef3b69d0b55ab0",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 50,
+      "first_confirmed_end_block": 14459781,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:38Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-027",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x0fde553dc9d782703cad8991030fa17d3b148729fe6a04db8387803c7e070d7c",
+      "block_number": 14272782,
+      "timestamp_utc": "2022-02-25T03:08:04Z",
+      "transaction_type": "trade",
+      "contract_address": "0x8943c7bac1914c9a7aba750bf2b6b09fd21037e0",
+      "token_identifier": "7966",
+      "buyer": "0x20dc30f2203ccbd925f60e84ed779d3bb0ad8d71",
+      "seller": "0x75a28547ac8eb72c2035aad5e146cb775604a05f",
+      "source_file": "output/B/2_tranding/Lazy_Lions.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x0fde553dc9d782703cad8991030fa17d3b148729fe6a04db8387803c7e070d7c",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 47,
+      "first_confirmed_end_block": 14311668,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:43Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-028",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xa0e2069de1c09b279bc7f0a8830805a8e09237372eb09e98e6b1f05f46caa7b2",
+      "block_number": 13986687,
+      "timestamp_utc": "2022-01-11T21:30:14Z",
+      "transaction_type": "trade",
+      "contract_address": "0xf07468ead8cf26c752c676e43c814fee9c8cf402",
+      "token_identifier": "2074",
+      "buyer": "0xc090662fff4d9965cfa6b1d5297ddf873942bb39",
+      "seller": "0x57029c88b46c3c7bdac84b5ea730b8c977e25c24",
+      "source_file": "output/B/2_tranding/CryptoPhunksV2.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xa0e2069de1c09b279bc7f0a8830805a8e09237372eb09e98e6b1f05f46caa7b2",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 41,
+      "first_confirmed_end_block": 14015442,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:43Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-029",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x8ed12432008585996d3c4c92e75e3d3cf7206658963a69048f2ee7ab5f1fd729",
+      "block_number": 13325101,
+      "timestamp_utc": "2021-09-30T05:05:27Z",
+      "transaction_type": "trade",
+      "contract_address": "0x8a1bbef259b00ced668a8c69e50d92619c672176",
+      "token_identifier": "6812",
+      "buyer": "0x6b41d394e2dff2de63f62959a79dac372379dd54",
+      "seller": "0xa0c6a5891eeb8f2eaa5852f63b9db08125e0e437",
+      "source_file": "output/B/2_tranding/Habbo_Avatars.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x8ed12432008585996d3c4c92e75e3d3cf7206658963a69048f2ee7ab5f1fd729",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 28,
+      "first_confirmed_end_block": 13373619,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:43Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-030",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x67b3595b64a63aba5522e4a2e43e87e02527ff4fcaa0702f1d8417c6d3762b9b",
+      "block_number": 13915208,
+      "timestamp_utc": "2021-12-31T20:24:23Z",
+      "transaction_type": "trade",
+      "contract_address": "0x1d20a51f088492a0f1c57f047a9e30c9ab5c07ea",
+      "token_identifier": "2198",
+      "buyer": "0xad4a190d4aea2180b66906537f1fd9700c83842a",
+      "seller": "0x3fdccd59070d44a1560ac3d6757df197bb087f1e",
+      "source_file": "output/B/2_tranding/loomlocknft.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x67b3595b64a63aba5522e4a2e43e87e02527ff4fcaa0702f1d8417c6d3762b9b",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 39,
+      "first_confirmed_end_block": 13916700,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:43Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-031",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xca2b5740386b02d1cf94ff1ce4cb1d810729f3a909e1b6f7834663ec0344e6e8",
+      "block_number": 13138101,
+      "timestamp_utc": "2021-09-01T06:09:06Z",
+      "transaction_type": "trade",
+      "contract_address": "0x364c828ee171616a39897688a831c2499ad972ec",
+      "token_identifier": "2495",
+      "buyer": "0xb32338f821b2adb99569b3f6c9baa265507e6394",
+      "seller": "0x8c02e6d90ea5bcdb4d72bc3da1e7aeff1ed256f3",
+      "source_file": "output/B/2_tranding/Sappy_Seals.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xca2b5740386b02d1cf94ff1ce4cb1d810729f3a909e1b6f7834663ec0344e6e8",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 24,
+      "first_confirmed_end_block": 13176135,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:48Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-032",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x99a8e1153d1bb9c826e0080aebdedf56a40683f16c2b2caf2f4788a0b70a7943",
+      "block_number": 13436155,
+      "timestamp_utc": "2021-10-17T15:12:18Z",
+      "transaction_type": "trade",
+      "contract_address": "0x59ec8e68d9caa87f6b5bc4013172c20e85ccdad0",
+      "token_identifier": "7137",
+      "buyer": "0x99975708019d2e354464f528fedea3244bcf6426",
+      "seller": "0xf542cc19db89bbc0ab8f856492c69b38575a2807",
+      "source_file": "output/B/2_tranding/SportsIcon_Lion_Club.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x99a8e1153d1bb9c826e0080aebdedf56a40683f16c2b2caf2f4788a0b70a7943",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 30,
+      "first_confirmed_end_block": 13472361,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:48Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-033",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x45ec69de1531c7a030529c1d0eaa7d788330b35b89d11aca1009d82b14814330",
+      "block_number": 14521557,
+      "timestamp_utc": "2022-04-04T20:08:14Z",
+      "transaction_type": "trade",
+      "contract_address": "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      "token_identifier": "2523",
+      "buyer": "0x91b34b9c1270d6cdc6ee23c9c13ccecbbcaf0828",
+      "seller": "0xdc47b7380bcbba367671c8caf9f96f6494214183",
+      "source_file": "output/B/2_tranding/My_Pet_Hooligan.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x45ec69de1531c7a030529c1d0eaa7d788330b35b89d11aca1009d82b14814330",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 52,
+      "first_confirmed_end_block": 14558523,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:48Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-034",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xdc1412be1878c54b171879d10dde8ce208a86140435f167bf28466df9d702cf6",
+      "block_number": 13799547,
+      "timestamp_utc": "2021-12-13T22:20:59Z",
+      "transaction_type": "trade",
+      "contract_address": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+      "token_identifier": "8799",
+      "buyer": "0xec4ee55488eda04f6e02cdbbb745f50dd612d937",
+      "seller": "0x7e3f815a9dabe9dbe4cb3c2d80338679bda366c2",
+      "source_file": "output/B/2_tranding/CloneX.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xdc1412be1878c54b171879d10dde8ce208a86140435f167bf28466df9d702cf6",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 37,
+      "first_confirmed_end_block": 13817958,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:48Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-035",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x3c30f5af7181b761381b9a1fe1956bc004e32234009a8bd711ab9a418b0811a8",
+      "block_number": 13265497,
+      "timestamp_utc": "2021-09-20T23:00:47Z",
+      "transaction_type": "trade",
+      "contract_address": "0xdd467a6c8ae2b39825a452e06b4fa82f73d4253d",
+      "token_identifier": "4485",
+      "buyer": "0x11bf988f25aa57e21f8b052cbc95d7f8b9bec9e8",
+      "seller": "0x44832a1f955d3c5cf4ca12e19a248ca31ff191a4",
+      "source_file": "output/B/2_tranding/MarsCatsVoyage.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x3c30f5af7181b761381b9a1fe1956bc004e32234009a8bd711ab9a418b0811a8",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 26,
+      "first_confirmed_end_block": 13274877,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:53Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-036",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xc928fd3b7e69160f8715485426b9f53c21ffe2c3aa1d34ae272afea8c7fac251",
+      "block_number": 14087926,
+      "timestamp_utc": "2022-01-27T13:25:02Z",
+      "transaction_type": "trade",
+      "contract_address": "0xdfde78d2baec499fe18f2be74b6c287eed9511d7",
+      "token_identifier": "7000061",
+      "buyer": "0x8755b3ee71e2c03f12a257e0401c3d3e5ce72331",
+      "seller": "0x98ec77e2e8f663bc93fddb58a4b157e64b6d3c42",
+      "source_file": "output/B/2_tranding/BrainDrops.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xc928fd3b7e69160f8715485426b9f53c21ffe2c3aa1d34ae272afea8c7fac251",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 43,
+      "first_confirmed_end_block": 14114184,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:53Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-037",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xc9401bb0de1c966117904dd95cc7b300455ceb90156a3ee8ab92fd231ea27f79",
+      "block_number": 14364545,
+      "timestamp_utc": "2022-03-11T08:43:53Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x0b4b2ba334f476c8f41bfe52a428d6891755554d",
+      "token_identifier": "8264",
+      "buyer": "0xa6c503783e6152a4ad4877e8c19a5ba20fa7f8fb",
+      "seller": "0x7662944c45af607896afb57a9c3c10b0c89341f2",
+      "source_file": "output/B/2_tranding/JRNY_NFT_Club.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xc9401bb0de1c966117904dd95cc7b300455ceb90156a3ee8ab92fd231ea27f79",
+      "detector_event_type": "transfer",
+      "first_confirmed_snapshot": 49,
+      "first_confirmed_end_block": 14410410,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:53Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-038",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x4abb9636da811b498ada0d857ad4f99af0150399b2c17f376a2bdfa0dc138683",
+      "block_number": 12609239,
+      "timestamp_utc": "2021-06-10T21:35:30Z",
+      "transaction_type": "trade",
+      "contract_address": "0xa3aee8bce55beea1951ef834b99f3ac60d1abeeb",
+      "token_identifier": "742",
+      "buyer": "0x24917f8770eba0a470ab74a1796c2c512fcb84b7",
+      "seller": "0xebfe88ef45e7f6462efa501a980b2436af26a88d",
+      "source_file": "output/B/2_tranding/VeeFriends.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x4abb9636da811b498ada0d857ad4f99af0150399b2c17f376a2bdfa0dc138683",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 13,
+      "first_confirmed_end_block": 12633054,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:53Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-039",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x3c051d000d51f2e5fbb51d358c4fa24fbad1a8b0bd390115b8bd217b16f90ce4",
+      "block_number": 14610294,
+      "timestamp_utc": "2022-04-18T16:41:39Z",
+      "transaction_type": "trade",
+      "contract_address": "0x94638cbf3c54c1f956a5f05cbc0f9afb6822020d",
+      "token_identifier": "836",
+      "buyer": "0x8d065b82f2b9a0b4de2c7fcd55bf5a7b608f88da",
+      "seller": "0x1de787506e4360b76e4a697fc53ca1548cbc2a21",
+      "source_file": "output/B/2_tranding/inbetweeners.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x3c051d000d51f2e5fbb51d358c4fa24fbad1a8b0bd390115b8bd217b16f90ce4",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 54,
+      "first_confirmed_end_block": 14657265,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:58Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-040",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x0863f4aa45bf2de9e38292877ced7527b81a75bb4b2b1a58ba711fd8b23be588",
+      "block_number": 14502723,
+      "timestamp_utc": "2022-04-01T21:16:03Z",
+      "transaction_type": "trade",
+      "contract_address": "0x16de9d750f4ac24226154c40980ef83d4d3fd4ad",
+      "token_identifier": "1383",
+      "buyer": "0x424c71d31127136fd63548bf7bd96b75fd880a9e",
+      "seller": "0xb57efba074966fc499835996746acde35d7ad38e",
+      "source_file": "output/B/2_tranding/Ethlizards.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x0863f4aa45bf2de9e38292877ced7527b81a75bb4b2b1a58ba711fd8b23be588",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 51,
+      "first_confirmed_end_block": 14509152,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:58Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-041",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xac63d7b70b8fc99e8a93081d24863861a034bdb6c9821462c035ba25bd02ffe5",
+      "block_number": 13422924,
+      "timestamp_utc": "2021-10-15T13:29:44Z",
+      "transaction_type": "trade",
+      "contract_address": "0x11450058d796b02eb53e65374be59cff65d3fe7f",
+      "token_identifier": "55",
+      "buyer": "0xe09f48162313c04a1d59b67f37679bd9f8b54f9f",
+      "seller": "0xb6a4f494bb9435e5c342ce043e6d6061854f7591",
+      "source_file": "output/B/2_tranding/SHIBOSHIS.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xac63d7b70b8fc99e8a93081d24863861a034bdb6c9821462c035ba25bd02ffe5",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 31,
+      "first_confirmed_end_block": 13521732,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:58Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-042",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x59f5e4a21fc7dd7b500173445be3dbbcc063f2d204dfd8391aa58bc429e09a5f",
+      "block_number": 11999589,
+      "timestamp_utc": "2021-03-08T18:55:51Z",
+      "transaction_type": "trade",
+      "contract_address": "0x31385d3520bced94f77aae104b406994d8f2168c",
+      "token_identifier": "3257",
+      "buyer": "0x2b3ab8e7bb14988616359b78709538b10900ab7d",
+      "seller": "0xd6dd6961d3224958fcd306b76a991ab974ec1ebc",
+      "source_file": "output/B/2_tranding/BASTARD_GAN_PUNKS_V2.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x59f5e4a21fc7dd7b500173445be3dbbcc063f2d204dfd8391aa58bc429e09a5f",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 1,
+      "first_confirmed_end_block": 12040602,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:10:58Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-043",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x4372bfe7fc5766ae2744483a3b0e3c5007eac168057a7f837bc520c680c9de39",
+      "block_number": 14247183,
+      "timestamp_utc": "2022-02-21T03:59:36Z",
+      "transaction_type": "trade",
+      "contract_address": "0x79fcdef22feed20eddacbb2587640e45491b757f",
+      "token_identifier": "896",
+      "buyer": "0x7c901d78ba68b5be8368c2305f3b270bf93c4ced",
+      "seller": "0x1bea80c2b888a6a44fc43b87e5c84823e97af614",
+      "source_file": "output/B/2_tranding/mfer.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x4372bfe7fc5766ae2744483a3b0e3c5007eac168057a7f837bc520c680c9de39",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 46,
+      "first_confirmed_end_block": 14262297,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:11:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-044",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x042f9277ceeeed7ed8a819ef94cba8ecd2d59c1110ab3b167e4e5409cfc2e984",
+      "block_number": 14340752,
+      "timestamp_utc": "2022-03-07T16:20:24Z",
+      "transaction_type": "trade",
+      "contract_address": "0x4a537f61ef574153664c0dbc8c8f4b900cacbe5d",
+      "token_identifier": "404",
+      "buyer": "0x5dacf1ce88a5acd042a3c22c9b15982927428191",
+      "seller": "0xf2e9db3c5d06015833df31ed3c37172a2b34ee7f",
+      "source_file": "output/B/2_tranding/Mavia_Land.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x042f9277ceeeed7ed8a819ef94cba8ecd2d59c1110ab3b167e4e5409cfc2e984",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 48,
+      "first_confirmed_end_block": 14361039,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:11:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-045",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x35dddb77d9d3fd9b9a60365f0daad49af7b01ea1282cc5ee49d99fb06545a8a6",
+      "block_number": 14186224,
+      "timestamp_utc": "2022-02-11T17:56:27Z",
+      "transaction_type": "trade",
+      "contract_address": "0x5c1a0cc6dadf4d0fb31425461df35ba80fcbc110",
+      "token_identifier": "3836",
+      "buyer": "0xe8616eab82aa739e532ab72f75bebb8e3238c583",
+      "seller": "0x7fb615fc9d0db8faaa8916883f6dfe089bbf72ab",
+      "source_file": "output/B/2_tranding/Farm_Land_by_Pixels.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x35dddb77d9d3fd9b9a60365f0daad49af7b01ea1282cc5ee49d99fb06545a8a6",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 45,
+      "first_confirmed_end_block": 14212926,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:11:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-046",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x81cd126d9f3f9c8f66cbda2fbe79996525000e5c884ba1bdec21433b91536778",
+      "block_number": 13898364,
+      "timestamp_utc": "2021-12-29T05:35:43Z",
+      "transaction_type": "trade",
+      "contract_address": "0x35471f47c3c0bc5fc75025b97a19ecdde00f78f8",
+      "token_identifier": "9380",
+      "buyer": "0xd7627772848a266d55a2607c5e48c2e5a79951de",
+      "seller": "0xefb33715195bbcd3d0dbe2c450dd4546f9f04fa0",
+      "source_file": "output/B/2_tranding/Party_Bears.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x81cd126d9f3f9c8f66cbda2fbe79996525000e5c884ba1bdec21433b91536778",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 39,
+      "first_confirmed_end_block": 13916700,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:11:03Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-047",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x64906ede897e161f80c47e9a828d2e8f0c0b427e267175855f98fa96af7cb90a",
+      "block_number": 14328809,
+      "timestamp_utc": "2022-03-05T19:34:52Z",
+      "transaction_type": "trade",
+      "contract_address": "0x892848074ddea461a15f337250da3ce55580ca85",
+      "token_identifier": "425",
+      "buyer": "0x900e7ad1ab18cebb4c21f71795364e9b636831ca",
+      "seller": "0x605dd719317f9236277fd4dcc7e8cadff38d1dcb",
+      "source_file": "output/B/2_tranding/CyberBrokers.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x64906ede897e161f80c47e9a828d2e8f0c0b427e267175855f98fa96af7cb90a",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 48,
+      "first_confirmed_end_block": 14361039,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:11:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-048",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0x5bdd085a97319ff0482c82a4326e724ce4b74e17aa9cabcd51c0ed1109b25008",
+      "block_number": 14322448,
+      "timestamp_utc": "2022-03-04T19:38:49Z",
+      "transaction_type": "trade",
+      "contract_address": "0xc143bbfcdbdbed6d454803804752a064a622c1f3",
+      "token_identifier": "11521",
+      "buyer": "0xe30a31358f17b6468500abb5cbc043561c4a710e",
+      "seller": "0x6fc7197fa180747d54b336f4d0b5c8439d183b92",
+      "source_file": "output/B/2_tranding/Async_Blueprints.csv",
+      "etherscan_url": "https://etherscan.io/tx/0x5bdd085a97319ff0482c82a4326e724ce4b74e17aa9cabcd51c0ed1109b25008",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 48,
+      "first_confirmed_end_block": 14361039,
+      "evidence_mask": 2,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:11:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-049",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xd77f24bba56399a40bab585c7d4e7fab65b6c0aa7309490b9b75d12737e1e9e3",
+      "block_number": 14217205,
+      "timestamp_utc": "2022-02-16T12:45:40Z",
+      "transaction_type": "transfer",
+      "contract_address": "0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d",
+      "token_identifier": "7840",
+      "buyer": "0xde9816c2eddff1d26710053950380165e910916d",
+      "seller": "0x910bc4df4cc0ec85b95ffd3733cd4509cb92184b",
+      "source_file": "output/B/2_tranding/Realms_for_Adventurers_.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xd77f24bba56399a40bab585c7d4e7fab65b6c0aa7309490b9b75d12737e1e9e3",
+      "detector_event_type": "transfer",
+      "first_confirmed_snapshot": 46,
+      "first_confirmed_end_block": 14262297,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:11:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    },
+    {
+      "sample_id": "wash_trading-050",
+      "dataset": "wash_trading",
+      "target_label": "wash_trading",
+      "transaction_hash": "0xd63523799e4827488ba8505f36f9246177c887dbc984f6907e3aed00fc10bc6a",
+      "block_number": 13451104,
+      "timestamp_utc": "2021-10-19T23:25:05Z",
+      "transaction_type": "trade",
+      "contract_address": "0x30917a657ae7d1132bdca40187d781fa3b60002f",
+      "token_identifier": "117",
+      "buyer": "0x31a0aeb7ef65b9f795652da4fc73c6ad7bae244a",
+      "seller": "0xd4eae02f2f93a30effd3d9a1ba7f0bf51185ba68",
+      "source_file": "output/B/2_tranding/PxlFangs.csv",
+      "etherscan_url": "https://etherscan.io/tx/0xd63523799e4827488ba8505f36f9246177c887dbc984f6907e3aed00fc10bc6a",
+      "detector_event_type": "trade",
+      "first_confirmed_snapshot": 33,
+      "first_confirmed_end_block": 13620474,
+      "evidence_mask": 1,
+      "etherscan_validation": {
+        "checked_at_utc": "2026-09-25T07:11:08Z",
+        "http_status": 200,
+        "status": "verified",
+        "checks": {
+          "transaction_hash": true,
+          "block_number": true,
+          "timestamp": true,
+          "contract_address": true,
+          "buyer": true,
+          "seller": true
+        },
+        "error": ""
+      }
+    }
+  ]
+}

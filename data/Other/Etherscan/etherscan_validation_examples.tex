@@ -1,0 +1,35 @@
+\begin{table*}[t]
+\centering
+\caption{Examples from the transaction-level Etherscan validation sample.}
+\label{tab:etherscan_validation_examples}
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrlrllll}
+\toprule
+\textbf{Class} & \textbf{Transaction hash} & \textbf{Block} &
+\textbf{Timestamp (UTC)} & \textbf{Contract} & \textbf{Token ID} &
+\textbf{Buyer} & \textbf{Seller} & \textbf{Etherscan} \\
+\midrule
+Rug pull & \href{https://etherscan.io/tx/0xdf79ec1ec493d2f4629ddc20e1be896ccc72623e8fa8e229914b81f3a308697b}{\texttt{0xdf79ec...08697b}} & 13,794,359 & 2021-12-13 03:13:14 & \texttt{0x97fe0e...05c970} & 856 & \texttt{0x71c2a7...5018d4} & \texttt{0xc89d09...24fc76} & Verified \\
+Counterfeit & \href{https://etherscan.io/tx/0xc2cf1dc66b357ef5801b514133e16367a8c48cc484da8d52fda68757a188cf76}{\texttt{0xc2cf1d...88cf76}} & 14,597,853 & 2022-04-16 17:57:59 & \texttt{0x1082cb...96837d} & 888 & \texttt{0x8c1be7...a64dba} & \texttt{0xb20224...a764e8} & Verified \\
+Wash trading & \href{https://etherscan.io/tx/0x7c104a9970b3b9c545834e87f76968c271bd17287384f50f620bc25f51ed3085}{\texttt{0x7c104a...ed3085}} & 13,461,503 & 2021-10-21 14:16:52 & \texttt{0x8a90ca...b8992e} & 9778 & \texttt{0x1e32e8...601540} & \texttt{0x4af567...f91b1b} & Verified \\
+Rug pull & \href{https://etherscan.io/tx/0xb243da87c0cfdf0a0ae3eadae7be7a08dce357c046c32ba2486d4f17ee776fe9}{\texttt{0xb243da...776fe9}} & 13,342,530 & 2021-10-02 22:20:25 & \texttt{0x233a65...da1642} & 4825 & \texttt{0x94efa3...6a3f82} & \texttt{0xeba8c6...4054eb} & Verified \\
+Counterfeit & \href{https://etherscan.io/tx/0x55751eb39532fb3720dbf481017402853e6e6d1482bf1af59fc885f7545c0367}{\texttt{0x55751e...5c0367}} & 15,433,368 & 2022-08-29 09:35:57 & \texttt{0x3955e4...792d08} & 308 & \texttt{0xf3d707...c09227} & \texttt{0x67aa86...1cfa68} & Verified \\
+\bottomrule
+\end{tabular}%
+}
+\vspace{3pt}
+\begin{minipage}{0.98\textwidth}
+\footnotesize
+\raggedright
+\textit{Notes:} The complete audit contains 150 deterministically sampled
+records, with 50 records from each evaluation task. Each hyperlink points to
+the corresponding Etherscan transaction page. ``Verified'' indicates that
+the retrieved page matched the transaction hash, block number, Unix timestamp,
+contract address, buyer address, and seller address stored in the local record.
+Full hashes, addresses, token identifiers, source-file provenance, and
+field-level validation results are provided in the accompanying JSON file.
+\end{minipage}
+\end{table*}
