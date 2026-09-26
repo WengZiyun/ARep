@@ -1,0 +1,5 @@
+﻿decision_mode,rows_x,avg_prompt_tokens,avg_completion_tokens,avg_total_tokens,avg_latency_ms,rows_y,sell_count,hold_count,sell_rate,mode_label,color
+llm_base,20,451.6,230.55,682.15,2429.3,10,8,2,0.8,LLM-Base,#4C6EF5
+llm_rank,20,497.5,215.2,712.7,2068.45,10,10,0,1.0,LLM+Rank,#E8590C
+llm_rank_compact,20,428.9,228.8,657.7,1934.5,10,9,1,0.9,LLM+Rank Compact,#2B8A3E
+llm_rank_only,20,383.9,219.75,603.65,2265.5,10,9,1,0.9,LLM+Rank Only,#C2255C

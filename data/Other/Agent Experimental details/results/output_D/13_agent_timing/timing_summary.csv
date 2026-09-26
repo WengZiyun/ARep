@@ -1,0 +1,11 @@
+﻿decision_mode,collection_type,angle,contracts,signal_coverage,mean_lead_windows,median_lead_windows,mean_consecutive_risk_windows,no_signal_rate,never_bought_no_signal_rate,mean_total_tokens
+llm_base,rugpull,buy,5,1.0,58.82078417061996,45.78423143980862,3.0,0.0,0.0,1950.2
+llm_rank,rugpull,buy,5,1.0,58.82078417061996,45.78423143980862,3.0,0.0,0.0,2199.7
+llm_rank_compact,rugpull,buy,5,1.0,58.82078417061996,45.78423143980862,3.0,0.0,0.0,1929.4
+llm_rank_mini,rugpull,buy,5,1.0,58.82078417061996,45.78423143980862,2.8,0.0,0.0,1883.1
+rule_agent,rugpull,buy,5,1.0,58.82078417061996,45.78423143980862,2.6,0.0,0.0,0.0
+llm_base,rugpull,sell,5,1.0,58.32078417061996,45.0746665044804,1.6,0.0,0.0,2133.6
+llm_rank,rugpull,sell,5,0.9,62.887683754792384,45.78423143980862,2.2,0.09999999999999998,0.0,2288.5
+llm_rank_compact,rugpull,sell,5,0.9,62.887683754792384,45.78423143980862,2.3,0.09999999999999998,0.0,1903.3
+llm_rank_mini,rugpull,sell,5,0.8,65.02561529416535,68.0695170903783,1.7,0.19999999999999996,0.0,1696.5
+rule_agent,rugpull,sell,5,0.0,,,0.0,1.0,0.0,0.0

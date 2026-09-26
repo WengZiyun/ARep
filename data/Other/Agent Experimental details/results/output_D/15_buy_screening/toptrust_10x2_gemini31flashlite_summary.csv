@@ -1,0 +1,5 @@
+﻿decision_mode,model_name,malicious_n,top_trust_n,malicious_prevent_buy_rate,top_trust_false_reject_rate,mean_total_tokens,mean_latency_ms,parse_success_rate
+llm_base,gemini-3.1-flash-lite-preview,10,10,0.0,0.1,874.75,1880.65,1.0
+llm_base_rank,gemini-3.1-flash-lite-preview,10,10,0.3,0.3,1029.05,1778.25,1.0
+llm_base_rank_mini,gemini-3.1-flash-lite-preview,10,10,0.2,0.4,891.95,1826.5,1.0
+llm_rank,gemini-3.1-flash-lite-preview,10,10,0.4,1.0,749.65,1784.15,1.0

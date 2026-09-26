@@ -1,0 +1,6 @@
+﻿"decision_mode","model_name","malicious_n","good_n","malicious_prevent_buy_rate","good_false_reject_rate","mean_total_tokens","mean_prompt_tokens","mean_completion_tokens","mean_latency_ms","parse_success_rate"
+"llm_base","deepseek-v3.2","100","100","0.5","0.01","917.71","862.045","55.665","5592.625","1.0"
+"llm_base_rank","deepseek-v3.2","99","100","0.5858585858585859","0.04","868.3969849246231","814.1557788944724","54.24120603015076","5433.613065326633","1.0"
+"llm_base_rank_compact","deepseek-v3.2","100","99","0.57","0.030303030303030304","916.7638190954774","861.894472361809","54.869346733668344","5627.422110552764","1.0"
+"llm_base_rank_mini","deepseek-v3.2","100","100","0.57","0.03","886.515","832.1","54.415","5225.08","1.0"
+"rule_agent","rule_agent","100","100","0.3","0.01","0.0","0.0","0.0","0.0","1.0"

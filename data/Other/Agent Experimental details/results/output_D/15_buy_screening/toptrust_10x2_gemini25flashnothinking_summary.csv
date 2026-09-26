@@ -1,0 +1,5 @@
+﻿decision_mode,model_name,malicious_n,top_trust_n,malicious_prevent_buy_rate,top_trust_false_reject_rate,mean_total_tokens,mean_latency_ms,parse_success_rate
+llm_base,gemini-2.5-flash-nothinking,10,10,0.5,0.0,877.4,1604.65,1.0
+llm_base_rank,gemini-2.5-flash-nothinking,10,10,1.0,0.0,1028.05,1600.35,1.0
+llm_base_rank_mini,gemini-2.5-flash-nothinking,10,10,0.4,0.0,892.25,1508.55,1.0
+llm_rank,gemini-2.5-flash-nothinking,10,10,0.5,1.0,752.2,1554.05,1.0

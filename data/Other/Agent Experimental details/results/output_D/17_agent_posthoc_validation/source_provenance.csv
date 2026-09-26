@@ -1,0 +1,7 @@
+﻿artifact,status,use,limitation
+all_models_summary.csv: GPT-5.4-nano recorded-run rows,summary_only_not_row_level_validatable,Retain as historical record only; do not present as post-hoc validated.,No matching 100x2 row-level file with the same reported metrics was identified.
+toptrust_100x2_decisions_end.csv,row_level_available_alternate_gpt_run,"Use as the auditable GPT run, reported separately from the historical recorded-run rows.",Raw provider response and exact rendered prompts were not saved.
+Claude decision CSV files,row_level_available_partial_output_fields,Use after parse and saved-field validation.,Risk/evidence-view fields and raw provider responses were not retained.
+DeepSeek decision CSV files,row_level_available_partial_output_fields,Use after parse and saved-field validation; report missing attempts.,Risk/evidence-view fields and raw provider responses were not retained.
+Gemini decision CSV files,row_level_available_heavy_parse_failure,Use only parse-valid non-fallback rows as conditional descriptive evidence.,Most rows used rule fallback; valid-only rows may be selection-biased.
+8_agent_decisions/agent_decisions.csv,raw_decision_text_available_separate_experiment,Suitable for a separate full raw-text audit of the earlier experiment.,Not the buy-screening experiment summarized here.

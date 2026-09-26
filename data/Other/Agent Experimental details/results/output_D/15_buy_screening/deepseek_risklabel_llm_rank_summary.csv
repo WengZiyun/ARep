@@ -1,0 +1,2 @@
+﻿decision_mode,model_name,malicious_n,good_n,malicious_prevent_buy_rate,good_false_reject_rate,mean_total_tokens,mean_prompt_tokens,mean_completion_tokens,mean_latency_ms,parse_success_rate
+llm_rank,deepseek-v3.2,100,100,0.13,0.0,767.065,713.155,53.91,5130.04,1.0

@@ -1,0 +1,17 @@
+﻿model_name,decision_mode,checked_rows,consistent_rows,prompt_rule_consistency_rate
+gpt-5.4-nano,llm_base,200,183,0.915
+gpt-5.4-nano,llm_base_rank,200,184,0.92
+gpt-5.4-nano,llm_base_rank_mini,200,200,1.0
+gpt-5.4-nano,llm_rank,200,200,1.0
+grok-4-1-fast,llm_base,200,200,1.0
+grok-4-1-fast,llm_base_rank,200,197,0.985
+grok-4-1-fast,llm_base_rank_mini,200,186,0.93
+grok-4-1-fast,llm_rank,200,200,1.0
+claude-haiku-4-5-20251001,llm_base,200,200,1.0
+claude-haiku-4-5-20251001,llm_base_rank,200,200,1.0
+claude-haiku-4-5-20251001,llm_base_rank_mini,200,179,0.895
+claude-haiku-4-5-20251001,llm_rank,200,200,1.0
+gemini-2.5-flash-nothinking,llm_base,200,145,0.725
+gemini-2.5-flash-nothinking,llm_base_rank,200,200,1.0
+gemini-2.5-flash-nothinking,llm_base_rank_mini,200,198,0.99
+gemini-2.5-flash-nothinking,llm_rank,200,200,1.0

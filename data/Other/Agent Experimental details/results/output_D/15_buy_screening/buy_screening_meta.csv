@@ -1,0 +1,10 @@
+﻿key,value
+decision_modes,llm_base_rank|llm_base_rank_compact|llm_base_rank_mini|llm_rank
+malicious_sample_size,10
+good_sample_size,10
+threshold_pct,0.8
+trigger_k,3
+agent_id,d0c182d0-0d96-00e0-a474-2fc037ae2e76
+agent_endpoint,http://127.0.0.1:3000/api/agents/d0c182d0-0d96-00e0-a474-2fc037ae2e76/plugins/nft-risk-plugin/risk-evaluate?agentId=d0c182d0-0d96-00e0-a474-2fc037ae2e76
+records_rows,80
+errors_rows,0

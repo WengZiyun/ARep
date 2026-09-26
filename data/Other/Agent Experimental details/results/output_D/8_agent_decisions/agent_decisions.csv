@@ -1,0 +1,1188 @@
+﻿decision_mode,model_name,contract_id,contract_address,collection_type,snapshot_idx,start_block,end_block,low_rep_threshold_pct,trigger_k,holding_state,decision,confidence,reason,is_low_rep,low_rep_streak,next_trade_exists,prompt_tokens,completion_tokens,total_tokens,latency_ms,parse_success,raw_decision_text
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,flat,ALLOW_BUY,0.51,reputation is not in a persistent low-trust state and baseline buying remains allowed,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,flat,ALLOW_BUY,0.51,reputation is not in a persistent low-trust state and baseline buying remains allowed,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,flat,AVOID_BUY,0.51,reputation stayed below the buy safety threshold for 0 consecutive windows and no position is open,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,flat,ALLOW_BUY,0.51,reputation is not in a persistent low-trust state and baseline buying remains allowed,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,flat,ALLOW_BUY,0.51,reputation is not in a persistent low-trust state and baseline buying remains allowed,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 2 consecutive windows and no position is open,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,flat,AVOID_BUY,0.67,reputation stayed below the buy safety threshold for 3 consecutive windows and no position is open,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 2 consecutive windows and no position is open,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,flat,AVOID_BUY,0.67,reputation stayed below the buy safety threshold for 3 consecutive windows and no position is open,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 2 consecutive windows and no position is open,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.67,reputation stayed below the buy safety threshold for 3 consecutive windows and no position is open,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 2 consecutive windows and no position is open,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.67,reputation stayed below the buy safety threshold for 3 consecutive windows and no position is open,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 2 consecutive windows and no position is open,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,flat,AVOID_BUY,0.67,reputation stayed below the buy safety threshold for 3 consecutive windows and no position is open,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 2 consecutive windows and no position is open,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,flat,AVOID_BUY,0.67,reputation stayed below the buy safety threshold for 3 consecutive windows and no position is open,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 2 consecutive windows and no position is open,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.67,reputation stayed below the buy safety threshold for 3 consecutive windows and no position is open,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.51,reputation stayed below the buy safety threshold for 0 consecutive windows and no position is open,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.51,reputation stayed below the buy safety threshold for 0 consecutive windows and no position is open,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,0,0,0,0,1,
+rule_agent,rule_agent,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,0,0,0,0,1,
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,flat,AVOID_BUY,0.75,No trade activity and high gas costs indicate low liquidity and high risk,1,1,0,454,192,646,3392,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.75,
+  ""reason"": ""No trade activity and high gas costs indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.85,"No market activity, zero liquidity and high gas costs indicate high risk",0,0,0,452,206,658,1700,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity, zero liquidity and high gas costs indicate high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.85,No trade activity and high gas costs indicate low liquidity and high risk,0,0,0,454,215,669,1713,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No trade activity and high gas costs indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,flat,AVOID_BUY,0.8,No trade activity and high gas costs indicate low liquidity and high risk,0,0,0,454,191,645,2435,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.8,
+  ""reason"": ""No trade activity and high gas costs indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.85,No trade activity and high gas costs indicate low liquidity and high risk,0,0,0,452,190,642,1775,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No trade activity and high gas costs indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.85,No trade activity and high gas costs indicate low liquidity and high risk,0,0,0,454,215,669,1779,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No trade activity and high gas costs indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,flat,AVOID_BUY,0.85,"No market activity, zero liquidity and no price data indicate high risk",1,1,0,454,187,641,1478,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity, zero liquidity and no price data indicate high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,flat,AVOID_BUY,0.85,"No market activity, zero liquidity and no price data indicate high risk for buying",1,2,0,454,190,644,1671,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity, zero liquidity and no price data indicate high risk for buying""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,flat,AVOID_BUY,0.73,No market activity and high gas costs indicate low liquidity and high risk,1,3,0,454,192,646,2028,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.73,
+  ""reason"": ""No market activity and high gas costs indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,flat,AVOID_BUY,0.85,"No market activity, zero liquidity and no price data indicate high risk",1,1,0,454,187,641,1704,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity, zero liquidity and no price data indicate high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,flat,AVOID_BUY,0.85,"No market activity, zero liquidity and no price data indicate high risk for buying",1,2,0,454,190,644,1776,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity, zero liquidity and no price data indicate high risk for buying""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,flat,AVOID_BUY,0.85,No market activity and high gas costs indicate high risk for a flat position,1,3,0,454,203,657,1576,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity and high gas costs indicate high risk for a flat position""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.8,No trade activity or price data and high gas cost indicate low liquidity and high risk,1,1,0,454,213,667,1967,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.8,
+  ""reason"": ""No trade activity or price data and high gas cost indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.85,"No market activity or price data and liquidity flag is off, indicating high risk",1,2,0,454,189,643,1756,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity or price data and liquidity flag is off, indicating high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.85,No market activity and zero liquidity indicate high risk for purchase,1,3,0,454,189,643,2303,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity and zero liquidity indicate high risk for purchase""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.78,No trade activity and high gas costs suggest low liquidity and high risk,1,1,0,454,188,642,1649,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.78,
+  ""reason"": ""No trade activity and high gas costs suggest low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.85,"No market activity, no price data, and high gas costs suggest high risk for buying",1,2,0,454,195,649,1910,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity, no price data, and high gas costs suggest high risk for buying""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.85,No market activity and zero liquidity indicate high risk for purchase,1,3,0,454,189,643,1800,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity and zero liquidity indicate high risk for purchase""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,flat,AVOID_BUY,0.78,No trading activity and high gas costs indicate low liquidity and high risk,1,1,0,454,197,651,2009,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.78,
+  ""reason"": ""No trading activity and high gas costs indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,flat,AVOID_BUY,0.85,No market activity and high gas costs indicate high risk for a flat position,1,2,0,454,190,644,1546,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity and high gas costs indicate high risk for a flat position""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,flat,AVOID_BUY,0.85,No market activity and high gas costs indicate high risk for a flat position,1,3,0,454,187,641,1749,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity and high gas costs indicate high risk for a flat position""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,flat,AVOID_BUY,0.7,"No trade activity and high gas costs indicate insufficient market signals, so buying is avoided",1,1,0,454,245,699,1972,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""No trade activity and high gas costs indicate insufficient market signals, so buying is avoided""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,flat,AVOID_BUY,0.8,No market activity and high gas costs suggest high risk for a flat position,1,2,0,454,192,646,1904,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.8,
+  ""reason"": ""No market activity and high gas costs suggest high risk for a flat position""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,flat,AVOID_BUY,0.85,No trade activity and high gas costs indicate low liquidity and high risk,1,3,0,454,205,659,1693,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No trade activity and high gas costs indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.8,No market activity and high gas cost indicate high risk for a flat position,1,1,0,454,169,623,2180,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.8,
+  ""reason"": ""No market activity and high gas cost indicate high risk for a flat position""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.85,"No trade activity or liquidity, indicating high risk for buying",1,2,0,454,191,645,1732,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No trade activity or liquidity, indicating high risk for buying""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.85,No trade activity or price data and high gas cost indicate high risk,1,3,0,454,217,671,1868,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No trade activity or price data and high gas cost indicate high risk""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.85,"no trade activity or liquidity, high risk",1,1,0,454,184,638,1384,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""no trade activity or liquidity, high risk""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.8,No market activity and high gas costs indicate high risk for a new purchase,0,0,0,454,192,646,1539,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.8,
+  ""reason"": ""No market activity and high gas costs indicate high risk for a new purchase""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.85,"No market activity, zero trades and buyers, and high gas costs suggest high risk for buying",0,0,0,454,196,650,1824,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""No market activity, zero trades and buyers, and high gas costs suggest high risk for buying""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,holding,SELL,0.7,No recent trades or buyers and high gas costs indicate low liquidity and high risk,1,1,0,454,156,610,1714,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""No recent trades or buyers and high gas costs indicate low liquidity and high risk""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,holding,SELL,0.65,No recent activity and zero liquidity indicate high downside risk while holding,0,0,0,452,203,655,1681,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""No recent activity and zero liquidity indicate high downside risk while holding""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,holding,SELL,0.65,"no recent trades or price data and high gas costs suggest illiquidity, prompting a sell to limit downside",0,0,0,454,308,762,1911,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""no recent trades or price data and high gas costs suggest illiquidity, prompting a sell to limit downside""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,holding,SELL,0.7,"No activity and high gas costs indicate illiquidity, prompting a sell to limit downside risk",0,0,0,454,267,721,2031,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""No activity and high gas costs indicate illiquidity, prompting a sell to limit downside risk""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,holding,SELL,0.65,No recent activity and zero liquidity indicate high downside risk while holding,0,0,0,452,203,655,1798,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""No recent activity and zero liquidity indicate high downside risk while holding""
+}"
+llm_base,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,holding,SELL,0.65,"no recent trades or price data and high gas costs suggest illiquidity, prompting a sell to limit downside",0,0,0,454,308,762,12806,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""no recent trades or price data and high gas costs suggest illiquidity, prompting a sell to limit downside""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,holding,HOLD,0.7,"No trade or price data provides a sell signal, so maintaining the current holding is safest",1,1,0,454,205,659,1808,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.7,
+  ""reason"": ""No trade or price data provides a sell signal, so maintaining the current holding is safest""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,holding,HOLD,0.6,"No trade activity or price data, indicating illiquidity, so staying put is safest",1,2,0,454,261,715,1918,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No trade activity or price data, indicating illiquidity, so staying put is safest""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,holding,SELL,0.68,No recent trades or buyers and high gas costs indicate illiquidity and heightened downside risk while holding,1,3,0,454,247,701,2019,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.68,
+  ""reason"": ""No recent trades or buyers and high gas costs indicate illiquidity and heightened downside risk while holding""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,holding,SELL,0.7,Zero trade activity and no liquidity indicate high downside risk while holding,1,1,0,454,236,690,2145,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""Zero trade activity and no liquidity indicate high downside risk while holding""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,holding,HOLD,0.6,"No recent trades or price data, indicating illiquidity and uncertainty",1,2,0,454,261,715,2140,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No recent trades or price data, indicating illiquidity and uncertainty""
+}"
+llm_base,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,holding,HOLD,0.62,"No trade activity or price data, making a sale impractical; maintain current holding",1,3,0,454,384,838,2286,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.62,
+  ""reason"": ""No trade activity or price data, making a sale impractical; maintain current holding""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,holding,SELL,0.66,"No recent trades, zero liquidity and high gas costs indicate illiquid, risky holding",1,1,0,454,206,660,1922,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.66,
+  ""reason"": ""No recent trades, zero liquidity and high gas costs indicate illiquid, risky holding""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,holding,HOLD,0.6,"No trade activity or price data, so maintain current holding",1,2,0,454,268,722,2037,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No trade activity or price data, so maintain current holding""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,holding,HOLD,0.65,No trade activity and low liquidity make selling risky without price data,1,3,0,454,318,772,2031,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.65,
+  ""reason"": ""No trade activity and low liquidity make selling risky without price data""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,holding,SELL,0.7,"No recent trades or liquidity, indicating high downside risk while holding",1,1,0,454,258,712,1971,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""No recent trades or liquidity, indicating high downside risk while holding""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,holding,SELL,0.78,No recent trades or liquidity signals indicate high risk of being stuck in an illiquid position,1,2,0,454,246,700,1952,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""No recent trades or liquidity signals indicate high risk of being stuck in an illiquid position""
+}"
+llm_base,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,holding,HOLD,0.6,"No trade or price data, so insufficient evidence to sell",1,3,0,454,220,674,2316,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No trade or price data, so insufficient evidence to sell""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,holding,SELL,0.65,"No recent trades or buyers indicate illiquidity, prompting a risk‑averse sell.",1,1,0,454,275,729,2075,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""No recent trades or buyers indicate illiquidity, prompting a risk‑averse sell.""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,454,400,854,2428,0,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No market activity or price data,"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,holding,SELL,0.78,No recent trades or buyers and high gas costs indicate illiquidity and risk while holding,1,3,0,454,148,602,2111,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""No recent trades or buyers and high gas costs indicate illiquidity and risk while holding""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,holding,HOLD,0.6,"Low activity and no price data make selling unjustified, so holding is safer",1,1,0,454,340,794,2913,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""Low activity and no price data make selling unjustified, so holding is safer""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,holding,SELL,0.7,"Zero market activity and high gas costs suggest illiquidity, prompting a sell to limit downside",1,2,0,454,287,741,5429,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""Zero market activity and high gas costs suggest illiquidity, prompting a sell to limit downside""
+}"
+llm_base,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,holding,SELL,0.7,"Zero trade activity and high gas costs indicate illiquidity, prompting exit",1,3,0,454,266,720,2065,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""Zero trade activity and high gas costs indicate illiquidity, prompting exit""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,454,383,837,2149,1,"{""final"": {""decision"":""HOLD"",""confidence"":0.6,""reason"":""No recent price or activity, making a sell premature""}}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,holding,SELL,0.7,"No recent trades or liquidity and high gas costs indicate illiquid, high‑risk holding",1,2,0,454,166,620,2265,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""No recent trades or liquidity and high gas costs indicate illiquid, high‑risk holding""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,holding,HOLD,0.68,"No trade activity or price data, making a sale uncertain; holding is safer.",1,3,0,454,338,792,2396,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.68,
+  ""reason"": ""No trade activity or price data, making a sale uncertain; holding is safer.""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,holding,HOLD,0.7,"No trade activity or price data indicates risk, so maintain current holding",1,1,0,454,177,631,2102,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.7,
+  ""reason"": ""No trade activity or price data indicates risk, so maintain current holding""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,holding,SELL,0.68,"No trading activity and high gas costs indicate low demand, increasing downside risk while holding",0,0,0,454,157,611,1590,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.68,
+  ""reason"": ""No trading activity and high gas costs indicate low demand, increasing downside risk while holding""
+}"
+llm_base,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,holding,HOLD,0.6,"No price or trade data available, making a sale too aggressive",0,0,0,454,228,682,2420,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No price or trade data available, making a sale too aggressive""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,flat,AVOID_BUY,0.7,Low reputation and no market activity suggest high risk for buying,1,1,0,503,226,729,1797,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation and no market activity suggest high risk for buying""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.68,"No trade activity, no price data, and high gas costs suggest low liquidity and high risk",0,0,0,501,227,728,2234,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.68,
+  ""reason"": ""No trade activity, no price data, and high gas costs suggest low liquidity and high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.72,No market activity and high gas costs indicate high risk for a new purchase,0,0,0,503,316,819,2001,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.72,
+  ""reason"": ""No market activity and high gas costs indicate high risk for a new purchase""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,flat,AVOID_BUY,0.7,No trade activity and high gas costs make buying too risky,0,0,0,503,258,761,1941,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""No trade activity and high gas costs make buying too risky""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.7,No market activity and high gas costs suggest high risk for buying,0,0,0,501,234,735,1798,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""No market activity and high gas costs suggest high risk for buying""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.72,No market activity and high gas costs indicate high risk for a new purchase,0,0,0,503,316,819,2514,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.72,
+  ""reason"": ""No market activity and high gas costs indicate high risk for a new purchase""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,flat,AVOID_BUY,0.85,low reputation and zero market activity indicate high risk,1,1,0,497,271,768,2004,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,flat,AVOID_BUY,0.85,low reputation and zero market activity indicate high risk,1,2,0,500,222,722,1803,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,flat,AVOID_BUY,0.86,low reputation and no market activity indicate high risk,1,3,0,500,196,696,1802,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.86,
+  ""reason"": ""low reputation and no market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,flat,AVOID_BUY,0.85,low reputation and no market activity indicate high risk,1,1,0,497,236,733,1775,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and no market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,flat,AVOID_BUY,0.92,low reputation and zero market activity indicate high risk,1,2,0,500,222,722,1987,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.92,
+  ""reason"": ""low reputation and zero market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,flat,AVOID_BUY,0.92,Low reputation and no market activity indicate high risk for buying,1,3,0,500,236,736,4220,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.92,
+  ""reason"": ""Low reputation and no market activity indicate high risk for buying""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.85,Low reputation and zero market activity indicate high risk,1,1,0,497,216,713,1678,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and zero market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.85,low reputation and zero market activity indicate high risk,1,2,0,497,209,706,1585,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.85,low reputation and no market activity indicate high risk,1,3,0,497,195,692,1740,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and no market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 1 consecutive windows and no position is open,1,1,0,497,211,708,1840,1,"{""final"": {""decision"":""AVOID_BUY"",""confidence"":0.85,""reason"":""low reputation and zero market activity indicate high risk""}}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.85,Low reputation and zero market activity make buying too risky,1,2,0,497,176,673,2025,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and zero market activity make buying too risky""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.86,low reputation and no market activity indicate high risk,1,3,0,497,195,692,1801,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.86,
+  ""reason"": ""low reputation and no market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,flat,AVOID_BUY,0.85,low reputation and no market activity indicate high risk,1,1,0,503,217,720,1886,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and no market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,flat,AVOID_BUY,0.78,Low reputation and zero market activity make buying too risky,1,2,0,503,267,770,1976,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation and zero market activity make buying too risky""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,flat,AVOID_BUY,0.92,low reputation and no market activity indicate high risk,1,3,0,503,223,726,1885,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.92,
+  ""reason"": ""low reputation and no market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,flat,AVOID_BUY,0.85,low reputation and no market activity indicate high risk,1,1,0,503,213,716,1771,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and no market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,flat,AVOID_BUY,0.85,Low reputation and zero market activity make buying too risky,1,2,0,503,275,778,2430,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and zero market activity make buying too risky""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,flat,AVOID_BUY,0.78,Low reputation and no market activity suggest high risk for buying,1,3,0,503,222,725,1683,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation and no market activity suggest high risk for buying""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.75,Low reputation and no market activity suggest high risk for a new purchase,1,1,0,503,220,723,2172,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.75,
+  ""reason"": ""Low reputation and no market activity suggest high risk for a new purchase""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.71,low reputation and no market activity suggest high risk,1,2,0,503,226,729,1798,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.71,
+  ""reason"": ""low reputation and no market activity suggest high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.85,low reputation and zero market activity indicate high risk,1,3,0,503,230,733,1552,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero market activity indicate high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.78,Flat position with no market activity and low reputation signals high risk,1,1,0,503,205,708,2024,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.78,
+  ""reason"": ""Flat position with no market activity and low reputation signals high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.6,No market activity or price data and flat position suggest high uncertainty,0,0,0,503,246,749,2242,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.6,
+  ""reason"": ""No market activity or price data and flat position suggest high uncertainty""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.71,"No trade activity, no price data, and high gas cost suggest high risk for buying",0,0,0,503,265,768,2007,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.71,
+  ""reason"": ""No trade activity, no price data, and high gas cost suggest high risk for buying""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,holding,SELL,0.7,Low reputation and zero liquidity indicate high downside risk while holding,1,1,0,503,278,781,4014,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation and zero liquidity indicate high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,holding,HOLD,0.6,"No price or trade data to indicate risk, so maintain current holding",0,0,0,501,247,748,2275,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No price or trade data to indicate risk, so maintain current holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,503,400,903,2433,0,
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,holding,HOLD,0.6,Insufficient downside evidence while currently holding,0,0,0,503,210,713,1694,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""Insufficient downside evidence while currently holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,holding,HOLD,0.6,"No price or trade data to indicate risk, so maintain current holding",0,0,0,501,247,748,1789,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No price or trade data to indicate risk, so maintain current holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,holding,HOLD,0.6,"Zero activity and no price data make selling infeasible, so holding is safest",0,0,0,503,347,850,2459,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""Zero activity and no price data make selling infeasible, so holding is safest""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,holding,SELL,0.7,low reputation and zero market activity indicate high downside risk,1,1,0,497,257,754,1953,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation and zero market activity indicate high downside risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,holding,SELL,0.72,Low reputation and zero market activity suggest high downside risk while holding,1,2,0,500,216,716,1840,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.72,
+  ""reason"": ""Low reputation and zero market activity suggest high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,holding,SELL,0.85,low reputation and zero market activity indicate high downside risk,1,3,0,500,236,736,1884,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero market activity indicate high downside risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,holding,SELL,0.7,Low reputation and zero market activity suggest high downside risk while holding,1,1,0,497,203,700,1591,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation and zero market activity suggest high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,holding,SELL,0.71,Low reputation and zero market activity indicate high downside risk while holding,1,2,0,500,327,827,2147,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.71,
+  ""reason"": ""Low reputation and zero market activity indicate high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,holding,SELL,0.7,Low reputation and zero market activity indicate high downside risk while holding,1,3,0,500,253,753,2295,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation and zero market activity indicate high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,holding,SELL,0.7,Low reputation and zero market activity indicate high downside risk,1,1,0,497,252,749,2473,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation and zero market activity indicate high downside risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,holding,SELL,0.72,Low reputation and zero market activity indicate high downside risk while holding,1,2,0,497,215,712,1810,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.72,
+  ""reason"": ""Low reputation and zero market activity indicate high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,497,273,770,1991,1,"{""final"": ""{\""decision\"": \""SELL\"", \""confidence\"": 0.73, \""reason\"": \""low reputation and zero market activity indicate high downside risk\""}""}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,holding,SELL,0.7,low reputation and zero market activity indicate high downside risk,1,1,0,497,210,707,1837,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation and zero market activity indicate high downside risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,holding,SELL,0.71,Low reputation and zero market activity indicate high downside risk while holding,1,2,0,497,268,765,2139,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.71,
+  ""reason"": ""Low reputation and zero market activity indicate high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,holding,SELL,0.73,Low reputation and no market activity indicate high downside risk while holding,1,3,0,497,187,684,3463,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.73,
+  ""reason"": ""Low reputation and no market activity indicate high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,holding,SELL,0.65,low reputation and zero market activity indicate high downside risk,1,1,0,503,378,881,2424,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""low reputation and zero market activity indicate high downside risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,holding,SELL,0.7,"Low reputation, no liquidity or trade activity, and holding position suggests exiting to limit downside risk",1,2,0,503,264,767,1985,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation, no liquidity or trade activity, and holding position suggests exiting to limit downside risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,holding,SELL,0.78,"Low reputation streak meets trigger threshold, indicating high risk",1,3,0,503,234,737,1681,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation streak meets trigger threshold, indicating high risk""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,holding,SELL,0.75,Low reputation and no market activity suggest high downside risk while holding,1,1,0,503,210,713,1636,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.75,
+  ""reason"": ""Low reputation and no market activity suggest high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,holding,SELL,0.71,Low reputation and zero market activity indicate high downside risk while holding,1,2,0,503,267,770,1923,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.71,
+  ""reason"": ""Low reputation and zero market activity indicate high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,holding,SELL,0.78,Low reputation streak and zero market activity suggest high downside risk,1,3,0,503,216,719,1819,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation streak and zero market activity suggest high downside risk""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,holding,SELL,0.71,"holding a low‑reputation, illiquid NFT with no recent trades suggests high downside risk",1,1,0,503,236,739,1678,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.71,
+  ""reason"": ""holding a low‑reputation, illiquid NFT with no recent trades suggests high downside risk""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,holding,HOLD,0.6,"Low reputation but streak below trigger threshold, so maintain position",1,2,0,503,386,889,2779,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""Low reputation but streak below trigger threshold, so maintain position""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,holding,SELL,0.78,low reputation and zero market activity indicate high downside risk,1,3,0,503,247,750,1712,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation and zero market activity indicate high downside risk""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,holding,SELL,0.78,Low reputation and zero market activity indicate high downside risk while holding,1,1,0,503,182,685,1749,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation and zero market activity indicate high downside risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,holding,SELL,0.65,No recent trades or liquidity and high gas costs indicate elevated risk while holding,0,0,0,503,348,851,2344,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""No recent trades or liquidity and high gas costs indicate elevated risk while holding""
+}"
+llm_rank,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,holding,SELL,0.65,"No recent trades or price data and high gas cost indicate illiquidity, prompting sell",0,0,0,503,265,768,1965,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""No recent trades or price data and high gas cost indicate illiquidity, prompting sell""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,flat,AVOID_BUY,0.78,low reputation and no liquidity signal high risk,1,1,0,432,269,701,1814,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation and no liquidity signal high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.7,Insufficient market data and low reputation score suggest avoiding purchase,0,0,0,432,251,683,1948,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Insufficient market data and low reputation score suggest avoiding purchase""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.7,Low reputation score and no market data suggest high risk for buying,0,0,0,432,235,667,2286,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation score and no market data suggest high risk for buying""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,flat,AVOID_BUY,0.7,Insufficient market data and flat position suggest avoiding a purchase,0,0,0,432,209,641,1854,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Insufficient market data and flat position suggest avoiding a purchase""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.7,Insufficient market data and low reputation score suggest avoiding purchase,0,0,0,432,251,683,1741,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Insufficient market data and low reputation score suggest avoiding purchase""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.6,Insufficient market data and low confidence to initiate a purchase,0,0,0,432,243,675,1552,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.6,
+  ""reason"": ""Insufficient market data and low confidence to initiate a purchase""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,flat,AVOID_BUY,0.9,low reputation and no market activity indicate high risk,1,1,0,426,222,648,1919,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.9,
+  ""reason"": ""low reputation and no market activity indicate high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 2 consecutive windows and no position is open,1,2,0,429,2,431,1626,0,
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,flat,AVOID_BUY,0.92,Low reputation signals indicate high risk for purchase,1,3,0,429,192,621,2535,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.92,
+  ""reason"": ""Low reputation signals indicate high risk for purchase""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,flat,AVOID_BUY,0.9,low reputation and no market data indicate high risk,1,1,0,426,202,628,2173,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.9,
+  ""reason"": ""low reputation and no market data indicate high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,flat,AVOID_BUY,0.85,Low reputation and no market signals indicate high risk,1,2,0,429,234,663,1869,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and no market signals indicate high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,flat,AVOID_BUY,0.85,Low reputation and no liquidity indicate high risk for new purchase,1,3,0,429,209,638,1872,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and no liquidity indicate high risk for new purchase""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.85,low reputation and no market data suggest high risk,1,1,0,426,221,647,1781,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and no market data suggest high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.85,Low reputation and no market data suggest high risk for buying,1,2,0,426,241,667,1833,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and no market data suggest high risk for buying""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.8,low reputation and no market data indicate high risk,1,3,0,426,262,688,1882,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.8,
+  ""reason"": ""low reputation and no market data indicate high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.85,Low reputation and no market data indicate high risk,1,1,0,426,188,614,1668,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and no market data indicate high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.59,reputation stayed below the buy safety threshold for 2 consecutive windows and no position is open,1,2,0,426,2,428,2779,0,
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.9,"Low reputation and streak indicate high risk, so avoid buying",1,3,0,426,188,614,1749,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.9,
+  ""reason"": ""Low reputation and streak indicate high risk, so avoid buying""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,flat,AVOID_BUY,0.85,low reputation flag indicates high risk,1,1,0,432,201,633,2058,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation flag indicates high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,flat,AVOID_BUY,0.85,"Low reputation and recent low‑rep streak indicate high risk, so buying should be avoided",1,2,0,432,229,661,1819,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and recent low‑rep streak indicate high risk, so buying should be avoided""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,flat,AVOID_BUY,0.85,Low reputation and no liquidity signal high risk for buying,1,3,0,432,293,725,2123,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and no liquidity signal high risk for buying""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,flat,AVOID_BUY,0.85,Low reputation and no market activity suggest high risk,1,1,0,432,239,671,1853,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and no market activity suggest high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,flat,AVOID_BUY,0.85,Low reputation and no market liquidity indicate high risk,1,2,0,432,259,691,2738,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and no market liquidity indicate high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,flat,AVOID_BUY,0.85,low reputation and no liquidity indicate high risk,1,3,0,432,232,664,1703,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and no liquidity indicate high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.85,Low reputation flag indicates high risk for a new position,1,1,0,432,235,667,2058,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation flag indicates high risk for a new position""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.85,Low reputation and no market data suggest high risk,1,2,0,432,206,638,1819,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and no market data suggest high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.86,low reputation and ongoing low-rep streak suggest high risk,1,3,0,432,162,594,2499,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.86,
+  ""reason"": ""low reputation and ongoing low-rep streak suggest high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.78,"Low-rep flag suggests high risk, and currently flat",1,1,0,432,239,671,1882,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low-rep flag suggests high risk, and currently flat""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.6,Insufficient market data and low reputation score suggest caution,0,0,0,432,242,674,2171,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.6,
+  ""reason"": ""Insufficient market data and low reputation score suggest caution""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.78,Insufficient market data and very low reputation score suggest high risk,0,0,0,432,236,668,1936,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.78,
+  ""reason"": ""Insufficient market data and very low reputation score suggest high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,holding,SELL,0.78,low reputation and zero liquidity suggest high downside risk,1,1,0,432,212,644,2006,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation and zero liquidity suggest high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,432,2,434,1343,0,
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,432,2,434,1482,0,
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,holding,HOLD,0.6,Lack of price and liquidity data makes selling premature,0,0,0,432,352,784,1913,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""Lack of price and liquidity data makes selling premature""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,432,200,632,1919,0,
+llm_rank_compact,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,holding,HOLD,0.6,"No clear downside signals despite low liquidity, so maintain holding",0,0,0,432,349,781,2405,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No clear downside signals despite low liquidity, so maintain holding""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,holding,SELL,0.7,low reputation and zero liquidity suggest high downside risk,1,1,0,426,192,618,1903,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation and zero liquidity suggest high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,holding,SELL,0.85,low reputation and no liquidity indicate high downside risk,1,2,0,429,196,625,1720,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and no liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,holding,SELL,0.85,Low reputation and zero liquidity indicate high downside risk,1,3,0,429,182,611,1709,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,holding,SELL,0.85,low reputation and zero liquidity indicate high downside risk,1,1,0,426,193,619,2217,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,holding,SELL,0.78,low reputation and zero liquidity indicate high downside risk,1,2,0,429,156,585,1690,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,holding,SELL,0.85,low reputation and zero liquidity indicate high downside risk,1,3,0,429,180,609,1727,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,holding,SELL,0.65,Low reputation and no liquidity indicate high risk while holding,1,1,0,426,246,672,1921,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""Low reputation and no liquidity indicate high risk while holding""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,holding,SELL,0.7,low reputation and illiquid market suggest high downside risk,1,2,0,426,205,631,1706,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation and illiquid market suggest high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,holding,SELL,0.7,low reputation and no liquidity indicate high downside risk,1,3,0,426,176,602,1362,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation and no liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,holding,SELL,0.7,low reputation and zero liquidity flag suggest high downside risk while holding,1,1,0,426,208,634,2535,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation and zero liquidity flag suggest high downside risk while holding""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,holding,SELL,0.85,low reputation and zero liquidity indicate high downside risk,1,2,0,426,207,633,1787,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,holding,SELL,0.85,low reputation and zero liquidity indicate high downside risk,1,3,0,426,200,626,1488,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,holding,SELL,0.78,Low reputation and no liquidity indicate high downside risk,1,1,0,432,210,642,1919,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation and no liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,holding,HOLD,0.65,"Low reputation but streak below trigger and market data insufficient, so retain position",1,2,0,432,358,790,2419,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.65,
+  ""reason"": ""Low reputation but streak below trigger and market data insufficient, so retain position""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,holding,SELL,0.85,Low reputation streak and zero liquidity indicate high downside risk,1,3,0,432,207,639,1616,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation streak and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,holding,SELL,0.7,low reputation and zero liquidity indicate high downside risk,1,1,0,432,252,684,1917,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,holding,SELL,0.85,low reputation and zero liquidity indicate high downside risk,1,2,0,432,180,612,2140,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,holding,SELL,0.78,Low reputation and no liquidity signals suggest high downside risk while holding,1,3,0,432,199,631,2672,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation and no liquidity signals suggest high downside risk while holding""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,holding,SELL,0.78,low reputation and zero liquidity indicate high downside risk,1,1,0,432,205,637,1777,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation and zero liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,holding,SELL,0.71,Low reputation and no liquidity indicate high downside risk,1,2,0,432,149,581,1674,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.71,
+  ""reason"": ""Low reputation and no liquidity indicate high downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,holding,SELL,0.8,"Low reputation streak meets trigger threshold, indicating high risk",1,3,0,432,205,637,1819,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.8,
+  ""reason"": ""Low reputation streak meets trigger threshold, indicating high risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,holding,SELL,0.65,Low reputation flag indicates heightened risk while holding,1,1,0,432,190,622,1596,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""Low reputation flag indicates heightened risk while holding""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,holding,SELL,0.65,Holding with no liquidity and missing price data increases downside risk,0,0,0,432,271,703,1998,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""Holding with no liquidity and missing price data increases downside risk""
+}"
+llm_rank_compact,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,holding,SELL,0.62,Low liquidity and no upcoming trade suggest higher downside risk while holding,0,0,0,432,249,681,2311,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.62,
+  ""reason"": ""Low liquidity and no upcoming trade suggest higher downside risk while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,flat,AVOID_BUY,0.86,"Low reputation signals suggest high risk, so buying should be avoided",1,1,0,401,279,680,1899,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.86,
+  ""reason"": ""Low reputation signals suggest high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.65,Insufficient market data and low reputation score suggest avoiding a purchase,0,0,0,401,246,647,1768,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.65,
+  ""reason"": ""Insufficient market data and low reputation score suggest avoiding a purchase""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.65,low reputation score and missing price data suggest caution,0,0,0,401,336,737,2290,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.65,
+  ""reason"": ""low reputation score and missing price data suggest caution""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,flat,AVOID_BUY,0.68,Low reputation score and no market signal suggest avoiding a new purchase,0,0,0,401,182,583,1710,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.68,
+  ""reason"": ""Low reputation score and no market signal suggest avoiding a new purchase""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,flat,ALLOW_BUY,0.51,reputation is not in a persistent low-trust state and baseline buying remains allowed,0,0,0,401,2,403,951,0,
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.7,Flat position with low absolute reputation score and no market signal,0,0,0,401,287,688,1766,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Flat position with low absolute reputation score and no market signal""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,flat,AVOID_BUY,0.85,"Low reputation signals indicate high risk, so buying should be avoided",1,1,0,395,215,610,1875,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation signals indicate high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,flat,AVOID_BUY,0.92,"Low reputation signals high risk, so buying should be avoided",1,2,0,398,235,633,2279,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.92,
+  ""reason"": ""Low reputation signals high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,flat,AVOID_BUY,0.92,"Low reputation and streak indicate high risk, so buying should be avoided",1,3,0,398,217,615,1692,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.92,
+  ""reason"": ""Low reputation and streak indicate high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,flat,AVOID_BUY,0.8,low reputation and missing price data suggest high risk,1,1,0,395,248,643,1912,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.8,
+  ""reason"": ""low reputation and missing price data suggest high risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,flat,AVOID_BUY,0.85,"Low reputation score and streak indicate high risk, so buying should be avoided",1,2,0,398,241,639,3361,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation score and streak indicate high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,flat,AVOID_BUY,0.86,"Low reputation score and streak indicate high risk, so buying should be avoided",1,3,0,398,242,640,2156,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.86,
+  ""reason"": ""Low reputation score and streak indicate high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.9,low reputation signals high risk,1,1,0,395,211,606,1877,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.9,
+  ""reason"": ""low reputation signals high risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.85,low reputation signals and no market data suggest buying is risky,1,2,0,395,201,596,1519,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation signals and no market data suggest buying is risky""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.85,"Low reputation streak meets trigger threshold, indicating high risk",1,3,0,395,254,649,2216,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation streak meets trigger threshold, indicating high risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.85,Low reputation signals indicate high risk for a new purchase,1,1,0,395,178,573,3186,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation signals indicate high risk for a new purchase""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.7,"Low reputation signals suggest high risk, so avoid buying while flat",1,2,0,395,204,599,1561,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation signals suggest high risk, so avoid buying while flat""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.9,Low reputation and no positive market signal suggest avoiding a purchase,1,3,0,395,211,606,1656,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.9,
+  ""reason"": ""Low reputation and no positive market signal suggest avoiding a purchase""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,flat,AVOID_BUY,0.8,"Low reputation score indicates high risk, so buying should be avoided",1,1,0,401,239,640,1856,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.8,
+  ""reason"": ""Low reputation score indicates high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,flat,AVOID_BUY,0.7,"Low reputation signals high risk, so avoid buying",1,2,0,401,218,619,6111,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation signals high risk, so avoid buying""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,flat,AVOID_BUY,0.86,"Low reputation score and streak indicate high risk, so buying should be avoided",1,3,0,401,186,587,1402,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.86,
+  ""reason"": ""Low reputation score and streak indicate high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,flat,AVOID_BUY,0.85,low reputation flag with no positive market data,1,1,0,401,211,612,2957,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation flag with no positive market data""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,flat,AVOID_BUY,0.85,low reputation and streak indicate high risk,1,2,0,401,233,634,2118,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""low reputation and streak indicate high risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,flat,AVOID_BUY,0.85,"Low reputation and streak indicate high risk, so buying should be avoided",1,3,0,401,224,625,2216,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation and streak indicate high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,flat,AVOID_BUY,0.78,"Low reputation flag indicates high risk, so buying is not advisable",1,1,0,401,289,690,2747,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation flag indicates high risk, so buying is not advisable""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,flat,AVOID_BUY,0.86,"Low reputation score and streak indicate high risk, so avoid buying",1,2,0,401,247,648,1872,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.86,
+  ""reason"": ""Low reputation score and streak indicate high risk, so avoid buying""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,flat,AVOID_BUY,0.72,"Low reputation and streak suggest high risk, so buying should be avoided",1,3,0,401,199,600,2051,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.72,
+  ""reason"": ""Low reputation and streak suggest high risk, so buying should be avoided""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,flat,AVOID_BUY,0.85,Low reputation score suggests high risk for a new purchase,1,1,0,401,232,633,1878,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation score suggests high risk for a new purchase""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,flat,AVOID_BUY,0.7,Insufficient market data and low reputation score suggest avoiding a purchase,0,0,0,401,304,705,2093,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Insufficient market data and low reputation score suggest avoiding a purchase""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,flat,AVOID_BUY,0.7,Flat position with no price signal and low reputation score suggests avoiding purchase,0,0,0,401,290,691,2463,1,"{
+  ""decision"": ""AVOID_BUY"",
+  ""confidence"": 0.7,
+  ""reason"": ""Flat position with no price signal and low reputation score suggests avoiding purchase""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.8,3,holding,SELL,0.78,low reputation signals indicate high downside risk while holding,1,1,0,401,239,640,1693,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation signals indicate high downside risk while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.8,3,holding,HOLD,0.62,No clear downside evidence; maintain current holding,0,0,0,401,290,691,2468,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.62,
+  ""reason"": ""No clear downside evidence; maintain current holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.8,3,holding,HOLD,0.6,No clear downside signal; holding is safest,0,0,0,401,244,645,2215,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""No clear downside signal; holding is safest""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,20,12828608,13815128,0.9,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,401,2,403,1149,0,
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,21,12828608,13864454,0.9,3,holding,HOLD,0.6,"Insufficient market signal and reputation not flagged low, so maintain position",0,0,0,401,312,713,3017,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""Insufficient market signal and reputation not flagged low, so maintain position""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0205c970_0205c970,0x97fe0e9f7e4bf770d57b41da3e77a8140205c970,rugpull,22,12828608,13913780,0.9,3,holding,HOLD,0.51,low reputation streak 0 has not yet reached trigger_k=3,0,0,0,401,2,403,1042,0,
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.8,3,holding,SELL,0.7,low reputation signals increase downside risk while holding,1,1,0,395,203,598,2269,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation signals increase downside risk while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.8,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,398,2,400,1031,0,
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.8,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,398,2,400,1118,0,
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,1,12828608,12877934,0.9,3,holding,HOLD,0.59,low reputation streak 1 has not yet reached trigger_k=3,1,1,0,395,2,397,1083,0,
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,2,12828608,12927260,0.9,3,holding,HOLD,0.59,low reputation streak 2 has not yet reached trigger_k=3,1,2,0,398,2,400,818,0,
+llm_rank_mini,gpt-oss-120b,8_3_0b7e393f_0b7e393f,0x4923017f3b7fac4e096b46e401c0662f0b7e393f,rugpull,3,12828608,12976586,0.9,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,398,2,400,1145,0,
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.8,3,holding,SELL,0.78,Low reputation and high risk suggest exiting the position,1,1,0,395,185,580,1867,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation and high risk suggest exiting the position""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.8,3,holding,SELL,0.7,low reputation and streak suggest high downside risk while holding,1,2,0,395,184,579,1931,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation and streak suggest high downside risk while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.8,3,holding,SELL,0.85,"Low reputation streak meets trigger threshold, indicating high risk",1,3,0,395,205,600,1663,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.85,
+  ""reason"": ""Low reputation streak meets trigger threshold, indicating high risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,21,12828608,13864454,0.9,3,holding,SELL,0.65,low reputation signals increase downside risk while holding,1,1,0,395,222,617,2052,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.65,
+  ""reason"": ""low reputation signals increase downside risk while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,22,12828608,13913780,0.9,3,holding,SELL,0.7,low reputation and lack of price data suggest high downside risk,1,2,0,395,252,647,2140,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""low reputation and lack of price data suggest high downside risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0c5597e5_0c5597e5,0xafb5747a00b2710051bcb8cf83e03b4e0c5597e5,rugpull,23,12828608,13963106,0.9,3,holding,HOLD,0.67,low reputation streak 3 has not yet reached trigger_k=3,1,3,0,395,2,397,955,0,
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.8,3,holding,SELL,0.7,"Low reputation flag suggests high risk, prompting a sell while holding",1,1,0,401,275,676,2394,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.7,
+  ""reason"": ""Low reputation flag suggests high risk, prompting a sell while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.8,3,holding,SELL,0.78,low reputation and streak indicate high downside risk,1,2,0,401,169,570,1502,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation and streak indicate high downside risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.8,3,holding,SELL,0.78,Low reputation and streak indicate high risk while holding,1,3,0,401,192,593,1544,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation and streak indicate high risk while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,27,12828608,14160410,0.9,3,holding,SELL,0.71,low reputation flag indicates high risk while holding,1,1,0,401,285,686,2483,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.71,
+  ""reason"": ""low reputation flag indicates high risk while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,28,12828608,14209736,0.9,3,holding,SELL,0.78,low reputation and streak indicate high downside risk,1,2,0,401,169,570,2342,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation and streak indicate high downside risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_0d99cc92_0d99cc92,0x6d200bb6e0d75daf29992b9ec25d61fa0d99cc92,rugpull,29,12828608,14259062,0.9,3,holding,SELL,0.78,low reputation and streak indicate high downside risk,1,3,0,401,168,569,2205,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation and streak indicate high downside risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.8,3,holding,SELL,0.78,"Low reputation score signals high risk, prompting a sell while holding",1,1,0,401,191,592,2247,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""Low reputation score signals high risk, prompting a sell while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.8,3,holding,SELL,0.71,low reputation and streak indicate high downside risk while holding,1,2,0,401,250,651,1942,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.71,
+  ""reason"": ""low reputation and streak indicate high downside risk while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.8,3,holding,SELL,0.78,low reputation score and streak suggest high downside risk,1,3,0,401,240,641,2536,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.78,
+  ""reason"": ""low reputation score and streak suggest high downside risk""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,21,12828608,13864454,0.9,3,holding,SELL,0.72,"low reputation score signals high risk, prompting a sell while holding",1,1,0,401,219,620,1831,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.72,
+  ""reason"": ""low reputation score signals high risk, prompting a sell while holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,22,12828608,13913780,0.9,3,holding,HOLD,0.6,Insufficient market data to justify a sale while currently holding,0,0,0,401,282,683,2086,1,"{
+  ""decision"": ""HOLD"",
+  ""confidence"": 0.6,
+  ""reason"": ""Insufficient market data to justify a sale while currently holding""
+}"
+llm_rank_mini,gpt-oss-120b,8_3_12239e85_12239e85,0xe356a9dcba053e6940b4afd8ce3e319212239e85,rugpull,23,12828608,13963106,0.9,3,holding,SELL,0.62,very low reputation score indicates heightened risk while holding,0,0,0,401,203,604,1862,1,"{
+  ""decision"": ""SELL"",
+  ""confidence"": 0.62,
+  ""reason"": ""very low reputation score indicates heightened risk while holding""
+}"

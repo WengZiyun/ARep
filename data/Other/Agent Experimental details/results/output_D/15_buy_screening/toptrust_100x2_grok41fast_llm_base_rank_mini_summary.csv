@@ -1,0 +1,2 @@
+﻿decision_mode,model_name,malicious_n,top_trust_n,malicious_prevent_buy_rate,top_trust_false_reject_rate,mean_prompt_tokens,mean_completion_tokens,mean_total_tokens,mean_latency_ms,parse_success_rate
+llm_base_rank_mini,grok-4-1-fast,100,100,0.45,0.04,905.0,648.31,1553.31,5595.215,1.0

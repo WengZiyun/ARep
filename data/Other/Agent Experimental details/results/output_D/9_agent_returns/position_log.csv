@@ -1,0 +1,7 @@
+﻿decision_mode,scenario,contract_id,contract_address,collection_type,low_rep_threshold_pct,trigger_k,decision_window_idx,lead_windows,agent_decision,baseline_entry_price_usd,baseline_exit_price_usd,agent_exit_price_usd,holding_loss_avoided_usd,buy_loss_avoided_usd,prompt_tokens,completion_tokens,total_tokens,mean_latency_ms
+rule_agent,not_holding,0eb4c671_0eb4c671,0xb14b42814895fc1b0a528a475f8a5b070eb4c671,unknown,0.8,3,,,NO_BASELINE_ENTRY,,,,,,0.0,0.0,0.0,0.0
+rule_agent,already_holding,0eb4c671_0eb4c671,0xb14b42814895fc1b0a528a475f8a5b070eb4c671,unknown,0.8,3,,,HOLD,,,,,,0.0,0.0,0.0,0.0
+llm_base,not_holding,0eb4c671_0eb4c671,0xb14b42814895fc1b0a528a475f8a5b070eb4c671,unknown,0.8,3,,,NO_BASELINE_ENTRY,,,,,,22559.0,9228.0,31787.0,2091.52
+llm_base,already_holding,0eb4c671_0eb4c671,0xb14b42814895fc1b0a528a475f8a5b070eb4c671,unknown,0.8,3,66.0,,SELL,,,,,,22559.0,14309.0,36868.0,2304.68
+llm_rank,not_holding,0eb4c671_0eb4c671,0xb14b42814895fc1b0a528a475f8a5b070eb4c671,unknown,0.8,3,,,NO_BASELINE_ENTRY,,,,,,24858.0,10866.0,35724.0,2108.54
+llm_rank,already_holding,0eb4c671_0eb4c671,0xb14b42814895fc1b0a528a475f8a5b070eb4c671,unknown,0.8,3,66.0,,SELL,,,,,,24858.0,11026.0,35884.0,2531.12

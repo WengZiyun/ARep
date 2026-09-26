@@ -1,0 +1,7 @@
+﻿decision_mode,scenario,low_rep_threshold_pct,trigger_k,contracts,sell_count,avoid_buy_count,mean_holding_loss_avoided_usd,median_holding_loss_avoided_usd,mean_buy_loss_avoided_usd,median_buy_loss_avoided_usd,mean_lead_windows,median_lead_windows,mean_total_tokens,total_tokens,mean_latency_ms
+llm_base,already_holding,0.8,3,1,1,0,,,,,,,36868.0,36868.0,2304.68
+llm_base,not_holding,0.8,3,1,0,0,,,,,,,31787.0,31787.0,2091.52
+llm_rank,already_holding,0.8,3,1,1,0,,,,,,,35884.0,35884.0,2531.12
+llm_rank,not_holding,0.8,3,1,0,0,,,,,,,35724.0,35724.0,2108.54
+rule_agent,already_holding,0.8,3,1,0,0,,,,,,,0.0,0.0,0.0
+rule_agent,not_holding,0.8,3,1,0,0,,,,,,,0.0,0.0,0.0

@@ -1,0 +1,5 @@
+﻿decision_mode,model_name,malicious_n,top_trust_n,malicious_prevent_buy_rate,top_trust_false_reject_rate,mean_prompt_tokens,mean_completion_tokens,mean_total_tokens,mean_latency_ms,parse_success_rate
+llm_base,gpt-5.4-nano,100,100,0.0,0.0,718.425,72.85,791.275,1209.04,1.0
+llm_base_rank,gpt-5.4-nano,100,100,0.57,0.29,858.425,78.685,937.11,1275.95,1.0
+llm_base_rank_mini,gpt-5.4-nano,100,100,0.55,0.03,761.0,76.765,837.765,1236.635,1.0
+llm_rank,gpt-5.4-nano,100,100,0.62,0.0,631.0,73.89,704.89,1209.885,1.0

@@ -1,0 +1,2 @@
+﻿decision_mode,model_name,malicious_n,good_n,malicious_prevent_buy_rate,good_false_reject_rate,mean_total_tokens,mean_prompt_tokens,mean_completion_tokens,mean_latency_ms,parse_success_rate
+llm_rank_compact,claude-sonnet-4-6,100,100,0.22,0.02,1036.875,943.075,93.8,12194.82,1.0

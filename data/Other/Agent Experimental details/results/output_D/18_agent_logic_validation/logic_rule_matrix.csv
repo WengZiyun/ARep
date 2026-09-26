@@ -1,0 +1,10 @@
+﻿market_view,reputation_view,expected_risk_label,expected_decision
+positive,positive,NO_RISK,ALLOW_BUY
+positive,neutral,NO_RISK,ALLOW_BUY
+positive,negative,NO_RISK,ALLOW_BUY
+neutral,positive,NO_RISK,ALLOW_BUY
+neutral,neutral,NO_RISK,ALLOW_BUY
+neutral,negative,RISK,AVOID_BUY
+negative,positive,NO_RISK,ALLOW_BUY
+negative,neutral,RISK,AVOID_BUY
+negative,negative,RISK,AVOID_BUY

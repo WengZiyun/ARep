@@ -1,0 +1,5 @@
+﻿decision_mode,model_name,malicious_n,top_trust_n,malicious_prevent_buy_rate,top_trust_false_reject_rate,mean_total_tokens,mean_latency_ms,parse_success_rate
+llm_base,claude-haiku-4-5-20251001,10,10,1.0,0.0,909.25,2441.65,1.0
+llm_base_rank,claude-haiku-4-5-20251001,10,10,1.0,0.0,1080.45,2394.5,1.0
+llm_base_rank_mini,claude-haiku-4-5-20251001,10,10,0.4,0.0,956.05,2298.8,1.0
+llm_rank,claude-haiku-4-5-20251001,10,10,0.9,0.0,803.95,2341.2,1.0

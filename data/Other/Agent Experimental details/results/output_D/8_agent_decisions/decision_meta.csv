@@ -1,0 +1,16 @@
+﻿key,value
+rows_input,15680
+trigger_k_list,3
+decision_modes,rule_agent|llm_base|llm_rank|llm_rank_compact|llm_rank_mini
+holding_states,flat|holding
+collection_types_filter,rugpull
+global_max_rows,0
+max_contracts,5
+max_windows_per_contract,3
+rule_agent_max_rows,0
+llm_base_max_rows,0
+llm_rank_max_rows,0
+decisions_rows,300
+errors_rows,0
+agent_id,d0c182d0-0d96-00e0-a474-2fc037ae2e76
+agent_endpoint,http://127.0.0.1:3000/api/agents/d0c182d0-0d96-00e0-a474-2fc037ae2e76/plugins/nft-risk-plugin/risk-evaluate?agentId=d0c182d0-0d96-00e0-a474-2fc037ae2e76

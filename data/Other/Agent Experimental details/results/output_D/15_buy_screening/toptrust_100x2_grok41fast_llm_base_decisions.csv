@@ -1,0 +1,201 @@
+﻿decision_mode,sample_group,sample_idx,contract_id,snapshot_idx,decision,risk_label,market_view,reputation_view,reason,prompt_tokens,completion_tokens,total_tokens,latency_ms,parse_success,model_name
+llm_base,malicious_pre_report,0,8_3_155ecac8_155ecac8,119,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate illiquid and inactive project.",854,566,1420,4502,1,grok-4-1-fast
+llm_base,malicious_pre_report,1,8_3_c5371723_c5371723,113,AVOID_BUY,RISK,negative,neutral,"Zero market activity, trades, buyers, mints, and items indicate no liquidity or interest.",851,520,1371,5013,1,grok-4-1-fast
+llm_base,malicious_pre_report,2,8_3_74547805_74547805,34,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and collection items indicate no market activity.",854,514,1368,4564,1,grok-4-1-fast
+llm_base,malicious_pre_report,3,8_3_4362e588_4362e588,42,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and items indicate no market activity or liquidity.",854,667,1521,5226,1,grok-4-1-fast
+llm_base,malicious_pre_report,4,8_3_162d44f0_162d44f0,52,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate dead market.",854,674,1528,4954,1,grok-4-1-fast
+llm_base,malicious_pre_report,5,8_3_c8fd581c_c8fd581c,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, supply, or liquidity observed.",851,531,1382,4765,1,grok-4-1-fast
+llm_base,malicious_pre_report,6,8_3_155ecac8_155ecac8,119,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate complete lack of market activity.",854,628,1482,4954,1,grok-4-1-fast
+llm_base,malicious_pre_report,7,8_3_fbbeee19_fbbeee19,111,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, mints, and collection items indicates high illiquidity and no interest.",851,456,1307,4198,1,grok-4-1-fast
+llm_base,malicious_pre_report,8,8_3_c1e13c80_c1e13c80,112,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, buyers, mints, or collection items observed.",851,446,1297,4294,1,grok-4-1-fast
+llm_base,malicious_pre_report,9,8_3_cff377d0_cff377d0,45,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and collection items show complete lack of market activity and liquidity.",851,446,1297,4674,1,grok-4-1-fast
+llm_base,malicious_pre_report,10,8_3_4362e588_4362e588,42,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and collection items indicate no market activity.",854,589,1443,4950,1,grok-4-1-fast
+llm_base,malicious_pre_report,11,8_3_4362e588_4362e588,42,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate zero market activity.",854,675,1529,6081,1,grok-4-1-fast
+llm_base,malicious_pre_report,12,8_3_e6d00e3b_e6d00e3b,42,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, or collection items indicate complete lack of market activity.",854,439,1293,3572,1,grok-4-1-fast
+llm_base,malicious_pre_report,13,8_3_c8fd581c_c8fd581c,111,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, buyers, and items.",851,515,1366,5074,1,grok-4-1-fast
+llm_base,malicious_pre_report,14,8_3_0d99cc92_0d99cc92,71,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and collection items show complete lack of market activity.",854,466,1320,3097,1,grok-4-1-fast
+llm_base,malicious_pre_report,15,8_3_162d44f0_162d44f0,52,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or items in collection indicates dead market.",854,453,1307,3573,1,grok-4-1-fast
+llm_base,malicious_pre_report,16,8_3_e6d00e3b_e6d00e3b,42,AVOID_BUY,RISK,negative,neutral,"Complete lack of trading activity, buyers, and collection items indicates no market liquidity.",854,713,1567,5087,1,grok-4-1-fast
+llm_base,malicious_pre_report,17,8_3_0c5597e5_0c5597e5,112,AVOID_BUY,RISK,negative,neutral,"Complete absence of trades, buyers, mints, and collection items shows no market activity.",851,515,1366,4525,1,grok-4-1-fast
+llm_base,malicious_pre_report,18,8_3_cc2d4dae_cc2d4dae,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, mints, or collection items observed.",851,589,1440,6724,1,grok-4-1-fast
+llm_base,malicious_pre_report,19,8_3_c8fd581c_c8fd581c,111,AVOID_BUY,RISK,negative,neutral,"No trading activity, liquidity, or collection items indicates illiquid and risky asset.",851,458,1309,4854,1,grok-4-1-fast
+llm_base,malicious_pre_report,20,8_3_0b7e393f_0b7e393f,46,AVOID_BUY,RISK,negative,neutral,"Complete lack of trades, buyers, mints, and collection items indicates no market activity.",854,810,1664,5790,1,grok-4-1-fast
+llm_base,malicious_pre_report,21,8_3_e6d00e3b_e6d00e3b,42,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and collection items show complete lack of market activity.",854,573,1427,4626,1,grok-4-1-fast
+llm_base,malicious_pre_report,22,8_3_48bcdb6f_48bcdb6f,34,AVOID_BUY,RISK,negative,neutral,"Complete lack of trading activity, volume, buyers, and collection items indicates illiquid and inactive market.",854,569,1423,3275,1,grok-4-1-fast
+llm_base,malicious_pre_report,23,8_3_131e924a_131e924a,58,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, or collection items indicate zero liquidity and high risk.",854,825,1679,5830,1,grok-4-1-fast
+llm_base,malicious_pre_report,24,8_3_0b7e393f_0b7e393f,46,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, volume, or collection items despite significant gas spend.",854,465,1319,3291,1,grok-4-1-fast
+llm_base,malicious_pre_report,25,8_3_c8fd581c_c8fd581c,111,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, or collection items indicate complete lack of market activity.",851,351,1202,2886,1,grok-4-1-fast
+llm_base,malicious_pre_report,26,8_3_0205c970_0205c970,42,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or collection items indicate complete lack of liquidity and interest.",851,568,1419,6515,1,grok-4-1-fast
+llm_base,malicious_pre_report,27,8_3_48bcdb6f_48bcdb6f,34,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and collection items indicate no market activity.",854,854,1708,5400,1,grok-4-1-fast
+llm_base,malicious_pre_report,28,8_3_fbbeee19_fbbeee19,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, volume, or items observed.",851,372,1223,2938,1,grok-4-1-fast
+llm_base,malicious_pre_report,29,8_3_cc2d4dae_cc2d4dae,111,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, buyers, and collection items.",851,360,1211,3092,1,grok-4-1-fast
+llm_base,malicious_pre_report,30,8_3_48bcdb6f_48bcdb6f,34,AVOID_BUY,RISK,negative,neutral,"Complete lack of trading activity, buyers, and collection items indicates no market liquidity.",854,675,1529,5020,1,grok-4-1-fast
+llm_base,malicious_pre_report,31,8_3_f9da1642_f9da1642,35,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items despite high gas spend indicates dormant or failed market.",854,728,1582,5880,1,grok-4-1-fast
+llm_base,malicious_pre_report,32,8_3_88efddb0_88efddb0,111,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, mints, and collection items indicates high illiquidity risk.",851,494,1345,4234,1,grok-4-1-fast
+llm_base,malicious_pre_report,33,8_3_fc7440a4_fc7440a4,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or collection items observed.",851,353,1204,3109,1,grok-4-1-fast
+llm_base,malicious_pre_report,34,8_3_fc7440a4_fc7440a4,111,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and collection items indicate no market activity or liquidity.",851,568,1419,4767,1,grok-4-1-fast
+llm_base,malicious_pre_report,35,8_3_288462f5_288462f5,113,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, buyers, or collection items observed.",851,408,1259,3841,1,grok-4-1-fast
+llm_base,malicious_pre_report,36,8_3_85cfd3cf_85cfd3cf,42,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and collection items indicate no market activity or liquidity.",851,530,1381,4316,1,grok-4-1-fast
+llm_base,malicious_pre_report,37,8_3_74547805_74547805,34,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items in the window.",854,472,1326,3402,1,grok-4-1-fast
+llm_base,malicious_pre_report,38,8_3_74547805_74547805,34,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate zero market activity.",854,859,1713,6258,1,grok-4-1-fast
+llm_base,malicious_pre_report,39,8_3_c1e13c80_c1e13c80,112,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, buyers, or collection items observed.",851,321,1172,2763,1,grok-4-1-fast
+llm_base,malicious_pre_report,40,8_3_48bcdb6f_48bcdb6f,34,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items despite gas expenditure.",854,739,1593,4991,1,grok-4-1-fast
+llm_base,malicious_pre_report,41,8_3_cff377d0_cff377d0,45,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, volume, or collection items observed.",851,371,1222,3840,1,grok-4-1-fast
+llm_base,malicious_pre_report,42,8_3_c5371723_c5371723,113,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, buyers, or supply detected.",851,412,1263,3849,1,grok-4-1-fast
+llm_base,malicious_pre_report,43,8_3_f9da1642_f9da1642,35,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items despite high gas expenditure indicates lack of market activity.",854,602,1456,5290,1,grok-4-1-fast
+llm_base,malicious_pre_report,44,8_3_0c5597e5_0c5597e5,112,AVOID_BUY,RISK,negative,neutral,Complete absence of market activity indicates high risk.,851,489,1340,4067,1,grok-4-1-fast
+llm_base,malicious_pre_report,45,8_3_12239e85_12239e85,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or supply observed.",851,450,1301,3791,1,grok-4-1-fast
+llm_base,malicious_pre_report,46,8_3_c1e13c80_c1e13c80,112,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, volume, and items indicates high risk.",851,341,1192,3200,1,grok-4-1-fast
+llm_base,malicious_pre_report,47,8_3_155ecac8_155ecac8,119,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate dead market.",854,629,1483,4893,1,grok-4-1-fast
+llm_base,malicious_pre_report,48,8_3_c8fd581c_c8fd581c,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or collection items present.",851,497,1348,4310,1,grok-4-1-fast
+llm_base,malicious_pre_report,49,8_3_17e89a30_17e89a30,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, volume, or items observed.",851,368,1219,4340,1,grok-4-1-fast
+llm_base,malicious_pre_report,50,8_3_155ecac8_155ecac8,119,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate inactive and illiquid market.",854,567,1421,4636,1,grok-4-1-fast
+llm_base,malicious_pre_report,51,8_3_bba73676_bba73676,111,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and items indicate no market activity or liquidity.",851,488,1339,4831,1,grok-4-1-fast
+llm_base,malicious_pre_report,52,8_3_0d99cc92_0d99cc92,71,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, volume, or collection items indicate complete lack of market activity.",854,630,1484,3766,1,grok-4-1-fast
+llm_base,malicious_pre_report,53,8_3_f9da1642_f9da1642,35,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or items despite high gas spend indicates absent market liquidity.",854,661,1515,5647,1,grok-4-1-fast
+llm_base,malicious_pre_report,54,8_3_6249c06e_6249c06e,42,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or collection items observed.",851,475,1326,4689,1,grok-4-1-fast
+llm_base,malicious_pre_report,55,8_3_bba73676_bba73676,111,AVOID_BUY,RISK,negative,neutral,Complete absence of market activity and liquidity indicates high risk.,851,333,1184,3223,1,grok-4-1-fast
+llm_base,malicious_pre_report,56,8_3_fbbeee19_fbbeee19,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, buyers, or collection items observed.",851,401,1252,3829,1,grok-4-1-fast
+llm_base,malicious_pre_report,57,8_3_17e89a30_17e89a30,111,AVOID_BUY,RISK,negative,neutral,"No trading activity, buyers, mints, or collection items indicates a dead or non-existent market.",851,559,1410,5530,1,grok-4-1-fast
+llm_base,malicious_pre_report,58,8_3_fbbeee19_fbbeee19,111,AVOID_BUY,RISK,negative,neutral,"No trades, volume, buyers, mints, or collection items indicate absent market activity.",851,531,1382,5499,1,grok-4-1-fast
+llm_base,malicious_pre_report,59,8_3_c8fd581c_c8fd581c,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or collection items observed.",851,595,1446,6236,1,grok-4-1-fast
+llm_base,malicious_pre_report,60,8_3_0b7e393f_0b7e393f,46,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items despite high gas spend indicates absent market activity.",854,736,1590,6797,1,grok-4-1-fast
+llm_base,malicious_pre_report,61,8_3_c5371723_c5371723,113,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, or liquidity.",851,435,1286,3998,1,grok-4-1-fast
+llm_base,malicious_pre_report,62,8_3_74547805_74547805,34,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate complete lack of market activity.",854,648,1502,4808,1,grok-4-1-fast
+llm_base,malicious_pre_report,63,8_3_155ecac8_155ecac8,119,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or items indicate dead market.",854,652,1506,5381,1,grok-4-1-fast
+llm_base,malicious_pre_report,64,8_3_48bcdb6f_48bcdb6f,34,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or items indicate complete lack of market activity.",854,672,1526,5000,1,grok-4-1-fast
+llm_base,malicious_pre_report,65,8_3_162d44f0_162d44f0,52,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate dead market with no liquidity.",854,594,1448,5401,1,grok-4-1-fast
+llm_base,malicious_pre_report,66,8_3_74547805_74547805,34,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate zero market activity.",854,512,1366,3705,1,grok-4-1-fast
+llm_base,malicious_pre_report,67,8_3_0c5597e5_0c5597e5,112,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, and collection items indicates high risk.",851,421,1272,3881,1,grok-4-1-fast
+llm_base,malicious_pre_report,68,8_3_6249c06e_6249c06e,42,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or collection items observed.",851,392,1243,4125,1,grok-4-1-fast
+llm_base,malicious_pre_report,69,8_3_88efddb0_88efddb0,111,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, volume, and collection items.",851,474,1325,4982,1,grok-4-1-fast
+llm_base,malicious_pre_report,70,8_3_0d99cc92_0d99cc92,71,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicates dead or empty project.",854,596,1450,3579,1,grok-4-1-fast
+llm_base,malicious_pre_report,71,8_3_bba73676_bba73676,111,AVOID_BUY,RISK,negative,neutral,"Zero market activity, trades, volume, and collection items indicate no liquidity or interest.",851,482,1333,4529,1,grok-4-1-fast
+llm_base,malicious_pre_report,72,8_3_162d44f0_162d44f0,52,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate dead market.",854,686,1540,5072,1,grok-4-1-fast
+llm_base,malicious_pre_report,73,8_3_0d99cc92_0d99cc92,71,AVOID_BUY,RISK,negative,neutral,"Complete lack of trading activity, buyers, and collection items indicates high risk of illiquidity.",854,626,1480,4917,1,grok-4-1-fast
+llm_base,malicious_pre_report,74,8_3_0b7e393f_0b7e393f,46,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items despite high gas expenditure.",854,483,1337,3623,1,grok-4-1-fast
+llm_base,malicious_pre_report,75,8_3_131e924a_131e924a,58,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate absent market activity.",854,736,1590,5664,1,grok-4-1-fast
+llm_base,malicious_pre_report,76,8_3_cc2d4dae_cc2d4dae,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, buyers, or collection supply observed.",851,440,1291,4186,1,grok-4-1-fast
+llm_base,malicious_pre_report,77,8_3_288462f5_288462f5,113,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, and collection items indicates high illiquidity risk.",851,474,1325,4280,1,grok-4-1-fast
+llm_base,malicious_pre_report,78,8_3_0d99cc92_0d99cc92,71,AVOID_BUY,RISK,negative,neutral,"Complete lack of market activity, trades, buyers, and items indicates high illiquidity risk.",854,595,1449,3773,1,grok-4-1-fast
+llm_base,malicious_pre_report,79,8_3_cc2d4dae_cc2d4dae,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or collection items observed.",851,301,1152,3066,1,grok-4-1-fast
+llm_base,malicious_pre_report,80,8_3_bba73676_bba73676,111,AVOID_BUY,RISK,negative,neutral,"No trades, volume, mints, or items indicate absent market activity.",851,616,1467,5222,1,grok-4-1-fast
+llm_base,malicious_pre_report,81,8_3_fbbeee19_fbbeee19,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, volume, or collection items observed.",851,468,1319,3786,1,grok-4-1-fast
+llm_base,malicious_pre_report,82,8_3_48bcdb6f_48bcdb6f,34,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate absent market liquidity.",854,840,1694,5957,1,grok-4-1-fast
+llm_base,malicious_pre_report,83,8_3_0b7e393f_0b7e393f,46,AVOID_BUY,RISK,negative,neutral,"Zero trades, buyers, mints, and collection items indicate no market activity.",854,513,1367,4422,1,grok-4-1-fast
+llm_base,malicious_pre_report,84,8_3_288462f5_288462f5,113,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or collection items observed.",851,448,1299,4076,1,grok-4-1-fast
+llm_base,malicious_pre_report,85,8_3_0d99cc92_0d99cc92,71,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, volume, or collection items in the window shows zero market activity.",854,639,1493,4096,1,grok-4-1-fast
+llm_base,malicious_pre_report,86,8_3_6249c06e_6249c06e,42,AVOID_BUY,RISK,negative,neutral,"No trades, volume, or items indicate complete lack of market activity.",851,435,1286,3747,1,grok-4-1-fast
+llm_base,malicious_pre_report,87,8_3_85cfd3cf_85cfd3cf,42,AVOID_BUY,RISK,negative,neutral,"No trading activity, liquidity, or collection items observed.",851,350,1201,3419,1,grok-4-1-fast
+llm_base,malicious_pre_report,88,8_3_74547805_74547805,34,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate absent market activity.",854,595,1449,3872,1,grok-4-1-fast
+llm_base,malicious_pre_report,89,8_3_162d44f0_162d44f0,52,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, volume, or items indicate complete lack of market activity.",854,660,1514,4614,1,grok-4-1-fast
+llm_base,malicious_pre_report,90,8_3_6249c06e_6249c06e,42,AVOID_BUY,RISK,negative,neutral,"No trading activity, volume, or collection items observed.",851,658,1509,4811,1,grok-4-1-fast
+llm_base,malicious_pre_report,91,8_3_cff377d0_cff377d0,45,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, or supply observed.",851,493,1344,4360,1,grok-4-1-fast
+llm_base,malicious_pre_report,92,8_3_f9da1642_f9da1642,35,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items despite high gas spend signals inactive and illiquid market.",854,601,1455,4661,1,grok-4-1-fast
+llm_base,malicious_pre_report,93,8_3_162d44f0_162d44f0,52,AVOID_BUY,RISK,negative,neutral,"No trades, buyers, mints, or collection items indicate dead market.",854,487,1341,3899,1,grok-4-1-fast
+llm_base,malicious_pre_report,94,8_3_c8fd581c_c8fd581c,111,AVOID_BUY,RISK,negative,neutral,"No market activity, trades, volume, or items observed.",851,381,1232,3274,1,grok-4-1-fast
+llm_base,malicious_pre_report,95,8_3_85cfd3cf_85cfd3cf,42,AVOID_BUY,RISK,negative,neutral,Complete absence of market activity and liquidity.,851,479,1330,4030,1,grok-4-1-fast
+llm_base,malicious_pre_report,96,8_3_51c6f17b_51c6f17b,111,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, buyers, and collection items.",851,679,1530,5009,1,grok-4-1-fast
+llm_base,malicious_pre_report,97,8_3_bba73676_bba73676,111,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, mints, and collection items indicates high illiquidity risk.",851,454,1305,3764,1,grok-4-1-fast
+llm_base,malicious_pre_report,98,8_3_74547805_74547805,34,AVOID_BUY,RISK,negative,neutral,"Complete lack of trades, buyers, mints, and collection items signals illiquid and inactive market.",854,622,1476,4393,1,grok-4-1-fast
+llm_base,malicious_pre_report,99,8_3_c8fd581c_c8fd581c,111,AVOID_BUY,RISK,negative,neutral,"Complete absence of market activity, trades, volume, and collection items.",851,485,1336,4312,1,grok-4-1-fast
+llm_base,top_trust,0,CloneX,36,ALLOW_BUY,NO_RISK,positive,neutral,Strong window trade volume and total USD value outweigh minor price and trade count dips.,871,726,1597,4976,1,grok-4-1-fast
+llm_base,top_trust,1,CloneX,66,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, high total value, and positive price momentum indicate healthy market activity.",871,669,1540,4343,1,grok-4-1-fast
+llm_base,top_trust,2,CloneX,50,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, unique buyers, and slight price increase indicate healthy market activity.",871,585,1456,3880,1,grok-4-1-fast
+llm_base,top_trust,3,CloneX,72,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and user activity outweigh minor recent declines with no reputation issues.",871,840,1711,6339,1,grok-4-1-fast
+llm_base,top_trust,4,BoredApeYachtClub,76,ALLOW_BUY,NO_RISK,positive,neutral,"High trading volume, value, and liquidity indicate strong market activity.",870,763,1633,4839,1,grok-4-1-fast
+llm_base,top_trust,5,BoredApeYachtClub,82,ALLOW_BUY,NO_RISK,positive,neutral,High trade volume and value with stable high prices show strong market activity.,868,658,1526,4436,1,grok-4-1-fast
+llm_base,top_trust,6,Milady,98,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, unique buyers, and positive price change.",868,579,1447,4047,1,grok-4-1-fast
+llm_base,top_trust,7,CloneX,38,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique participants.",871,532,1403,3913,1,grok-4-1-fast
+llm_base,top_trust,8,Milady,106,ALLOW_BUY,NO_RISK,positive,neutral,Strong market activity with high trade volume and unique buyers.,870,541,1411,4420,1,grok-4-1-fast
+llm_base,top_trust,9,CloneX,113,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, unique buyers, and positive changes indicates low risk.",870,770,1640,4968,1,grok-4-1-fast
+llm_base,top_trust,10,CloneX,101,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, unique buyers, and positive price/trade count changes indicate healthy market activity.",870,535,1405,3683,1,grok-4-1-fast
+llm_base,top_trust,11,CloneX,86,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and positive trends.",871,559,1430,3796,1,grok-4-1-fast
+llm_base,top_trust,12,CloneX,44,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique users show strong market activity.",871,662,1533,4740,1,grok-4-1-fast
+llm_base,top_trust,13,CloneX,89,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique participants.",870,690,1560,5076,1,grok-4-1-fast
+llm_base,top_trust,14,CloneX,107,ALLOW_BUY,NO_RISK,neutral,neutral,"Decent trading volume and activity despite recent declines, with no reputation data.",870,686,1556,7154,1,grok-4-1-fast
+llm_base,top_trust,15,CloneX,117,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique participants indicate strong market activity despite trade count decline.",870,711,1581,4976,1,grok-4-1-fast
+llm_base,top_trust,16,CloneX,47,ALLOW_BUY,NO_RISK,positive,neutral,"High trading volume, unique buyers, and stable price support low risk.",871,642,1513,4496,1,grok-4-1-fast
+llm_base,top_trust,17,CloneX,42,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique users indicate strong market activity despite minor fluctuations.",871,648,1519,4510,1,grok-4-1-fast
+llm_base,top_trust,18,Milady,108,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique participants indicate healthy market activity.",871,634,1505,4362,1,grok-4-1-fast
+llm_base,top_trust,19,CloneX,87,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, significant unique buyers, and stable price indicate healthy market activity.",871,600,1471,5265,1,grok-4-1-fast
+llm_base,top_trust,20,CloneX,62,ALLOW_BUY,NO_RISK,positive,neutral,"High trading volume, significant USD value, and stable price changes indicate healthy market activity.",871,606,1477,3918,1,grok-4-1-fast
+llm_base,top_trust,21,CloneX,105,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high volume, unique buyers, and stable price.",870,617,1487,4937,1,grok-4-1-fast
+llm_base,top_trust,22,Milady,91,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, high total value, and stable price show healthy market activity.",871,713,1584,4489,1,grok-4-1-fast
+llm_base,top_trust,23,BoredApeYachtClub,77,ALLOW_BUY,NO_RISK,positive,neutral,"High trading volume, value, and unique participants show strong market activity despite minor declines.",870,1209,2079,8154,1,grok-4-1-fast
+llm_base,top_trust,24,CloneX,49,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique users despite minor declines.",871,575,1446,4314,1,grok-4-1-fast
+llm_base,top_trust,25,Milady,111,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, unique buyers, and liquidity despite minor trade count decline.",870,657,1527,5095,1,grok-4-1-fast
+llm_base,top_trust,26,CloneX,83,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, value, and user activity indicate healthy market despite minor declines.",871,573,1444,3787,1,grok-4-1-fast
+llm_base,top_trust,27,CloneX,118,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, active buyers, and stable price indicate healthy market activity.",870,537,1407,3359,1,grok-4-1-fast
+llm_base,top_trust,28,Milady,105,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, unique buyers, and liquidity with only minor price and trade declines.",870,654,1524,4896,1,grok-4-1-fast
+llm_base,top_trust,29,CloneX,43,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique participants despite minor price dip.",871,555,1426,4876,1,grok-4-1-fast
+llm_base,top_trust,30,Milady,107,ALLOW_BUY,NO_RISK,positive,neutral,Solid trading volume and unique buyers indicate healthy market activity despite minor price dip.,870,663,1533,3857,1,grok-4-1-fast
+llm_base,top_trust,31,CloneX,74,ALLOW_BUY,NO_RISK,positive,neutral,"High trading volume, significant value, and stable price indicate healthy market activity.",871,706,1577,5237,1,grok-4-1-fast
+llm_base,top_trust,32,CloneX,34,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, significant USD value, and positive price change indicate strong market activity.",871,619,1490,4218,1,grok-4-1-fast
+llm_base,top_trust,33,Milady,93,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, unique buyers, and positive price change.",870,598,1468,3596,1,grok-4-1-fast
+llm_base,top_trust,34,CloneX,110,ALLOW_BUY,NO_RISK,positive,neutral,"Active market with substantial volume, unique buyers, and stable pricing despite minor fluctuations.",870,787,1657,6519,1,grok-4-1-fast
+llm_base,top_trust,35,KaijuKingz,118,ALLOW_BUY,NO_RISK,positive,neutral,"Healthy trading volume, unique buyers, and significant gas spend indicate stable market activity.",870,561,1431,3690,1,grok-4-1-fast
+llm_base,top_trust,36,CloneX,54,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique buyers.",869,451,1320,3520,1,grok-4-1-fast
+llm_base,top_trust,37,CloneX,53,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique participants.",871,774,1645,5656,1,grok-4-1-fast
+llm_base,top_trust,38,BoredApeYachtClub,78,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and positive price/trade changes.",870,866,1736,7220,1,grok-4-1-fast
+llm_base,top_trust,39,Milady,112,ALLOW_BUY,NO_RISK,positive,neutral,"Healthy trading volume, unique buyers, and stable price despite minor dip.",870,534,1404,4266,1,grok-4-1-fast
+llm_base,top_trust,40,CloneX,71,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, high value, and stable price indicate healthy market activity.",871,634,1505,4834,1,grok-4-1-fast
+llm_base,top_trust,41,CloneX,85,ALLOW_BUY,NO_RISK,positive,neutral,Strong trading volume and value with many unique participants despite minor declines.,871,626,1497,4310,1,grok-4-1-fast
+llm_base,top_trust,42,Milady,103,ALLOW_BUY,NO_RISK,positive,neutral,"High trading volume, unique buyers, and stable price growth indicate healthy market activity.",871,632,1503,4659,1,grok-4-1-fast
+llm_base,top_trust,43,CloneX,112,ALLOW_BUY,NO_RISK,positive,neutral,"Strong current market metrics with high trade volume, value, and unique participants despite minor recent declines.",870,644,1514,4194,1,grok-4-1-fast
+llm_base,top_trust,44,Milady,92,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, unique buyers, and liquidity despite minor price dip.",871,679,1550,4602,1,grok-4-1-fast
+llm_base,top_trust,45,Milady,95,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, value, unique users, and positive price/trade growth indicate healthy market activity.",870,548,1418,3866,1,grok-4-1-fast
+llm_base,top_trust,46,CloneX,39,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique participants indicate strong market activity.",871,515,1386,3823,1,grok-4-1-fast
+llm_base,top_trust,47,Milady,90,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market volume, high trade value, and positive price/trade trends indicate healthy activity.",873,592,1465,3745,1,grok-4-1-fast
+llm_base,top_trust,48,CloneX,59,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market volume, value, and liquidity with positive trends.",871,512,1383,3653,1,grok-4-1-fast
+llm_base,top_trust,49,Milady,109,ALLOW_BUY,NO_RISK,neutral,neutral,Solid trading volume and high price despite declines in trade count and slight price drop.,870,727,1597,6050,1,grok-4-1-fast
+llm_base,top_trust,50,Milady,102,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, unique buyers, and positive price/trade changes indicate healthy market activity.",871,416,1287,4165,1,grok-4-1-fast
+llm_base,top_trust,51,CloneX,116,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique users indicate strong market activity.",871,527,1398,4513,1,grok-4-1-fast
+llm_base,top_trust,52,CloneX,100,ALLOW_BUY,NO_RISK,neutral,neutral,"Solid trading volume and activity despite minor price and trade count declines, with no reputation data indicating neutrality.",869,533,1402,5394,1,grok-4-1-fast
+llm_base,top_trust,53,BoredApeYachtClub,81,ALLOW_BUY,NO_RISK,positive,neutral,High trade volume and unique participants indicate strong market activity with no reputation evidence.,870,854,1724,6760,1,grok-4-1-fast
+llm_base,top_trust,54,Milady,104,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, unique buyers, and high price despite minor recent declines.",871,656,1527,5100,1,grok-4-1-fast
+llm_base,top_trust,55,CloneX,41,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique participants despite minor declines.",871,553,1424,3825,1,grok-4-1-fast
+llm_base,top_trust,56,KaijuKingz,119,ALLOW_BUY,NO_RISK,neutral,neutral,Moderate volume and activity with minor declines but no strong risk indicators.,870,782,1652,5160,1,grok-4-1-fast
+llm_base,top_trust,57,CloneX,55,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique participants despite minor price dip.",871,541,1412,4144,1,grok-4-1-fast
+llm_base,top_trust,58,BoredApeYachtClub,79,ALLOW_BUY,NO_RISK,positive,neutral,High trade volume and unique users indicate strong market liquidity despite minor price dip.,870,771,1641,5678,1,grok-4-1-fast
+llm_base,top_trust,59,CloneX,106,ALLOW_BUY,NO_RISK,positive,neutral,"High trading volume, value, unique users, and slight positive changes indicate healthy market activity.",870,579,1449,4691,1,grok-4-1-fast
+llm_base,top_trust,60,CloneX,63,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique users show strong market activity.",871,626,1497,3670,1,grok-4-1-fast
+llm_base,top_trust,61,Doodles,117,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, unique users, and gas spend indicate strong market activity despite trade count decline.",870,623,1493,4930,1,grok-4-1-fast
+llm_base,top_trust,62,CloneX,61,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique participants with slight price increase show positive market activity.",871,623,1494,4497,1,grok-4-1-fast
+llm_base,top_trust,63,BoredApeYachtClub,75,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market volume, high trade value, and numerous unique traders show healthy activity.",870,821,1691,5691,1,grok-4-1-fast
+llm_base,top_trust,64,CloneX,69,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique users indicate strong market activity.",871,644,1515,4317,1,grok-4-1-fast
+llm_base,top_trust,65,CloneX,51,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, unique buyers, and users indicate strong market activity.",871,586,1457,4690,1,grok-4-1-fast
+llm_base,top_trust,66,CloneX,73,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and active users.",871,534,1405,4349,1,grok-4-1-fast
+llm_base,top_trust,67,CloneX,52,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, high USD value, and many unique buyers indicate healthy market activity despite minor dips.",871,639,1510,4341,1,grok-4-1-fast
+llm_base,top_trust,68,CloneX,58,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique participants indicate strong market activity.",871,601,1472,4614,1,grok-4-1-fast
+llm_base,top_trust,69,CloneX,119,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market volume, value, and liquidity with only minor price fluctuation.",870,559,1429,3486,1,grok-4-1-fast
+llm_base,top_trust,70,CloneX,40,ALLOW_BUY,NO_RISK,positive,neutral,Exceptional market volume and activity with high trade value outweigh minor price dip.,871,582,1453,4277,1,grok-4-1-fast
+llm_base,top_trust,71,CloneX,84,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique users indicate strong market activity despite minor trade count dip.",871,651,1522,4682,1,grok-4-1-fast
+llm_base,top_trust,72,CloneX,65,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, high USD value, and increasing trade count indicate healthy market activity.",871,578,1449,3842,1,grok-4-1-fast
+llm_base,top_trust,73,CloneX,70,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique buyers.",871,587,1458,3739,1,grok-4-1-fast
+llm_base,top_trust,74,Doodles,116,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, unique buyers, and positive price/trade changes.",871,518,1389,2995,1,grok-4-1-fast
+llm_base,top_trust,75,CloneX,64,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market volume, value, and user activity despite minor trade count dip.",871,599,1470,4563,1,grok-4-1-fast
+llm_base,top_trust,76,CloneX,46,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, unique buyers, and positive price change indicate strong market activity with no reputation issues.",871,569,1440,4700,1,grok-4-1-fast
+llm_base,top_trust,77,CloneX,88,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market volume, value, and user activity despite minor trade count dip.",869,536,1405,5090,1,grok-4-1-fast
+llm_base,top_trust,78,CloneX,111,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, unique buyers, and stable price changes show healthy market activity.",870,545,1415,4417,1,grok-4-1-fast
+llm_base,top_trust,79,CloneX,60,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market volume, high trade value, and active unique buyers indicate healthy liquidity.",870,526,1396,3962,1,grok-4-1-fast
+llm_base,top_trust,80,CloneX,56,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, many unique buyers, and substantial total value indicate strong market activity.",871,550,1421,4402,1,grok-4-1-fast
+llm_base,top_trust,81,CloneX,35,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique participants indicate strong market activity.",871,648,1519,5435,1,grok-4-1-fast
+llm_base,top_trust,82,BoredApeYachtClub,80,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, unique buyers, and gas spend show strong market activity despite trade count dip.",870,964,1834,6798,1,grok-4-1-fast
+llm_base,top_trust,83,Milady,94,ALLOW_BUY,NO_RISK,positive,neutral,Healthy trading volume and value despite minor price dip.,870,530,1400,4075,1,grok-4-1-fast
+llm_base,top_trust,84,CloneX,114,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, high value, and stable prices indicate healthy market activity.",870,567,1437,4232,1,grok-4-1-fast
+llm_base,top_trust,85,CloneX,68,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, high total value, and active unique participants indicate healthy market activity.",871,590,1461,5339,1,grok-4-1-fast
+llm_base,top_trust,86,Milady,97,ALLOW_BUY,NO_RISK,neutral,neutral,Solid trading volume and unique buyers despite short-term declines in price and trade count.,870,584,1454,5445,1,grok-4-1-fast
+llm_base,top_trust,87,CloneX,115,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, significant value, and active users indicate stable market activity.",870,640,1510,4471,1,grok-4-1-fast
+llm_base,top_trust,88,Milady,99,ALLOW_BUY,NO_RISK,positive,neutral,"High trading volume, unique buyers, and increasing trade count indicate strong market activity.",870,651,1521,4898,1,grok-4-1-fast
+llm_base,top_trust,89,CloneX,104,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high volume, unique traders, and positive trade count growth.",870,571,1441,3857,1,grok-4-1-fast
+llm_base,top_trust,90,CloneX,108,ALLOW_BUY,NO_RISK,positive,neutral,"Healthy trading volume, unique buyers, and slight price increase indicate stable market activity.",867,517,1384,5459,1,grok-4-1-fast
+llm_base,top_trust,91,CloneX,45,ALLOW_BUY,NO_RISK,positive,neutral,"High trading volume, significant USD value, and slight price increase show strong market activity.",871,700,1571,4682,1,grok-4-1-fast
+llm_base,top_trust,92,CloneX,103,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, unique buyers, and overall activity despite minor dips.",870,409,1279,3152,1,grok-4-1-fast
+llm_base,top_trust,93,CloneX,37,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique users indicate strong market activity.",871,657,1528,4349,1,grok-4-1-fast
+llm_base,top_trust,94,Milady,96,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market volume, value, and positive price/trade growth.",871,595,1466,3982,1,grok-4-1-fast
+llm_base,top_trust,95,CloneX,57,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique participants with slight positive changes indicate healthy market activity.",871,594,1465,3849,1,grok-4-1-fast
+llm_base,top_trust,96,CloneX,48,ALLOW_BUY,NO_RISK,positive,neutral,"Strong trading volume, unique buyers, and increasing trade count indicate healthy market activity.",871,578,1449,4950,1,grok-4-1-fast
+llm_base,top_trust,97,Milady,110,ALLOW_BUY,NO_RISK,positive,neutral,"High trade volume, value, and unique buyers indicate strong market activity despite slight price drop.",870,759,1629,5239,1,grok-4-1-fast
+llm_base,top_trust,98,CloneX,109,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, unique buyers, and stable pricing.",868,567,1435,3894,1,grok-4-1-fast
+llm_base,top_trust,99,CloneX,67,ALLOW_BUY,NO_RISK,positive,neutral,"Strong market activity with high trade volume, value, and unique participants.",871,587,1458,4860,1,grok-4-1-fast

@@ -1,0 +1,6 @@
+﻿key,value
+rows,15680
+contracts,95
+thresholds,0.8|0.9
+rugpull_rows,5478
+rows_with_next_trade,4854

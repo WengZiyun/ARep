@@ -1,0 +1,9 @@
+﻿model_name,automated_claim_check_status,rows
+gpt-5.4-nano,no_checkable_numeric_claim,354
+gpt-5.4-nano,no_mismatch_detected,446
+claude-sonnet-4-6,no_exact_archived_input_fields_to_check,800
+deepseek-v3.2,no_exact_archived_input_fields_to_check,798
+gemini-3-flash-preview,no_exact_archived_input_fields_to_check,174
+grok-4-1-fast,no_exact_archived_input_fields_to_check,800
+claude-haiku-4-5-20251001,no_exact_archived_input_fields_to_check,800
+gemini-2.5-flash-nothinking,no_exact_archived_input_fields_to_check,800
